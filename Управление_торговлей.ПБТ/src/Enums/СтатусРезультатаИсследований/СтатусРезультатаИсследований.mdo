@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e9ab3f04-44b1-465f-bc3f-8b3d031e4b5b">
+  <producedTypes>
+    <refType typeId="bc794607-3fa4-48a5-9c2f-d452ee39ce97" valueTypeId="7bb77a5a-12f6-4d20-8069-385d06944bd9"/>
+    <listType typeId="5b4a76a1-0c70-4f88-a308-e0d86ddd3515" valueTypeId="cc0ce72b-3bff-463b-9ef7-05d53b185686"/>
+    <managerType typeId="756f9cab-d855-4ca9-83d1-9046b16afce6" valueTypeId="244b834a-521d-44bf-ba31-e519f24d2686"/>
+  </producedTypes>
+  <name>СтатусРезультатаИсследований</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус результата исследований</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="76a8e975-3356-4ffd-a7ff-7d8e227df848">
+    <name>соответствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3e21635-38d2-46e9-b979-e470bc4a6e59">
+    <name>несоответствует</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не соответствует</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15dcb279-3911-4f7a-a54c-8e8c43150069">
+    <name>брак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8998f0d-7997-48a9-9b3a-b27264b26460">
+    <name>ТребуетсяДополнительноеИсследование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется дополнительное исследование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3a3b30e2-c7fe-4560-92d0-f00932592d66">
+    <name>ТребуетсяВыводСотрудникаЦПБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требуется вывод сотрудника ЦПБ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

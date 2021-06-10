@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac97e2da-d92b-4ffb-bd6a-81e05993ba58">
+  <producedTypes>
+    <refType typeId="3a4288d0-c635-488c-9575-1a74af7fefd3" valueTypeId="b4789cee-00f8-467c-b999-eb24ada1fd77"/>
+    <listType typeId="1f6d983a-dc81-44b2-a322-546c77552112" valueTypeId="1cb31fe9-4087-4b59-aec5-f22d286e07c0"/>
+    <managerType typeId="1e65788e-2b92-481d-a1ca-abe751e16d0e" valueTypeId="0595fac4-66f1-4dbf-8932-d5b5be369715"/>
+  </producedTypes>
+  <name>ПериодичностьЛаб</name>
+  <synonym>
+    <key>ru</key>
+    <value>Периодичность лаб</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85cbff21-fc4d-4b68-971f-cb271e534d35">
+    <name>Ежегодно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежегодно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c6e129b9-862e-4bbf-b89f-365496fc6084">
+    <name>Ежеквартально</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежеквартально</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4e74036d-5347-417f-84c9-d9be8880168d">
+    <name>Ежемесячно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ежемесячно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c42e507a-6a23-49fe-929c-53f9326ccc60">
+    <name>Еженедельно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Еженедельно</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41a768ae-fb64-42e7-b60c-dbb69f332898">
+    <name>КаждаяПартия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждая партия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e24c0eb0-2a1d-4cc5-b7cf-ca17214d72c3">
+    <name>РазВДваМесяца</name>
+    <synonym>
+      <key>ru</key>
+      <value>1 раз в 2 месяца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ec1d6bde-ad86-47e5-a372-78bdebc74c64">
+    <name>КаждыйЗамес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каждый замес</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2bf13848-a392-4ade-b523-4dd803ac1e87">
+    <name>ППК</name>
+    <synonym>
+      <key>ru</key>
+      <value>ППК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b7dec65-3fc2-4b09-9d9d-609ef2b85fd1">
+    <name>ПриСменеПоставщикаИлиПроизводителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>При смене поставщика или производителя</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="75badddb-2ad1-456d-96c2-f7fe76fdfca1">
+  <producedTypes>
+    <refType typeId="d05992ce-e040-4756-8f60-6dfc3fd77294" valueTypeId="c9486ce9-67ec-48d8-96c7-58f8f78aedfb"/>
+    <listType typeId="a472bc8e-ea8f-4195-b851-20020406f85b" valueTypeId="1e5ec77e-76ba-4fbe-b753-5b365bc27f69"/>
+    <managerType typeId="84609482-321b-4dca-b8ab-04f6386ebd88" valueTypeId="d6b271c8-35f9-498c-8ea8-09b9477cca18"/>
+  </producedTypes>
+  <name>ХозяйственныеОперации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="44089540-67df-466b-bc9d-f826c803fcc3" extendedConfigurationObject="4dec627e-3939-4191-a213-0cea734fc86c">
+    <name>РеализацияКлиенту</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="69f12568-35e7-4ff6-8d1b-964fda8a9841" extendedConfigurationObject="10db127e-a377-4878-8ead-955d0ff48e4d">
+    <name>ПоступлениеОплатыОтКлиента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c840f3c1-6f19-42af-b72e-97918062048e" extendedConfigurationObject="af539695-7bf1-4480-85fa-d029bcbfda95">
+    <name>ПередачаНаХранениеСПравомПродажи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="004d9503-bcdf-47d6-9713-29606e1b349d" extendedConfigurationObject="a606d3e5-4a59-4b2c-9d3d-5976f5c778cf">
+    <name>ПередачаНаКомиссию</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="74661bb8-b2c9-4a3f-93c3-768542bd3832" extendedConfigurationObject="3299776f-a304-476e-a0d9-a9132b128869">
+    <name>РеализацияКлиентуРеглУчет</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="918f4e19-f6e1-4a77-8d45-163aea53751f" extendedConfigurationObject="0789d7c2-8020-4d52-a305-445f9faa9b76">
+    <name>РеализацияБезПереходаПраваСобственности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="fb9c88e9-e5cd-48a0-b3c8-163cd3d69039" extendedConfigurationObject="a1fe7785-0a6e-4190-a3f0-66731c8b6507">
+    <name>ОприходованиеТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="1a4937ac-4e2b-4e8e-aba9-66c878970214" extendedConfigurationObject="42a4662f-ffc1-4441-b9a9-206b2ec3a2c1">
+    <name>СписаниеТоваров</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5ea0be97-1d2b-4189-bc9a-05f31438c586" extendedConfigurationObject="d1308d15-47bd-43fc-b617-d50bd38aa876">
+    <name>ИсправлениеОшибок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="f40a300f-3d40-4f36-95a8-f408368449d7" extendedConfigurationObject="15c46c2c-15a1-40a5-a28f-782fb1b1f833">
+    <name>КорректировкаПоСогласованиюСторон</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="84b5e0ec-bb49-4801-b94a-cc4286ad5658" extendedConfigurationObject="26c7e30c-f570-4794-8abe-2b7a605616bb">
+    <name>РеализацияПерепоставленногоТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="518b0ae4-c400-455e-8b56-540f68826143" extendedConfigurationObject="015aae23-805e-4b1b-93d9-5fdcfb68af56">
+    <name>ВозвратНедопоставленногоТовара</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

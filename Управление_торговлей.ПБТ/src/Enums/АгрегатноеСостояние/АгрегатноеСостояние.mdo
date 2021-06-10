@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69fb3bc0-a217-4149-8896-f46db265e820">
+  <producedTypes>
+    <refType typeId="b2c5a143-2ea6-40ee-be08-34d23159124f" valueTypeId="a1479a27-23b5-4c36-a6bf-4b91dbcd8cbe"/>
+    <listType typeId="83c5aeb7-44bf-4790-b375-789f34328abe" valueTypeId="50858059-b69e-4bca-8469-a82838e006cc"/>
+    <managerType typeId="428a0f44-6478-433a-930f-e69245783db9" valueTypeId="4670d3f4-d240-4e3e-b58b-ea94b41007c9"/>
+  </producedTypes>
+  <name>АгрегатноеСостояние</name>
+  <synonym>
+    <key>ru</key>
+    <value>Агрегатное состояние</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4fe1d2c7-4df9-4dbe-8c1a-ac6b0b77d8ce">
+    <name>Жидкий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жидкий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1bf1ef3c-9808-4239-96d2-4cf51e575647">
+    <name>Сухой</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сухой</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36b9dcea-0430-4cf4-98c5-80df86672eda">
+    <name>Твердый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Твердый</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

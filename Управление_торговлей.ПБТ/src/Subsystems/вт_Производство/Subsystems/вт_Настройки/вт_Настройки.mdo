@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69e6fb22-aba8-45ec-b365-84badda0e70e">
+  <name>вт_Настройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Enum.вт_ВидыОперацийПроизводства</content>
+  <content>Enum.вт_ВидОперацииВозвратаСырья</content>
+  <content>InformationRegister.вт_ТарифыСотрудниковВыпускПродукции</content>
+  <content>InformationRegister.вт_ВидыНоменклатурыГотовойПродукцииПроизводства</content>
+  <content>InformationRegister.вт_ВидыНоменклатурыКомплектующие</content>
+  <content>InformationRegister.Константы</content>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

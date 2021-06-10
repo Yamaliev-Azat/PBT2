@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5825f2f-ca0e-499d-b72e-bf58090bb7c0">
+  <name>вт_Комплектации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Комплектации</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.вт_ПланСборки</content>
+  <content>Document.вт_КомплектацияРазукомплектация</content>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

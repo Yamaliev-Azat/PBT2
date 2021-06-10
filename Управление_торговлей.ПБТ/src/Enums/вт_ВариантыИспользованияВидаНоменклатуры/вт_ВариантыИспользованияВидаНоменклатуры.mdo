@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed217cb6-250a-4ee5-bb1d-840af2b23533">
+  <producedTypes>
+    <refType typeId="64cfa323-012c-4b12-b56c-d1cbb6ea188e" valueTypeId="c9bd9ea6-c2b6-4b02-86f5-b802674a2204"/>
+    <listType typeId="a711f779-453e-4174-b919-309eec730349" valueTypeId="034cef79-6e6d-4bc6-aba8-90daa28848cc"/>
+    <managerType typeId="76bde2d6-48d9-4982-998f-e3454ba0f40b" valueTypeId="8af797ab-30aa-43a9-a062-4097d469a824"/>
+  </producedTypes>
+  <name>вт_ВариантыИспользованияВидаНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты использования вида номенклатуры</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eca304c0-1193-4dad-a191-9f1c4fc70dc6">
+    <name>ГотоваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовая продукция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b695cbc4-004a-47d3-887c-bad6f3d3ace3">
+    <name>СырьеДляПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сырье для производства</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="54d44dea-3170-4c4a-a1a4-2824d9269bb6">
+    <name>КомплектующееДляСборки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комплектующее для сборки</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="165920f9-d2f9-4f49-b95b-f9d80a9e2279" extendedConfigurationObject="64c25fd2-2746-4012-b3ff-20b712c36533">
+  <producedTypes>
+    <selectionType typeId="4577884b-1fea-4723-b686-3384efa1f55c" valueTypeId="16059d0c-e93e-417a-b8b1-44afb8598ede"/>
+    <listType typeId="e7a59d44-582a-4c5d-8298-aa54bca4d2c6" valueTypeId="2cfd02be-4451-4d03-b171-85e76b81fefe"/>
+    <managerType typeId="7bc2e3f8-493f-4ab3-8222-717aa070b3d8" valueTypeId="0d29486c-5a11-47cf-9594-0061c41cfe66"/>
+    <recordSetType typeId="0b7678fd-fa89-4f68-ac22-2043c11c6624" valueTypeId="85008788-2095-400a-819e-f4c3b49d5931"/>
+    <recordKeyType typeId="529880d8-9423-4183-b63d-709a0eb1361d" valueTypeId="2e7f24d6-5d62-471c-a6f5-ab4973abb0e7"/>
+    <recordType typeId="f618a9d7-7c69-41d1-a75d-f88470d4710f" valueTypeId="463a621f-0915-4e45-b17c-590319d9df6c"/>
+  </producedTypes>
+  <name>ПартииРасходовНаСебестоимостьТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+</mdclass:AccumulationRegister>

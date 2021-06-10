@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="bb9dd098-b5ec-4743-b131-4d194bd65a4a" extendedConfigurationObject="5e0d9dd9-464c-4fa3-984a-2a2da8517f38">
+  <producedTypes>
+    <objectType typeId="2f8c2af6-ccfa-4be6-8f4e-7bd16c64185c" valueTypeId="7829268d-89c4-420e-b4a1-fefe15631b27"/>
+    <refType typeId="ff8c8a22-ba16-42cb-9f25-e1dc7631921b" valueTypeId="dfd4a699-4b55-49ee-95cf-80c364d92ef9"/>
+    <selectionType typeId="055b1c27-15ab-4181-886c-47b57828d4c2" valueTypeId="1a6699c4-4f72-4272-9bc6-eea4b33b2586"/>
+    <listType typeId="a69d4cf5-4d5a-43f1-af1b-2d543a2fbc92" valueTypeId="efbebde3-6f09-453e-9bda-d5a5ccdfc468"/>
+    <managerType typeId="dbbe8ea1-7b49-4b50-bb05-8addd156f37c" valueTypeId="d1e9ed40-c4f3-4b34-bb65-bcb2610fa02d"/>
+  </producedTypes>
+  <name>ПриобретениеТоваровУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

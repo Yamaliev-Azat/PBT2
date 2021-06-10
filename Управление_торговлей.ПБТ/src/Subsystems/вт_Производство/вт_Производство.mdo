@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d8d23b23-b444-40af-970c-e63fcea22338">
+  <name>вт_Производство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.РазделПроизводство</picture>
+  </picture>
+  <content>Report.вт_ПотребностьВСырьеПоЗаказамИПоставщикам</content>
+  <content>Role.вт_ЗаказыВПрозводство</content>
+  <content>Role.вт_ОтчетыПроизводства</content>
+  <subsystems>вт_СправочникиПроизводства</subsystems>
+  <subsystems>вт_ДокументыПроизводства</subsystems>
+  <subsystems>вт_Комплектации</subsystems>
+  <subsystems>вт_ОтчетыПроизводства</subsystems>
+  <subsystems>вт_Зарплата</subsystems>
+  <subsystems>вт_ДопИнфо</subsystems>
+  <subsystems>вт_Настройки</subsystems>
+  <subsystems>вт_ДавальческоеСырье</subsystems>
+</mdclass:Subsystem>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="59126ba1-9a70-4fd5-9ce0-8aeaa7189c23" extendedConfigurationObject="27363ec4-6822-4db6-ae2e-c161bd247ae9">
+  <producedTypes>
+    <objectType typeId="47e46275-be6a-4879-926f-893dfc1046d4" valueTypeId="dccf62bf-759a-43ed-925d-12e0b7945722"/>
+    <refType typeId="4f9a177d-9767-49bc-938e-18ca8519d7cc" valueTypeId="a72cbf98-ffe6-4c4c-acab-2319c24a5218"/>
+    <selectionType typeId="7640da4e-ff63-4014-9df7-d974c0f33282" valueTypeId="8989e64d-598d-41c0-8a44-64d632e6f6d7"/>
+    <listType typeId="4be37284-6f07-4732-80ec-5fbd5cd4ff2a" valueTypeId="70ce7a51-61a0-4bc7-b85e-5c0b9e5dd175"/>
+    <managerType typeId="1c1cbb40-114b-4f3d-bff5-f49923104e56" valueTypeId="3c6f0070-120b-4df9-8e51-e9112fb839c8"/>
+  </producedTypes>
+  <name>ПравилаОбменаСПодключаемымОборудованиемOffline</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

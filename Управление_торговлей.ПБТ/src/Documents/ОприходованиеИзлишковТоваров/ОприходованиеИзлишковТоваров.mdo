@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="7293a997-06b0-420c-b0c4-91a12122f0c7" extendedConfigurationObject="318716f3-e4be-4c34-873a-a9fafa785399">
+  <producedTypes>
+    <objectType typeId="38825f8b-9fe9-4e13-a70f-72fda92e01f2" valueTypeId="813a22b6-85ed-4fe7-9548-e0dd9be73075"/>
+    <refType typeId="6bdab1e5-256d-4059-a446-44b31eca6fbb" valueTypeId="b8adbfae-75cf-4e2b-b44c-b4058cd35d81"/>
+    <selectionType typeId="7b733ecf-a40b-429a-9799-f5d3406157b5" valueTypeId="41599ee8-4a78-41cd-a99d-69d10caecd86"/>
+    <listType typeId="b8e01e53-560e-43ab-b79b-ca06e653d488" valueTypeId="46e12b19-5d4f-44d3-8261-99d8f04f9340"/>
+    <managerType typeId="a74f0cf1-435d-4d1c-8048-46c08fd4ebb6" valueTypeId="44eb3a34-e424-40bc-ac32-a03f3e42966a"/>
+  </producedTypes>
+  <name>ОприходованиеИзлишковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <tabularSections uuid="8b1d9f02-2532-468e-92d0-78a75af6dd99" extendedConfigurationObject="1d1f22af-93f7-4695-8fd2-fdedb198ae7d">
+    <producedTypes>
+      <objectType typeId="bda93df2-085b-4f36-a835-e597afb7b86d" valueTypeId="2826a82d-6a19-4ffd-8f0c-6758611816f0"/>
+      <rowType typeId="1ffed094-0ef2-4eec-8f04-4cb3f934d38c" valueTypeId="bd3ac92c-5f2d-483a-a48f-c4f3f9b6e11b"/>
+    </producedTypes>
+    <name>ДополнительныеРеквизиты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

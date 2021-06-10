@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f9becd1a-68b2-44e7-aea8-1b1da53a354a" extendedConfigurationObject="fe779ac1-0e7f-489c-ad06-bec9af582428">
+  <producedTypes>
+    <selectionType typeId="53939bf1-ad83-40a1-863a-cbcbb2c02ee7" valueTypeId="3beea55d-6865-4010-a769-b1584766d692"/>
+    <listType typeId="e2c85cdf-6f10-436d-81cc-5599b982ad0c" valueTypeId="c481ae6b-c8bc-46dd-99b2-117519c7f0ba"/>
+    <managerType typeId="3273f286-e42a-4c91-95f3-f1025007eba9" valueTypeId="eacef98d-6a61-4b44-83ff-13a026e53897"/>
+    <recordSetType typeId="1f8fe972-08a2-4836-9c9d-9f50119f124e" valueTypeId="958e0460-406b-4915-a2e9-8b4387b60d2f"/>
+    <recordKeyType typeId="20fad341-6d81-43b8-8c87-e58118b91b54" valueTypeId="f63b7567-e442-4322-a047-da292120e94d"/>
+    <recordType typeId="13a6fddd-6294-439a-8020-34be9aa304d6" valueTypeId="e2983a91-6205-49a6-a6d0-3089c4fb7bcb"/>
+    <recordManagerType typeId="d87867e2-8390-4f64-8097-ca4440338b26" valueTypeId="caa00956-a337-4c74-b450-400164b5b1cd"/>
+  </producedTypes>
+  <name>ШтрихкодыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="91c020c2-38d5-49ae-8fe7-09b95a1c452f" extendedConfigurationObject="d561ee5a-2a87-4205-93af-4902b1247d87">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="c0de49d4-fbb8-454a-8493-da6b0c5b14e6" extendedConfigurationObject="c79450ab-f8f1-43d9-948d-10c6481c5538">
+    <name>Упаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="066012c9-d1de-4443-8160-e0e5909ec4a2" extendedConfigurationObject="75e2d606-c8d4-4cfe-8f96-2eaa5c364409">
+    <name>Штрихкод</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

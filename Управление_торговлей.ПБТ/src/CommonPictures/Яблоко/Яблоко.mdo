@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="511d4b77-9040-4334-93fc-91ad7c10feac">
+  <name>Яблоко</name>
+  <synonym>
+    <key>ru</key>
+    <value>Яблоко</value>
+  </synonym>
+</mdclass:CommonPicture>

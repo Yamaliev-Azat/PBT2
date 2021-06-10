@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1224c115-f6f4-4c16-933b-c82c8126329b">
+  <producedTypes>
+    <objectType typeId="5959989d-7eb0-4690-803f-21e5bcb82e8b" valueTypeId="d8918585-1192-4f7e-9833-bbf7da0199b8"/>
+    <managerType typeId="80ad6dea-b3d1-4e96-874d-43282327f411" valueTypeId="cacda88f-b343-44dd-92b6-6e22cbcf740f"/>
+  </producedTypes>
+  <name>вт_АнализНачисленнойЗарплатыПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Зарплата производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вт_АнализНачисленнойЗарплатыПроизводства.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <settingsStorage>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorage>
+  <templates uuid="cdb7cd04-daa2-41f9-89cd-1cef762814fa">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="771fe607-88dd-4921-a9b1-e498d4bc03ca">
+  <producedTypes>
+    <objectType typeId="e24a4ed5-0fd9-4194-8d24-d5d9f7c0689c" valueTypeId="d3dcee86-547f-4e04-81b8-976f2efb1564"/>
+    <refType typeId="7566aadd-870d-4c5b-81a7-cd71244735f3" valueTypeId="958c620e-018d-454d-bdd4-074a9cba03f1"/>
+    <selectionType typeId="d793b69c-9381-4fcf-a008-bd964b74ceed" valueTypeId="df15b077-5ea8-4612-ab73-76516e2a1450"/>
+    <listType typeId="40291f1a-d296-49ef-9ede-25781d42175a" valueTypeId="4f74863c-9df8-4a35-8a65-064ca8c2b8d8"/>
+    <managerType typeId="e0aa8a62-6f42-48a4-90c8-bb7e95574fb5" valueTypeId="22d5080b-8203-45d3-84f3-591a04350984"/>
+  </producedTypes>
+  <name>НомераГТД</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="ba390262-4ef9-4cc3-b511-a27932a4a96b">
+    <name>СтранаПроисхождения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СтраныМира</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

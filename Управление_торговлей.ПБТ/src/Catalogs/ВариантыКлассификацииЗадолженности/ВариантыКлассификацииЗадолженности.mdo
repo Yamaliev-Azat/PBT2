@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="52e62601-6c04-499e-b947-2eb82c0dfbd4" extendedConfigurationObject="bbc4d54a-dc3d-4451-bc3d-b69272026702">
+  <producedTypes>
+    <objectType typeId="150cda7f-3f0d-4d18-bcc6-e4a70b87c3d8" valueTypeId="3262417a-e865-4a09-89db-3fd6db35ef35"/>
+    <refType typeId="f5f80b5c-9ac2-4c5c-9c13-ca03601dae0d" valueTypeId="6c0d2142-7f99-4b7c-a518-b3e689c14451"/>
+    <selectionType typeId="e557cdbc-b61c-4157-8cfd-36c587defeda" valueTypeId="42f65b04-836c-4031-8f18-ce3744fe8653"/>
+    <listType typeId="596e303b-7e39-4448-be35-2713556d7ba8" valueTypeId="aeea0d5e-882b-4bcf-9768-63df0eb84172"/>
+    <managerType typeId="bb843c47-d775-42a2-b101-716543af75b2" valueTypeId="92803b50-742b-42cb-8993-a7cfa4c99467"/>
+  </producedTypes>
+  <name>ВариантыКлассификацииЗадолженности</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

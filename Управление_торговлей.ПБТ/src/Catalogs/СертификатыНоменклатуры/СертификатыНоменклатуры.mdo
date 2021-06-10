@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1657e8dd-2db2-42eb-a014-9757a8888a7f" extendedConfigurationObject="eaed2162-eaff-4060-b456-c99c51eac5c5">
+  <producedTypes>
+    <objectType typeId="30562fbd-df75-4198-8e38-da1cc6ddabb3" valueTypeId="2e1112e7-ea8f-4b48-b267-b5efe2d6a011"/>
+    <refType typeId="b9b30f13-3131-4d34-a8fc-1d1e6938bd13" valueTypeId="ee2197e4-3d48-4251-beb3-9c8c9ab14eb4"/>
+    <selectionType typeId="ce3791b0-544d-4b29-98e0-9935c4665a4e" valueTypeId="837a9f76-562a-4e22-8745-8870238ac56a"/>
+    <listType typeId="899cd2ca-6219-45f7-95a6-8f453d5598c2" valueTypeId="b628333f-022b-4177-b721-c9ecb1303aa9"/>
+    <managerType typeId="ad1db2c6-4ba5-456b-81e3-1741f6f4d28f" valueTypeId="68524753-ad7b-43fc-aca4-bf0a466ed99f"/>
+  </producedTypes>
+  <name>СертификатыНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="0911f065-3390-4d69-adff-57379da4eb87" extendedConfigurationObject="e47ca63c-51c5-474d-866b-ac54955d7bd6">
+    <name>ДатаНачалаСрокаДействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b8871b9e-752e-4884-aae5-949d973ec0cf" extendedConfigurationObject="dbb90009-e0d1-4b1d-a6bc-9498500e4b46">
+    <name>ДатаОкончанияСрокаДействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d6755124-fd55-4ac6-88c4-f85f1042f3fa" extendedConfigurationObject="874ec90c-588b-423e-897f-c91edb451582">
+    <name>Бессрочный</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="27588735-d4d5-4ca3-a8cf-80ea379e044e" extendedConfigurationObject="9faffae9-12fe-4697-a1b9-569e75f37374">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

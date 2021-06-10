@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4d4ade4-3438-4961-9a51-4d180ec40878">
+  <name>Логистика</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логистика</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Логистика</picture>
+  </picture>
+  <content>Catalog.ГруппыСнабжения</content>
+  <content>Catalog.ТаможенныеПошлины</content>
+  <content>Catalog.КлассификаторБазисовПоставки</content>
+  <content>Catalog.БазисПоставки</content>
+</mdclass:Subsystem>

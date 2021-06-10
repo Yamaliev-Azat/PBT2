@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17d92fc3-f0c9-4689-9948-37e28e68bb17">
+  <producedTypes>
+    <objectType typeId="e7761a76-b6a5-43d7-b1a9-9825d7fd4a0e" valueTypeId="3e23f8a9-3985-451d-9a8f-ec70cbe54de9"/>
+    <managerType typeId="253a9c46-c186-4b71-9512-702d0b6e8a63" valueTypeId="aceaa54b-d69c-4cd4-aa16-0a2a92573ea1"/>
+  </producedTypes>
+  <name>ВнешняяОбработка1</name>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ВнешняяОбработка1.Form.Форма</defaultForm>
+  <attributes uuid="857ccf2d-8c20-4ffa-b94f-fa2edafeb870">
+    <name>Начало</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eadb0349-f7aa-4740-81b6-1ed68aa76478">
+    <name>Окончание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Окончание</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="f205016f-b687-460d-a6b1-3e461843578f">
+    <producedTypes>
+      <objectType typeId="65b389b6-dd72-4882-9ff7-d2dbb56f9426" valueTypeId="7535b792-a163-4bf3-92a1-aae71e699f12"/>
+      <rowType typeId="eaca0118-1b93-42b7-a09a-30e46ce13f0f" valueTypeId="6badda94-c1aa-4129-9041-dbca9f5cb999"/>
+    </producedTypes>
+    <name>Список</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="151c22d3-9823-4b6d-a837-993e77e8d39d">
+      <name>документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.вт_ОтчетПроизводства</types>
+        <types>AnyRef</types>
+        <types>DocumentRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2c5973bf-9575-474f-b904-6008e0abfe22">
+      <name>документ1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ1</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f0eca740-846e-4d94-bf62-719918e8e7f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

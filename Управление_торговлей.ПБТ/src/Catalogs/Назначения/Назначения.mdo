@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="781d696b-354c-4162-8c1d-705698d83785" extendedConfigurationObject="b861d222-a111-47b8-b5f4-45982f11877c">
+  <producedTypes>
+    <objectType typeId="d69094e0-6248-43b2-a35a-b2cb0b0ce167" valueTypeId="ff320d9a-ed45-4e36-8ab3-d46f43e2767a"/>
+    <refType typeId="17934db1-4ffd-4bfc-9d1a-e8b0201798f0" valueTypeId="44f7b69b-9015-4be0-a751-92afb7da3a14"/>
+    <selectionType typeId="06668402-b7ab-4e4a-b5cc-742d4e27afe4" valueTypeId="0d30d571-6910-4f9c-8397-dec89806f174"/>
+    <listType typeId="88bcb3e7-7740-4c97-8742-4c824303636f" valueTypeId="6a6b7ff2-4200-460c-86c1-719891ed1eb5"/>
+    <managerType typeId="6f23b3b2-352c-461c-abab-259635036fec" valueTypeId="d3cdd871-f009-41b6-942b-2eb33082d7c1"/>
+  </producedTypes>
+  <name>Назначения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <forms uuid="8d4ce7f4-291d-4e2c-b18d-431b03dcbf4a" extendedConfigurationObject="0f2e8c66-5f34-4d92-98fc-efcf1a3b4b3b">
+    <name>ФормаВыбораБезОтбораПоНоменклатуре</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension"/>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f274463-a621-45e6-aa37-cfe0c96ba3f0">
+  <producedTypes>
+    <refType typeId="d985c22f-f825-4422-885b-0616ab501aff" valueTypeId="bea281c2-8df9-4d00-93a2-0112d9a2ff5b"/>
+    <listType typeId="36815241-09db-422c-945e-c31820156a90" valueTypeId="c3ea1f71-9526-4303-8878-e361e0d11078"/>
+    <managerType typeId="0979660a-c1a6-4ea3-abb4-a204f5f9cf8b" valueTypeId="3228fd81-c320-4b05-8563-b01ce499df7e"/>
+  </producedTypes>
+  <name>СтатусыРецептов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы рецептов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="08bc5619-6b7c-4c7a-b2e8-5955b92315b2">
+    <name>Стандартный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="800e78b6-5926-4881-846c-ee7d4609e720">
+    <name>Временный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="08eac2eb-7e8b-4063-9ef9-21ae67ca072f">
+    <name>Отменен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменен</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="889aa92e-802c-4420-88e3-0d91e420b412">
+    <name>Разовый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разовый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad1819f4-58ba-46cd-9811-0c49f9f9e483">
+    <name>ПоТИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>По ТИ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06bb220e-51d8-4de1-b556-27b989db2d48">
+  <producedTypes>
+    <refType typeId="66741019-eba8-499e-9a32-a8e8e03b4ce0" valueTypeId="aeb4720c-e335-4d50-b529-1fdb0f6391e1"/>
+    <listType typeId="981ce987-37e6-48b8-b5eb-96dbaaf17c1b" valueTypeId="09dcabbd-3cb1-484b-970c-2e1224e75b63"/>
+    <managerType typeId="77c038e5-1cd5-43c9-a53d-1761902eaae8" valueTypeId="48964fab-5ab2-4041-abb0-12bc49bd55fc"/>
+  </producedTypes>
+  <name>лаб_ВидыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды документов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6796836f-21b5-4e83-91f0-098420d0e29f">
+    <name>АктПриемаОбразцов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт приема образцов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ddfa41a8-71c8-4005-908d-cd510b95be1d">
+    <name>ПротоколАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Протокол анализа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad701bb8-6a45-4a83-b3c7-beef524db922">
+    <name>УдостоверениеКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удостоверение качества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0bff318f-9290-463b-8621-5a015b387497">
+    <name>ЧекЛист</name>
+    <synonym>
+      <key>ru</key>
+      <value>Талон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="361b8061-e401-4fd0-9668-1090c5583828">
+    <name>АктОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акт отбора</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

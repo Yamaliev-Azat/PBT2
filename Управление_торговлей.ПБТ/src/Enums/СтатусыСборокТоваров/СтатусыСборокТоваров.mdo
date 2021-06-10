@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="15ddd6de-931f-496f-9d87-10ec2d3e4270" extendedConfigurationObject="d32e7159-13c4-4ac8-9058-9848ec019475">
+  <producedTypes>
+    <refType typeId="d91ecd0e-8719-4120-89aa-5552e2ebb6a3" valueTypeId="36a3fc79-eb8f-44f5-8daa-079252b6f06e"/>
+    <listType typeId="9bf68d36-3c07-406b-9d3d-a4100e06e27e" valueTypeId="7cd2215c-cfa7-4b29-a2ec-b50a0249dc3d"/>
+    <managerType typeId="a7c83614-ced3-4fff-a74a-066997d3f0b9" valueTypeId="06ebd3d8-cb60-47e4-97d7-80fe26d1a6e9"/>
+  </producedTypes>
+  <name>СтатусыСборокТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="bef5fa71-b4c6-4ab5-994d-89b9d45b22ae" extendedConfigurationObject="73cc6264-ff74-4ff1-a2a7-0fd6e2fc6e85">
+    <name>СобраноРазобрано</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

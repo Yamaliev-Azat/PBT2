@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c3910c3c-bd54-474b-b693-776d2081f69c" extendedConfigurationObject="d2b56f80-9fb3-4256-ac70-94db57b20403">
+  <producedTypes>
+    <selectionType typeId="cf6a595a-9f8a-443a-9371-c56e5dcc378b" valueTypeId="947e8c08-de2b-482c-872f-a0ed827ffd92"/>
+    <listType typeId="5669ec34-7063-40aa-a6d8-42046a395159" valueTypeId="0fbf84c9-96a8-42ec-b769-818a4bc86f7b"/>
+    <managerType typeId="04480506-3db0-4aaf-92ca-a97b40b142ed" valueTypeId="18b9bb25-61f9-4e85-a7c9-65f2eb2c6213"/>
+    <recordSetType typeId="af1bbcac-e7fa-4c0f-b4e2-82b509486a4f" valueTypeId="2bd7c63e-b602-429b-8e6a-e4bb24d470a5"/>
+    <recordKeyType typeId="d937818d-aafe-4afd-abf5-b4759dc17ed2" valueTypeId="72b52e86-7e2c-4136-b5c1-67e791f4c37f"/>
+    <recordType typeId="ad7e8ab5-8e96-47dc-a4cd-a00355d25016" valueTypeId="cbc42fb2-5524-4eba-9758-5ee720684354"/>
+  </producedTypes>
+  <name>СвободныеОстатки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11ea8923-6652-40e6-b9d3-4145f09f2724">
+  <producedTypes>
+    <refType typeId="0b498616-acf8-4d36-8b7f-cf7d780d9755" valueTypeId="35ab4ed2-90f4-485d-9194-ec12661d5c3e"/>
+    <listType typeId="0354d450-56d4-45d8-a13d-88a1e62065ff" valueTypeId="2e62f038-dc1a-4bd6-b607-fbc6035c1e10"/>
+    <managerType typeId="016d86b5-e7b4-4255-b760-778a4a804b3b" valueTypeId="d27267bb-0a98-4b99-bf43-aaa6bad771b4"/>
+  </producedTypes>
+  <name>Стерилизация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стерилизация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="a87bfa7b-05ca-4ae5-a632-5da50ad10156">
+    <name>Нет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нет</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d48f2f68-5766-47cc-9db7-992ef05cbb74">
+    <name>С</name>
+    <synonym>
+      <key>ru</key>
+      <value>С</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="376de251-db56-486d-879e-b6ed07f08572">
+    <name>СПлюс</name>
+    <synonym>
+      <key>ru</key>
+      <value>С+</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

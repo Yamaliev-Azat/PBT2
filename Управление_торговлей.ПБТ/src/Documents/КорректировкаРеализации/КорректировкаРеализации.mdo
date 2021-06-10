@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="81d53381-285c-4d79-a67c-9acd5789aecf" extendedConfigurationObject="69ec59c6-f56d-4522-9097-9fe67516b81d">
+  <producedTypes>
+    <objectType typeId="f43feacc-6ca2-4f0b-8b62-6ebd62fb871f" valueTypeId="a6b3b203-fa1f-4aa3-a1c1-5beb85a90fac"/>
+    <refType typeId="44d99e98-5e8d-48dc-a347-eaa99aa2e36f" valueTypeId="5a7c3471-9fef-4bb9-8b17-8688b325c1d6"/>
+    <selectionType typeId="54a93da8-f76d-451d-9878-cc32cfec756a" valueTypeId="c02c772f-c963-48de-9fd5-b65397084ecc"/>
+    <listType typeId="1161c218-c5e9-4461-bb4e-c83785a1376e" valueTypeId="56eb637c-bab7-4360-93d4-b43899baf0ec"/>
+    <managerType typeId="45c64236-f823-4e7c-adf6-e8ee7514187c" valueTypeId="19d822e5-7f30-483f-a3a4-d1bce2a461de"/>
+  </producedTypes>
+  <name>КорректировкаРеализации</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+  <forms uuid="cd1704e0-7414-439a-bd42-c4d18f9c48bb" extendedConfigurationObject="597e3050-72ce-4ae0-b437-995c27c6c31e">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Document>

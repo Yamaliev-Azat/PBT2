@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="e76405c3-3cfe-4f99-b1d2-42c52231b9e6">
+  <producedTypes>
+    <objectType typeId="2458a118-01ff-4da1-9a98-594cb08e5c7f" valueTypeId="267c6322-aa4e-4fdd-87cb-6a8bfeba9776"/>
+    <refType typeId="d5f24904-a30e-44fc-b129-6a2e1c23ca3e" valueTypeId="b6d62188-8abc-45ca-99e4-394aa261d026"/>
+    <selectionType typeId="0d383ab9-13a4-494f-862b-6cb595bee21f" valueTypeId="e14004d2-0ab6-4fb6-81a1-274f6e1b483e"/>
+    <listType typeId="204faf95-42b8-4803-ba1e-f984776ef2c8" valueTypeId="b71bcbf2-3d35-442f-bede-610e6633c359"/>
+    <managerType typeId="6abd4410-611b-41ca-be70-dadb45b4b2d4" valueTypeId="8ba248b1-e13c-4440-9040-89f0a83bc9b4"/>
+  </producedTypes>
+  <name>МаркетинговыеМероприятия</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

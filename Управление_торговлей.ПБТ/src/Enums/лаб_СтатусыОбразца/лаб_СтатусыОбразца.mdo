@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6f709d88-d20e-4668-b955-cf68c2863652">
+  <producedTypes>
+    <refType typeId="73308a2b-cbad-4564-9c84-413e3d9a859b" valueTypeId="177af467-faff-45f1-b490-e4b9dfb9622c"/>
+    <listType typeId="f802ed78-6554-42e6-8a92-fdc69157af65" valueTypeId="9c524d7d-5e22-4a28-a9a3-0699fbd5fe4c"/>
+    <managerType typeId="1ccb7edc-41ef-40e4-979e-10434c24c02e" valueTypeId="31b137ee-bafa-42cf-9b2d-5184ec5cd4a0"/>
+  </producedTypes>
+  <name>лаб_СтатусыОбразца</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы образца</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="ce17e19b-95ea-4619-967c-f847319a483b">
+    <name>Брак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брак</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48ca0bac-257c-43b8-bf3e-73ff97c8908a">
+    <name>НаправленНаПовторныйАнализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Направлен на повторный анализ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="284042d6-254d-4ac4-bdc4-4fa0183790ce">
+    <name>ОтправленВЛабораторию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отправлен в лабораторию</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba93e8f3-778f-4c5e-b633-b38e831d84f7">
+    <name>ПолученоУдостоверениеКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получено удостоверение качества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cc50afb5-545a-45ea-93e1-c5781a1469a0">
+    <name>ПолученПротоколАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получен протокол анализа</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="786ec5a4-2c1f-422f-a187-88870a52880d">
+    <name>ПроводятсяИсследования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проводятся исследования</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fdf6357b-023e-4ca0-b344-16c5c9a7efe1">
+    <name>ПроизведенОтбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произведен отбор</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

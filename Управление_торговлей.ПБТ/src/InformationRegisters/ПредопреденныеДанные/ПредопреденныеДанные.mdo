@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea987d0c-d037-4ba2-a574-1b3ec142d73e">
+  <producedTypes>
+    <selectionType typeId="69d3c337-d213-482f-91d7-05a9fe44ec62" valueTypeId="0eaa9f8f-b083-4e43-9853-794dcb9b6189"/>
+    <listType typeId="7fdb6e17-270f-40f9-be1a-ddc792b41955" valueTypeId="afce06aa-91b4-48db-9042-6ab1e8390366"/>
+    <managerType typeId="216a6565-c5d1-4282-934f-7ea715ee5664" valueTypeId="dcd7f95e-4123-4995-a79e-0e38cdbceee4"/>
+    <recordSetType typeId="f61a3df9-0d4c-40e4-841b-4994a045d28a" valueTypeId="2ed9e988-fed1-422c-acd5-6ba77c527958"/>
+    <recordKeyType typeId="5b979e87-de25-40cf-849b-59c6a9a13cec" valueTypeId="d1c3ae5e-a967-4eba-ab63-80af8219b65d"/>
+    <recordType typeId="dc455612-cc04-4bf5-9f6e-9314856bff16" valueTypeId="5e70a652-92df-49e1-a62d-e865ce50bf93"/>
+    <recordManagerType typeId="03b7fdd2-9165-4b2c-92f7-5efb7f8b9e0a" valueTypeId="e18536b5-2b7e-4d1c-b0f1-328306628617"/>
+  </producedTypes>
+  <name>ПредопреденныеДанные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопреденные данные</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ПредопреденныеДанные.Form.ФормаСпискаУправляемая</defaultListForm>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="fd8be842-9f58-405e-a201-337db47bc500">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыИсследований</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="00120909-0c93-48e9-96a9-42013cc46961">
+    <name>ТипМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="5c0d741d-b2e1-4652-8774-b0105cf4aff3">
+    <name>ИмяОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="64757add-3f8f-44bc-a9a5-01b724139dc7">
+    <name>ФормаСпискаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

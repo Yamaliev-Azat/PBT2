@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="824146f1-2f06-4c97-ad93-aff461ac76da">
+  <producedTypes>
+    <selectionType typeId="a3284f92-b3a9-4581-ae0c-c3dc2bf9df79" valueTypeId="38c498c4-dc94-4ee3-9e0d-af1069e8d6ae"/>
+    <listType typeId="b74ef131-9049-4973-8283-60b44a35ffd2" valueTypeId="b4e4d9eb-45aa-4e25-88d4-10ad002b5a05"/>
+    <managerType typeId="c65cd9ea-6513-47af-abbe-c9f30e53dfbe" valueTypeId="3938864b-629f-4fbd-8957-d9e70125a3e3"/>
+    <recordSetType typeId="b8c04ca4-7b16-4b5a-bf51-67fe04570290" valueTypeId="9ed27b53-21a4-4f3f-bc90-80c0244f1c5f"/>
+    <recordKeyType typeId="2ff4b3dd-6a1d-4278-9a7d-0378b18ca556" valueTypeId="d08f1f9a-3e08-4c2f-8db5-5889467a6f38"/>
+    <recordType typeId="44ba645f-6697-4480-a0ec-1bd9f1f19dc4" valueTypeId="4c90cbef-3986-4e70-a0aa-bffb3edeaa4b"/>
+    <recordManagerType typeId="adcaa719-807e-4c7f-9b20-9af51477eacc" valueTypeId="92958b7e-3e7a-4067-b082-4edbf0f4caef"/>
+  </producedTypes>
+  <name>вт_ВидыНоменклатурыГотовойПродукцииПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды номенклатуры готовой продукции производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="22dc9a88-2a07-4640-9345-4375f5705b5f">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

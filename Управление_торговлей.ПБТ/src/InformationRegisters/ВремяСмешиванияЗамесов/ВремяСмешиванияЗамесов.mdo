@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c98b3f63-db49-45d5-9457-b4bdced5baa6">
+  <producedTypes>
+    <selectionType typeId="43cb2d0f-8d20-43bf-bb68-9334981fc17a" valueTypeId="251b45ae-217d-434f-990f-6fc38ac53bf2"/>
+    <listType typeId="8b42d792-cc05-49fd-ab3a-eda69203a55a" valueTypeId="c7fdffa6-42dd-4a41-98c7-a2822557ec9a"/>
+    <managerType typeId="fba431c2-3b47-4ea9-8963-b3981bdb0b6b" valueTypeId="d9ab6c1e-904b-4def-9d6d-284456341369"/>
+    <recordSetType typeId="397323a0-a8fe-49fb-a0d8-bebf588a709a" valueTypeId="316296c2-2425-4245-b9ea-fbf9fc2eb4aa"/>
+    <recordKeyType typeId="372ff055-91d0-447a-a252-e9df1c0b0249" valueTypeId="3a946616-0c28-41a3-935b-7375377b5d83"/>
+    <recordType typeId="2c8cf684-0e5e-42b1-a5b1-a4a21b6bbed7" valueTypeId="500f6891-9b84-4193-9415-a14eaa8c80d7"/>
+    <recordManagerType typeId="205d6d7c-384d-4d19-9e0b-c49626dd0fcb" valueTypeId="3a1d77c1-72c1-4080-a155-7f4eb36c795c"/>
+  </producedTypes>
+  <name>ВремяСмешиванияЗамесов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Время смешивания замесов</value>
+  </synonym>
+  <defaultRecordForm>InformationRegister.ВремяСмешиванияЗамесов.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <resources uuid="ea99d220-42b1-4a2e-90d6-02f00620f71d">
+    <name>ВремяСмешивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время смешивания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="72336303-00c2-427c-ba7d-cabeb27cbb88">
+    <name>Рецепт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецепт</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вт_ВариантыПроизводстваПоТехКартам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b0d11c2a-8034-4476-8655-006125d07b57">
+    <name>Линия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Линия</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Линии</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6a8687d3-1048-414e-8d1f-b5ba81b5f347">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

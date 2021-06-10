@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1760fed4-9e44-40a1-8072-4f9945654100">
+  <producedTypes>
+    <refType typeId="ecaefc34-0ac3-446b-8ab8-3f96d64e330c" valueTypeId="7c3f1f3e-e910-4183-9445-bd43d41c39b9"/>
+    <listType typeId="51b66479-f4aa-4d5c-a5ac-6e2ead934f73" valueTypeId="c2dfb207-b1c2-42fd-93b9-a38b7c48a0ab"/>
+    <managerType typeId="d7e64c40-dd2b-4563-971f-483fec57566f" valueTypeId="14892f62-15af-4f5a-ab25-b627e4aee0ab"/>
+  </producedTypes>
+  <name>ВариантыСравнения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты сравнения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="b6bee6ec-7c7c-4721-a7dd-0546b33fbbd2">
+    <name>ВИнтервале</name>
+    <synonym>
+      <key>ru</key>
+      <value>±</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="45a36c57-0ad8-476a-bf85-00c9e15d6fdd">
+    <name>Между</name>
+    <synonym>
+      <key>ru</key>
+      <value>В интервале (от - до)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a424e766-3e1e-4ebd-8f86-9b1ee632084a">
+    <name>НеБолее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не более</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="96ba48ef-0989-440f-857f-e34fa9b34b2f">
+    <name>НеМенее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не менее</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5a817044-242d-4967-ba1c-0874af504e95">
+    <name>Менее</name>
+    <synonym>
+      <key>ru</key>
+      <value>Менее</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

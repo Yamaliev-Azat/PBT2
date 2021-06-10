@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="92790411-979c-4726-a2c6-1eaf00ac1797" extendedConfigurationObject="30983210-fec7-481e-bc8d-aa7e1161bf91">
+  <producedTypes>
+    <selectionType typeId="04d9e64f-f164-4b74-a405-b13d31545689" valueTypeId="e047b79e-99b6-4f7d-9d8a-7a4fa9471e49"/>
+    <listType typeId="faeddd95-52a0-4b99-8475-bfca9bc6c5d3" valueTypeId="bfcf957d-ada1-47f5-83c3-8dc195d6ed36"/>
+    <managerType typeId="fe382cdd-28db-437c-8064-8f4b5999ea9c" valueTypeId="e8ee0aba-c08c-45e9-b4e7-c7de19328e08"/>
+    <recordSetType typeId="ab4e82b3-5ad8-4dc0-b6b0-c5977b448cfc" valueTypeId="af2bf009-af1d-4a53-93d4-3dd413324393"/>
+    <recordKeyType typeId="fd29121b-e741-442d-bb34-fd619d101867" valueTypeId="900aa921-d050-4b3b-b50c-5351e1e606e2"/>
+    <recordType typeId="46e1af1d-c801-496e-aaf6-6e359d084f45" valueTypeId="6aefbf73-6aab-464b-ab54-e84396c4efbb"/>
+  </producedTypes>
+  <name>ПрочиеРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+</mdclass:AccumulationRegister>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0edfeda1-e581-4e3d-a5e2-ef8756844d21" extendedConfigurationObject="80b2615f-3dc2-46a9-9c09-c3a3cfccf414">
+  <producedTypes>
+    <objectType typeId="b4e36015-4958-4253-8c42-8d3c5180a084" valueTypeId="fd808db5-5457-443a-8962-8664b2d314d6"/>
+    <refType typeId="f0cc1635-db24-4408-9915-9e4f8437e288" valueTypeId="48127801-bb99-4fc0-a2f7-498847087c09"/>
+    <selectionType typeId="7014332c-0be3-47f5-915f-9cfeaed3dfac" valueTypeId="5ed22894-66b0-438a-aace-be54cf0e438c"/>
+    <listType typeId="ad62faa0-3980-4dcb-a84a-0d6ed0b177f2" valueTypeId="dee88eb6-c6d5-4e49-a024-23927d1d1b61"/>
+    <managerType typeId="8ab77c7e-6c59-4c7c-9bc8-913ea509dc9b" valueTypeId="f450c116-3278-4613-b818-86717ba80cfd"/>
+  </producedTypes>
+  <name>СписаниеНедостачТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d081855d-bef9-4134-ad6f-dc85ef47b74f">
+  <producedTypes>
+    <selectionType typeId="1df6adbf-b8b8-4bad-ae59-8ce267c07493" valueTypeId="c4c607db-fcfc-43b7-bd62-157db9abd055"/>
+    <listType typeId="479ae249-85d2-4bbf-a89f-fa681c4b74e6" valueTypeId="da50d08c-2258-41dd-8744-c3480f02033c"/>
+    <managerType typeId="23ecfb98-4fde-452d-8647-3a91d1457da4" valueTypeId="0ae19b47-2d7a-48a9-a4d1-7cc674cad8a4"/>
+    <recordSetType typeId="353419c4-35ed-4659-82d8-0864c43294fb" valueTypeId="60f6fa80-e44b-4d0d-bd40-9ff457b98b19"/>
+    <recordKeyType typeId="e8424522-5450-4116-804f-60e2d6a515a7" valueTypeId="af714932-dc37-4f41-8990-d03036f9f90d"/>
+    <recordType typeId="124ad7b1-28b4-4d82-96d8-ee6cbb83de7c" valueTypeId="526750eb-e4ca-4d3a-abfc-4086ae11d69e"/>
+    <recordManagerType typeId="40a46f0b-c325-4471-a4ab-459d1dde9a01" valueTypeId="91d90dde-3be4-4b51-bad7-f1e3c73ba413"/>
+  </producedTypes>
+  <name>вт_СтатусыЗаказовВПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы заказов в производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c16509d2-a556-4dd5-9b21-4e2210da278d">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.вт_СтатусыПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="496e5f21-1b5a-4c4d-bc11-27f34497136c">
+    <name>ЗаказВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ в производство</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вт_ЗаказВПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

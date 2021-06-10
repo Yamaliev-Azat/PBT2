@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a45403f6-3dd5-4835-9a5c-c6ba68420168">
+  <producedTypes>
+    <objectType typeId="12c999fa-4a66-4de9-b060-1b56390b4f06" valueTypeId="6888c44e-6e19-4a3e-bdc9-8f292a95b52a"/>
+    <refType typeId="a82fe999-cf41-48c7-b6e7-1e6e8fbdb1bd" valueTypeId="9760546d-60c1-490c-bf00-5df439e749ea"/>
+    <selectionType typeId="4047bee1-1009-44d1-92bd-629b649171e9" valueTypeId="05941831-8ac0-4a7e-98ef-90a48a89d597"/>
+    <listType typeId="fcfcc7bf-6808-4055-9e21-0186b4945d92" valueTypeId="d76dbfe5-82b3-4e35-af24-946245cbaee3"/>
+    <managerType typeId="92613d20-8e44-425f-8180-4caef09336f5" valueTypeId="9edbfc3b-6a1c-4ed0-9fce-3795c22c7c29"/>
+  </producedTypes>
+  <name>СерииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="34ed4fcb-ba0b-4a08-a33e-8acb74602fb9">
+    <name>EPCGTIN</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.GTIN</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="115a7b00-9035-4764-b4b3-fdf0900b64bc">
+    <name>Номер</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension/>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="fb91bf5e-d673-4232-b23c-1f97bfcf2b1d">
+    <name>ГоденДо</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="3e5b0bc5-4161-4ba5-ae8d-ab51127bb841">
+    <name>RFIDTID</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.RFIDTID</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="75d097ae-4bbf-4705-8266-03a7dbfc6fb5">
+    <name>RFIDEPC</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.RFIDEPC</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="88f4cd21-b811-4cc9-95fa-68ef1f203755">
+    <name>ВидНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ВидыНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="e2ca081f-2dc5-49dc-9788-aae10dfc7225">
+    <name>RFIDUser</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="8cc7dd6c-e826-4185-bbc7-9d084976f16b">
+    <name>RFIDМеткаНеЧитаемая</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Boolean</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="6dc04102-de7b-42d4-992d-7868a6b3bb21">
+    <name>НомерКиЗГИСМ</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.НомерКиЗГИСМ</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="4bcee04b-4600-446d-98e3-690fb421b642">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ea906b45-7aa5-41d0-92c2-f6c60ff3ae20">
+  <producedTypes>
+    <objectType typeId="03cdacd1-97fa-47e3-a10e-6e9308b769e6" valueTypeId="ef22d621-d41a-4a62-879f-21e7c9aa35e5"/>
+    <managerType typeId="50f44df1-5b18-422c-aa02-893a6de5e6c2" valueTypeId="5d19be2f-a5e7-4275-b4be-86e14f4c8431"/>
+  </producedTypes>
+  <name>ЗадолженностьКлиентовПоСрокамПБТ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задолженность клиентов по срокам ПБТ</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Customer debts by deadlines</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ЗадолженностьКлиентовПоСрокамПБТ.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <templates uuid="e3237378-4651-4b7a-8496-890978c4676d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

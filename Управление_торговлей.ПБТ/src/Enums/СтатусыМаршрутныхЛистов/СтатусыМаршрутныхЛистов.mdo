@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="670f122c-b2cf-4a9c-864d-c030d0a7ea34">
+  <producedTypes>
+    <refType typeId="927bde06-d9c1-4ed4-9485-44197fb537ea" valueTypeId="f98cae3f-0c54-4955-995c-074c217cd4b6"/>
+    <listType typeId="41e8c0fd-ccf4-416d-be1f-212ba46a7a79" valueTypeId="d48520c9-3dbf-41a5-ad5c-32fc15347e42"/>
+    <managerType typeId="76e4761a-316e-40d1-964f-574f42e68e5d" valueTypeId="53067f1f-f7df-426d-b141-815bed239d81"/>
+  </producedTypes>
+  <name>СтатусыМаршрутныхЛистов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы маршрутных листов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="fd9d0602-a8c1-4bee-9324-e117c5546c20">
+    <name>ГотовКСбору</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готов к сбору</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="31bbd0ef-cc56-4229-9b24-a0a0ed951ef0">
+    <name>Подобран</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подобран</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1f81b41-0061-49a0-8b8d-8aaaa2eed0c4">
+    <name>Замешан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замешан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b68ca69e-66d0-4192-85db-bc8758b132b4">
+    <name>Проверен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверен</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

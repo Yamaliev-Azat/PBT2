@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="540ea6ba-5934-4cef-84c0-4bc233aec19d" extendedConfigurationObject="e3cd2832-710c-4455-b0f1-1225ae1fc53d">
+  <producedTypes>
+    <selectionType typeId="baa9082f-7a10-4e1e-a469-60fcb80c3ea4" valueTypeId="3f14cea3-5540-4834-9b8e-27c75c7d3829"/>
+    <listType typeId="d81c8057-515e-445f-8392-18c9b0fa418a" valueTypeId="f26147ff-b682-469a-a7eb-82f3dc65413f"/>
+    <managerType typeId="96bcf3e7-7127-4421-ba13-be66b0e8ff05" valueTypeId="9fc87ab2-079e-4a89-a625-25022b1f2fb3"/>
+    <recordSetType typeId="cce84652-62d8-482c-b4d0-1e0ee9172ea2" valueTypeId="6dc97d9f-c7c0-4a87-a8ff-d521de6f1a13"/>
+    <recordKeyType typeId="e5c58bac-23b8-4370-b266-57b206596636" valueTypeId="196eb2a9-cdc5-4cbb-bf4c-90a0569f710e"/>
+    <recordType typeId="8ca21e0d-77d6-4e10-b2dd-56b0fd2189b8" valueTypeId="4be36029-cbbf-4182-a816-eb0e9031f5d1"/>
+    <recordManagerType typeId="e7262549-a69b-4b98-91d6-3867adad99c2" valueTypeId="f195a792-2213-49fa-b0a3-b0ab2a41fb46"/>
+  </producedTypes>
+  <name>ЖурналУчетаСчетовФактур</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+</mdclass:InformationRegister>

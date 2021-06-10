@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="133ac515-c17e-44e0-8230-51a865b87844" extendedConfigurationObject="8cd09e10-4636-4941-882a-e1d11a583f37">
+  <producedTypes>
+    <refType typeId="550e24a3-f6a0-4a9a-b629-c8d4772379d5" valueTypeId="5ba96b1a-cd7d-41e0-83dd-43bc8060c2d5"/>
+    <listType typeId="ae02a68b-c2a4-4f26-8889-7ee75579c6a5" valueTypeId="ae3bc35e-b270-4400-952c-4086b4511a49"/>
+    <managerType typeId="cb8508bd-ed7f-4a81-ae68-cfee0c0a0582" valueTypeId="b942bf6c-6fa2-40f9-bada-6a0cac2a08b5"/>
+  </producedTypes>
+  <name>ФормыОплаты</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="6a1e3dd7-e275-4282-a018-901a18b1ab64" extendedConfigurationObject="d450cea1-6bc0-427b-b3f6-68344c8dba57">
+    <name>Наличная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="da56774e-72b9-452a-9e8e-95b6cfcdb296" extendedConfigurationObject="4cebd4c2-9bdf-4aab-a86b-564c5df1185e">
+    <name>ПлатежнаяКарта</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="5afe4c53-19b4-4787-98d9-846e32549ad1" extendedConfigurationObject="d1e84b1a-e266-4a41-b553-0d030e40bc26">
+    <name>Безналичная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="964a4586-fd98-43a2-b9f6-089a55e48cfb">
+  <producedTypes>
+    <selectionType typeId="2228710b-573f-43e0-a235-96ed7b395c0b" valueTypeId="3e275e16-493c-4aab-a3b0-cd99b1bb968b"/>
+    <listType typeId="13b2b67e-c2af-4a50-aad7-2e5bbdc9bc78" valueTypeId="a8422f64-f396-4587-a6fa-5a4a1036ef1c"/>
+    <managerType typeId="41bc1697-1d7c-471a-9510-45ea86d61fd0" valueTypeId="f36692ae-0101-4a87-aff2-9c4f70b19d09"/>
+    <recordSetType typeId="94fb6c27-4a58-4082-be54-16b1fd3a488c" valueTypeId="6c82d03a-4406-4432-aafe-843a4d81b35e"/>
+    <recordKeyType typeId="78ea9b82-cd57-4115-b815-0c04fd052755" valueTypeId="ffe7330b-0c09-4c26-b33a-46ce8d4e03be"/>
+    <recordType typeId="30335bf6-3b94-487a-a9e4-154338ec70f1" valueTypeId="a43a4e0d-8bdd-41a3-8ec1-e1a02e84407f"/>
+    <recordManagerType typeId="6bab9bc2-1efc-4fcc-a72a-8787ad5d3348" valueTypeId="08cbab15-d71c-4026-8538-b038569a5149"/>
+  </producedTypes>
+  <name>вт_ТоварыДляПродажиВместе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Товары для продажи вместе</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="5c43e094-ba25-481c-89e6-fecc6472ca19">
+    <name>Товар1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="06018247-1a42-4b5f-9b08-89554dd3811e">
+    <name>Характеристика1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b4b96eb2-25af-4007-9169-6f603c0bbbee">
+    <name>Товар2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3909727f-8e18-447e-915e-2ff50e5c12a6">
+    <name>Характеристика2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

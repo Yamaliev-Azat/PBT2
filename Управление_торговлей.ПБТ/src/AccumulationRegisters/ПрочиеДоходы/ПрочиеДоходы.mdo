@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="d44ff839-025f-4f59-bfea-e0cf5aad78b2" extendedConfigurationObject="1222c660-db3a-4fc7-9b89-87093b8771a6">
+  <producedTypes>
+    <selectionType typeId="11823955-be4c-49da-8a08-6bb4501915b3" valueTypeId="eed8558d-ff2c-4026-a7b1-75ac87a2d235"/>
+    <listType typeId="d8e09f2d-e1a4-42f6-81e9-4ec54182f7a5" valueTypeId="0363213d-91b9-4f4d-8c70-c63873ce0512"/>
+    <managerType typeId="683c9618-ab4b-42d2-945f-4d31b11e81ba" valueTypeId="dd81cff7-06dd-4354-9a6e-c1595f8c08f1"/>
+    <recordSetType typeId="d2cb2958-d0c7-42f7-b8ab-71e1522d0c9e" valueTypeId="ef755347-f1ce-4b88-bf38-e72d5487d171"/>
+    <recordKeyType typeId="13f5366e-df80-48ba-b97e-b8ae75c70bc3" valueTypeId="afb9eb62-1701-41bc-8490-f3a9739b0e1b"/>
+    <recordType typeId="bacd0b04-4ccb-426e-8e84-90ee1bb7e1fe" valueTypeId="e92374ce-c91d-4346-8639-69130e4e3e63"/>
+  </producedTypes>
+  <name>ПрочиеДоходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+</mdclass:AccumulationRegister>

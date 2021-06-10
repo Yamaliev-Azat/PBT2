@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb79f259-9872-4ddd-a9b5-80f2087a9219">
+  <producedTypes>
+    <objectType typeId="1eeb2356-8576-408a-9de4-683df43cc4a0" valueTypeId="0449397d-0781-46b1-b589-6efc544bbc5d"/>
+    <managerType typeId="db324d42-c790-460a-bd4e-27b0bff59c92" valueTypeId="eb5cd449-f86b-4d4e-8712-ca9549cf43ee"/>
+  </producedTypes>
+  <name>ФормаОбщегоЖурнала</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форма общего журнала (лаб)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ФормаОбщегоЖурнала.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="eaa17075-f929-4929-b8d7-5869a2ec66aa">
+    <name>Лаборатория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лаборатория</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b1f9f1eb-2053-4d10-a84a-3e8a885a35fd">
+    <name>Период</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <type>
+      <types>StandardPeriod</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="4147f25c-e259-4413-9770-04494e645ce1">
+    <producedTypes>
+      <objectType typeId="f6aa85b4-b6aa-4c4c-9848-a01c50c48384" valueTypeId="8c15c3a0-e184-424b-a823-f32b9fef27b4"/>
+      <rowType typeId="642293a6-63a5-4074-aaca-9a8c72ea713b" valueTypeId="f209b89a-7144-4212-a2aa-014ca9ee693c"/>
+    </producedTypes>
+    <name>ТабличноеПолеОбразцы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличное поле образцы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8d3b8f17-6fb3-4f1a-9754-9d98b1342231">
+      <name>Номенклатура</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номенклатура</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="43893f78-b6f6-4db3-a548-18161f737e8b">
+      <name>КодПродукта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Код продукта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="54c28ec9-7a34-4106-b096-0f10c8eb714c">
+      <name>ДокументПоступления</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ поступления</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.АктОтбора</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="45820b8d-6fb5-4a74-83b9-f03955ccceaa">
+      <name>НомерЗамеса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Номер замеса</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="eb48e1ab-adfe-46bf-936e-de65d845da1c">
+      <name>Серия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Серия</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.СерииНоменклатуры</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="96e14f12-caa0-489a-970f-8cc773b9b093">
+    <producedTypes>
+      <objectType typeId="8729753b-bdc8-4cf7-8a4b-7675f8f2fc57" valueTypeId="46747963-47fd-481f-803d-c866e64b5d1f"/>
+      <rowType typeId="8e10b1f9-7292-418d-8507-22b30a68e7e4" valueTypeId="62ae6ea4-809f-4771-93c1-0fe9d7639d09"/>
+    </producedTypes>
+    <name>ТабличноеПолеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличное поле документы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6b274ae7-e9d0-4fb8-94fd-a4880afdfd8c">
+      <name>ВИСтрокой</name>
+      <synonym>
+        <key>ru</key>
+        <value>ВИ</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>25</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="dffbf8c1-bf2d-4734-9c51-cfc6a37ed11e">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ПротоколАнализа</types>
+        <types>DocumentRef.УдостоверениеКачества</types>
+        <types>String</types>
+        <types>DocumentRef.АктОтбора</types>
+        <types>DocumentRef.КартаРазрешения</types>
+        <types>DocumentRef.АктПриемаОбразцов</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="863a202c-15cf-48b9-ac8e-ad44b2140dc5">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Report>

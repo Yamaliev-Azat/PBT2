@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9046481c-7341-440d-b19d-cd765a916201">
+  <name>вт_ОтчетыПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчеты производства</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Report.вт_ВыпускПродукции</content>
+  <content>Report.вт_НормативныйСоставИзделия</content>
+  <content>Report.вт_Себестоимость</content>
+  <content>Report.вт_ПланФактныйАнализПроизводства</content>
+  <content>Report.вт_ОтчетПоРаботеОборудования</content>
+  <content>Report.вт_ОтчетПоБригадамСменам</content>
+  <content>Report.вт_ВыпускПродукцииССырьем</content>
+  <content>Report.вт_ПотребностьВСырьеПоЗаказам</content>
+  <content>Report.вт_ОтчетПоБраку</content>
+  <content>DataProcessor.вт_ВводПроизводствоПоЖурналу</content>
+  <content>Report.вт_ПотребностьВСырьеПоЗаказамИПоставщикам</content>
+  <content>DataProcessor.вт_ФормированиеОтчетаПроизводстваОтСырья</content>
+  <content>DataProcessor.вт_СозданиеДокументовПроизводства</content>
+  <content>Report.вт_ПланФактПроизводства_График</content>
+  <content>DataProcessor.вт_ВыполнениеОперацийПроизводства</content>
+  <content>DataProcessor.ФормированиеАктовОтбора</content>
+  <content>DataProcessor.ФормированиеМЛ</content>
+  <content>DataProcessor.ФормированиеЭтикетокГП</content>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

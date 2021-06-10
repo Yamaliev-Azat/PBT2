@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7aa10c6b-338f-45b7-a0db-9e4515157330">
+  <producedTypes>
+    <objectType typeId="0a0aacc6-aa26-4d60-ab76-f270f833a9ec" valueTypeId="2a5d2af4-53bf-4c18-942f-74719ddd804e"/>
+    <managerType typeId="7bc87cb2-0039-4e30-903c-9ef186d59931" valueTypeId="aabfd366-43e8-4b07-a893-3b4dbae687e5"/>
+  </producedTypes>
+  <name>вт_ВводПроизводствоПоЖурналу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод производства по журналу</value>
+  </synonym>
+  <comment>Показывает текущие заказы на производство и позволяет одной кнопкой ввести производство. Как в MCDonalds</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вт_ВводПроизводствоПоЖурналу.Form.Форма</defaultForm>
+  <attributes uuid="cd6430da-bcbe-461a-8b4e-f599c5e827c4">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="e5bf5403-77d4-4e2e-9644-f8a23736aa51">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5df9037e-6e43-4b41-94cc-e7fe955a29da">
+    <name>ПроизводствоТекущегоДня</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство текущего дня</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

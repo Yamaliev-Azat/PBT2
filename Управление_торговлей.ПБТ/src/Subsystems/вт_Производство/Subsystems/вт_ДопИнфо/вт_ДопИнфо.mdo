@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0451096-f1ea-4de0-8f12-a218342d4f6a">
+  <name>вт_ДопИнфо</name>
+  <synonym>
+    <key>ru</key>
+    <value>Доп инфо</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>AccumulationRegister.вт_КомплектацииПоСменам</content>
+  <content>AccumulationRegister.вт_ВыпускПроукцииПоСменам</content>
+  <content>AccumulationRegister.вт_ПланПроизводстваТоваров</content>
+  <content>AccumulationRegister.вт_ПланСборкиТоваров</content>
+  <content>AccumulationRegister.вт_СырьеВыпускаПродукции</content>
+  <content>AccumulationRegister.вт_ВыпускПродукции</content>
+  <content>AccumulationRegister.вт_ЗаказВПроизводство</content>
+  <content>Enum.вт_ВариантыИспользованияВидаНоменклатуры</content>
+  <content>Enum.вт_СтатусыПроизводства</content>
+  <content>InformationRegister.вт_СответвствиеСборкиИПеремещения</content>
+  <content>InformationRegister.вт_СкладыДляПроизводства</content>
+  <content>InformationRegister.вт_ВидыНоменклатурыКомплектующие</content>
+  <content>InformationRegister.вт_ВидыНоменклатурыГотовойПродукцииПроизводства</content>
+  <content>CommonPicture.РазделПроизводство</content>
+  <content>AccumulationRegister.вт_ДавальческоеСырьеПереданное</content>
+  <content>AccumulationRegister.вт_ДавальческоеСырьеПолученное</content>
+  <content>DataProcessor.вт_РасчетыПлановойСебестоимости</content>
+  <content>DataProcessor.вт_ДиаграммаГантаПоПроцессам</content>
+  <content>AccumulationRegister.вт_ОтходыПроизводства</content>
+  <content>AccumulationRegister.вт_БракПроизводства</content>
+  <content>Enum.ТипыОперацийЗаказаНаСборку</content>
+  <content>AccumulationRegister.вт_ПлановаяСебестоимостьВыпуска</content>
+  <content>Enum.вт_ВариантРасчетаПлановойСебестоимости</content>
+  <content>CommonModule.вт_ОбщийМодульПроизводстваКлиент</content>
+  <content>Role.вт_Производство</content>
+  <content>DataProcessor.ОбработкаРецептурныйРасчет</content>
+  <content>InformationRegister.вт_ГрафикВыполненияПроизводства</content>
+  <content>InformationRegister.вт_СтатусыОперацийПроизводства</content>
+  <content>InformationRegister.вт_СтатусыОснованийЗаказовВПроизводство</content>
+  <content>AccumulationRegister.вт_НачислениеЗарплаты</content>
+  <content>AccumulationRegister.вт_ВыработкаСотрудников</content>
+  <content>InformationRegister.вт_СтатусыЗаказовВПроизводство</content>
+  <content>DataProcessor.вт_ПозаказноеПроизводствоДерево</content>
+  <content>DataProcessor.вт_ПозаказноеПроизводство</content>
+  <content>Catalog.вт_ЗаказВПроизводствоПрисоединенныеФайлы</content>
+  <content>InformationRegister.вт_ТоварыДляПродажиВместе</content>
+  <content>InformationRegister.вт_АналогиНоменклатуры</content>
+  <content>Enum.вт_ВидыПланированияПроизводства</content>
+  <content>AccumulationRegister.вт_ОперацииВыпускаПродукции</content>
+  <content>AccumulationRegister.вт_ОперацииВыпускаСырье</content>
+  <content>CommonModule.вт_ОбщийМодульПроизводства</content>
+  <content>InformationRegister.Константы</content>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

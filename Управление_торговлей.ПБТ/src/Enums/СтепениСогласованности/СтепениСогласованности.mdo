@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="94cce993-a833-400f-8521-f26d666abb64">
+  <producedTypes>
+    <refType typeId="342832b6-05bf-4ffa-a2dc-16cf1dda4162" valueTypeId="7c78ae96-292d-4c6c-b343-dc6381923b4b"/>
+    <listType typeId="8f066525-d5ff-42a2-ba94-74ca3e044eca" valueTypeId="460b0360-e51c-4750-af6a-29718f9512bf"/>
+    <managerType typeId="23177b54-265d-4a8e-8918-1c9ab60401a7" valueTypeId="725b1edd-b25d-4e4a-bd0b-fa2d10889fa6"/>
+  </producedTypes>
+  <name>СтепениСогласованности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Степени согласованности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="3de0d3a4-40d7-43a8-b383-94b1e0987dc6">
+    <name>Согласовано</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e73640b8-ce02-4163-b6fd-a8f0be082c59">
+    <name>Разногласия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разногласия</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

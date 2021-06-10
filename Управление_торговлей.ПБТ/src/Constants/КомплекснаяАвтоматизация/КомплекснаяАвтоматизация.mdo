@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="088600b6-d5e6-40bd-a464-ef889f2cbf71">
+  <producedTypes>
+    <managerType typeId="8ce3915a-f5ca-4e87-a04a-8de9549b4ea4" valueTypeId="ced7d73d-7d21-418c-accf-7300e7517b0e"/>
+    <valueManagerType typeId="203e1405-a9b7-4c32-b246-40a50b6c15e5" valueTypeId="f6150381-a54d-4a6b-873c-6d06ab8abb31"/>
+    <valueKeyType typeId="2dc9b3f6-e13a-5bfa-ac2c-63d05797293e" valueTypeId="7722e89a-5f17-59fb-8bca-a96a7b2b3f59"/>
+  </producedTypes>
+  <name>КомплекснаяАвтоматизация</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:ConstantExtension">
+    <typeExtension>
+      <types>
+        <state>Checked</state>
+        <type>Boolean</type>
+      </types>
+    </typeExtension>
+  </extension>
+  <type/>
+</mdclass:Constant>

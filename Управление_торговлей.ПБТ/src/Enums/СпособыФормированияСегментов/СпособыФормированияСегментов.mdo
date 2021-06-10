@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3f4e06b0-db50-46b4-9d6b-6e592ceb1d40" extendedConfigurationObject="8d80942d-60a7-4f33-9707-68aa5d077496">
+  <producedTypes>
+    <refType typeId="3b366720-d7e3-4572-a116-215aa09a2ec5" valueTypeId="28733170-4704-46a5-9c22-f1c92e84d261"/>
+    <listType typeId="d8672e4e-ff52-49fb-bb8d-5b5c000f8231" valueTypeId="66a0109e-e931-4020-b7f1-0ad536c33972"/>
+    <managerType typeId="dfb6e0e5-7d93-44f6-8541-2abc149e8b14" valueTypeId="21a37efc-b3ba-4577-aae4-99bba0beba3f"/>
+  </producedTypes>
+  <name>СпособыФормированияСегментов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3a591e25-9968-4a4b-8b8d-5bf169e8358d" extendedConfigurationObject="2d6ce8b0-5b77-4b73-93e5-829242f25c0d">
+    <name>ПериодическиОбновлять</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="959a35cf-7668-4b50-af10-19e2282b0263" extendedConfigurationObject="e14b9750-5d04-4861-9a6b-3da72b48a5b5">
+    <name>ФормироватьВручную</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

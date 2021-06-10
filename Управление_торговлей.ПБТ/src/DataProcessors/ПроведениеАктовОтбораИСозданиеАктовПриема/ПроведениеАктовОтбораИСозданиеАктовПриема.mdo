@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="932e3c7d-d00c-44e8-a788-4dd320123912">
+  <producedTypes>
+    <objectType typeId="d6bd821d-89cd-4525-854c-c3d1da437b7e" valueTypeId="da18ca39-879f-492f-8e5b-81c2ce40ff4c"/>
+    <managerType typeId="4af5a982-1cd4-4c09-9e93-cb4c07060017" valueTypeId="3c4205fd-ce54-41ef-aae7-ff8fe6913bcd"/>
+  </producedTypes>
+  <name>ПроведениеАктовОтбораИСозданиеАктовПриема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проведение актов отбора и создание актов приема</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ПроведениеАктовОтбораИСозданиеАктовПриема.Form.Форма</defaultForm>
+  <tabularSections uuid="ccc9e9a5-0a10-467c-8c5f-f555a34c9376">
+    <producedTypes>
+      <objectType typeId="2b6e3ebf-f314-42a6-a1c3-3d2c170c7efc" valueTypeId="e811077d-eadc-46f0-9528-c7e4d305ecea"/>
+      <rowType typeId="1fef1a6c-19f9-44e4-ad73-da3869c852e6" valueTypeId="9742d0f6-c7c2-490c-9057-c88570b474df"/>
+    </producedTypes>
+    <name>ТЧ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ТЧ</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1953c7f7-3b11-4bd1-be64-2656456ed156">
+      <name>Акт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Акт</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.АктОтбора</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="798d7828-b0ae-4378-be9d-ac1f48d39954">
+      <name>Проводить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Проводить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1b62343c-75bb-4b22-8b39-19267d2b8d51">
+      <name>Пользователь</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Пользователи</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="31977b0c-60ae-4ff0-8aa9-cc564d9c17f5">
+      <name>АктПриема</name>
+      <synonym>
+        <key>ru</key>
+        <value>Акт приема</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.АктПриемаОбразцов</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="3798d8ba-f731-4776-a847-064f587663d5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3f6b576a-b6f6-4f6b-9bc4-c441d5b1c033" extendedConfigurationObject="99326c2e-b338-40c0-a601-ae5e673e9fb7">
+  <producedTypes>
+    <selectionType typeId="a5c8fa70-2175-4fb7-9373-0c83389fc81a" valueTypeId="07021f1d-d433-4646-8c3d-801c7249800e"/>
+    <listType typeId="c1ce664b-1e9a-481c-9e1a-9fb03442a368" valueTypeId="5111ba40-2077-4f2b-a819-5209d8ba67d6"/>
+    <managerType typeId="749d8bd2-a868-4792-ae49-b0c127dedc14" valueTypeId="1bd8d9df-5419-4315-9348-40facd527f2c"/>
+    <recordSetType typeId="2ed61113-9024-41fa-a3b5-e1c7fa4ecb87" valueTypeId="900284c9-1b42-42eb-9894-68661cd6042a"/>
+    <recordKeyType typeId="cdf82187-0fc1-464d-92c4-9253407ec7a6" valueTypeId="42ef25cf-2603-4752-a768-146fca58664f"/>
+    <recordType typeId="1fd2a7fc-7ecf-49af-9da7-a396176716d0" valueTypeId="9b30d747-e604-423f-ac7b-4480af1ed768"/>
+  </producedTypes>
+  <name>Закупки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+  <resources uuid="af2f5c98-3f27-4aa2-a972-17daaca9b23e" extendedConfigurationObject="b8cfb710-2e8e-4757-bb47-c6cf9a7d37e9">
+    <name>Стоимость</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаЛюбогоЗнака</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="f2acb49e-8472-4f20-a2f4-7b87fd04b275" extendedConfigurationObject="e3de6fae-c863-4ba4-9975-beed3356a961">
+    <name>Количество</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="15d094cc-1362-403d-be50-14252009b2ba" extendedConfigurationObject="b7a026e1-1caa-4493-b092-9156011e46bf">
+    <name>АналитикаУчетаНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.КлючиАналитикиУчетаНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:AccumulationRegister>

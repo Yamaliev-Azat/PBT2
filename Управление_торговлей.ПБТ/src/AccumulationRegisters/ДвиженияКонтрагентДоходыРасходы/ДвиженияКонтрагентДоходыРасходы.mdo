@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="447de7ac-ab25-4b85-9e0f-15633d52a330" extendedConfigurationObject="536b5899-9e26-4d1e-8333-5dc4b82f5f33">
+  <producedTypes>
+    <selectionType typeId="4362994e-d5e3-4b00-847b-0dadcfa0254e" valueTypeId="8bca7fa4-2099-4d50-ac58-ab386bf74c81"/>
+    <listType typeId="5c4d75dc-c265-4fd4-b4f5-6abc3e564e4f" valueTypeId="7d04fe3d-63bf-4104-9532-ea814d70c357"/>
+    <managerType typeId="b016d274-3f5b-4b9d-bdaa-00ea798f1ba6" valueTypeId="849cb92f-6a2a-4829-9854-e30704c85d8e"/>
+    <recordSetType typeId="ef1dc6d5-3b49-4cb5-af4d-74bf4f3f7cd1" valueTypeId="2f9eb022-7c27-4e99-8923-e82549dee33b"/>
+    <recordKeyType typeId="285b2007-b3dd-47ec-84e3-17d030cacf5d" valueTypeId="970743fc-da8f-45aa-95f5-b8673b0cef39"/>
+    <recordType typeId="cc93fafb-5444-4c30-94da-32191212845c" valueTypeId="b6223af2-99fe-4a69-890d-eaf07dd40255"/>
+  </producedTypes>
+  <name>ДвиженияКонтрагентДоходыРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <registerType>Turnovers</registerType>
+</mdclass:AccumulationRegister>

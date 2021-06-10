@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2aa41200-aa42-47ba-8b01-84dcfd016739">
+  <producedTypes>
+    <objectType typeId="e01db243-c893-4371-bd3a-c4ec13b7092f" valueTypeId="d0f34c50-a6c0-4880-bcbe-4ddff0da8fe5"/>
+    <managerType typeId="48f851dd-f5cd-427c-b2d2-c79bad6235de" valueTypeId="944d4279-632d-4c60-a602-d91d136c0a8d"/>
+  </producedTypes>
+  <name>вт_СозданиеДокументовПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Экспресс создание документов производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вт_СозданиеДокументовПроизводства.Form.ФормаСписка</defaultForm>
+  <attributes uuid="c4342ab4-ae0b-4c9c-929b-ec49c5b20157">
+    <name>Оборудование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оборудование</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вт_ОборудованиеПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="01e377c3-e6da-4697-b665-28a74248d6bf">
+    <name>ГотоваяПродукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Готовая продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a6670d15-754a-4e3e-b5c6-de00cd1335d2">
+    <name>Дата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e8a2bc96-e940-46f2-aa99-2d024dfc3646">
+    <name>Количество</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ab625060-140c-4dfa-8412-d543c09c30fc">
+    <name>КоличествоБрак</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество брак</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2cda6edb-22fc-4761-8d87-551ac572c8fb">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51bc2eea-df45-430c-8d69-e81f6f86d15a">
+    <name>Характеристика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.вт_СозданиеДокументовПроизводства.Attribute.ГотоваяПродукция</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="1be35e5b-bac6-46f5-b365-4d597efa4c94">
+    <name>ВидНоменклатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид номенклатуры</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВидыНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1726d58c-d28a-4f89-9670-d52b9d934752">
+    <name>РецептураТехкарта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рецептура техкарта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вт_ВариантыПроизводстваПоТехКартам</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>DataProcessor.вт_СозданиеДокументовПроизводства.Attribute.ГотоваяПродукция</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="743d4aa8-c161-455b-b2d3-966318f18a3a">
+    <name>НоменклатураБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура брака</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="51afa45f-40f0-4f3a-baa1-3b2d30f77de4">
+    <name>ХарактеристикаБрака</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика брака</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eef54b7e-331f-4eb5-b90a-1ddfcbb15612">
+    <name>ОтразитьВРеглУчете</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4fa918a1-30eb-46b3-b539-eb65944e8832">
+    <name>ОтразитьВПроизводственномУчете</name>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="88dcb320-bbe2-4ec2-81ce-6fca308e7d69">
+    <name>Склад</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="df817fdb-2777-4a58-afba-bd71024d94f3">
+    <name>СменаБригада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Смена бригада</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.вт_РабочиеСмены</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="2d6a5940-8e03-41ea-b93a-0c862803a78b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2ea99d86-bdfd-4081-a42a-6e8f580cb980">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="6f47ded4-1f78-435e-a329-09a84f3e7f63">
+    <name>ЭкспрессВводПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экспресс ввод производства</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ce73636b-4ec9-4a1e-b399-3e61e834a00e">
+  <producedTypes>
+    <refType typeId="7ef8174a-4d0c-4d97-9372-d229b3e218fa" valueTypeId="17e3e6f1-8c0a-4aa2-ba41-c9446ca578b4"/>
+    <listType typeId="5597a705-851c-45ab-93c3-3621862d943c" valueTypeId="f6a6ac1d-7a98-470b-a87d-f5c857270bd3"/>
+    <managerType typeId="0cec2140-d548-412a-a96b-b3c0a5d5d4ca" valueTypeId="7534ae06-930f-442d-9347-09a969ad4850"/>
+  </producedTypes>
+  <name>ВидыДеятельностиРасходов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="bb21e9ac-5beb-437c-846a-0a1c502102d8">
+    <name>ПрочаяДеятельность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="0ad0b025-ad73-4639-8c7b-960c0d16d2a7">
+    <name>ОсновнаяИПрочаяДеятельность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="ef9d7a55-42d1-433d-9377-baeba733afa2">
+    <name>ОсновнаяДеятельность</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

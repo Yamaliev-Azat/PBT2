@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="eef8157b-d230-4950-a9a1-00e563d79032">
+  <producedTypes>
+    <refType typeId="998ba021-ac7f-43e5-bfaf-9d3d5c37dbe0" valueTypeId="f4720a38-af23-49cc-abdd-26b6998b8d38"/>
+    <listType typeId="82a9e6fa-0d0f-4876-99d4-b25a6ec4be8f" valueTypeId="347d1827-80ce-442f-b20c-56bd59039e7d"/>
+    <managerType typeId="07fa6465-b242-485a-ae91-2666581f855a" valueTypeId="ee89a696-9fd6-4729-9b2d-a012f37f71db"/>
+  </producedTypes>
+  <name>вт_СтатусыПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="90f86ab8-a69e-4bba-94fe-8dc0596ef0ea">
+    <name>Ожидание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ожидание</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2226c77e-fe4a-412b-99c5-8918e6e87a8a">
+    <name>ВПроизводстве</name>
+    <synonym>
+      <key>ru</key>
+      <value>В производстве</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14b492f2-d44f-429e-b0d1-5c970bd4b27a">
+    <name>Завершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Завершено</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3aef0b53-53f3-4edb-b577-4ee2390124b3">
+    <name>Отменено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменено</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

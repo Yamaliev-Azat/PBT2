@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="413c9979-e52d-42ca-b579-f752c11529df">
+  <name>Лаборатория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лаборатория</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+</mdclass:CommonPicture>

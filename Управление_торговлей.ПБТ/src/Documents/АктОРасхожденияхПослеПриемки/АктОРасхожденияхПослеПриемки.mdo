@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3290c16d-3b08-47d3-bef8-64578d19c1cf" extendedConfigurationObject="0104e4a2-fd60-4ede-ba84-063607d4d8a3">
+  <producedTypes>
+    <objectType typeId="fe8e392d-5cb5-4c22-ba61-ee6209dedfb3" valueTypeId="ecd64f08-fb28-40e3-9524-1f9c5fec9e1e"/>
+    <refType typeId="ffa798d6-f56e-4b50-9696-b4d7f9e69143" valueTypeId="49e2e0ad-fc42-4fef-ade9-3e27a18b7a55"/>
+    <selectionType typeId="c880cac1-06a9-45e7-b74c-fb9af3194495" valueTypeId="e6c9c507-e4ac-400d-94fb-84ac38fdff7e"/>
+    <listType typeId="f92644ab-93c4-4b0e-bbe9-b7d2f85db794" valueTypeId="773cca5c-8db3-4ecd-b514-106ce8ca61ce"/>
+    <managerType typeId="3831d8c8-bf38-4470-b15f-ee56c4136123" valueTypeId="4867e96c-2bbb-4545-84a2-0d2580104b88"/>
+  </producedTypes>
+  <name>АктОРасхожденияхПослеПриемки</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

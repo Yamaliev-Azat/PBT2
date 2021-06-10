@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c8a76e32-5556-42e5-88f7-3e8746ab1063" extendedConfigurationObject="9ca75ff4-fa62-49dd-9655-4570cc73fdd9">
+  <producedTypes>
+    <objectType typeId="5ce845c4-982e-46b7-814b-d054f7e7c13f" valueTypeId="8adf99bf-00cd-4d0e-9734-0a0f623c94d2"/>
+    <refType typeId="188c514a-dbda-4a95-90cc-8a7949f0ec35" valueTypeId="c63369b4-f5d8-4cf7-b243-44295e3b1081"/>
+    <selectionType typeId="5019726b-aee8-4093-bae0-1342004d9c8f" valueTypeId="e639b2b2-49a4-4a04-8546-f810329b83e9"/>
+    <listType typeId="43541354-e206-4f6f-8b0c-312c4db1c36a" valueTypeId="017c3ec9-b0f1-47d5-bf7d-ea54521032ff"/>
+    <managerType typeId="c2ecd602-4be8-4f02-9fab-5b24b62d24b6" valueTypeId="077c0ef0-482a-4e1f-b574-61e508b94c9b"/>
+  </producedTypes>
+  <name>ТаможеннаяДекларацияИмпорт</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

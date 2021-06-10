@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5fa1f3f5-274a-4eab-9c95-310cf7b22479">
+  <producedTypes>
+    <refType typeId="91493505-6008-4bd4-85bf-a6c01c55f667" valueTypeId="5e2e98ab-03ed-4d5e-97c1-36a06a760c77"/>
+    <listType typeId="019b1fa4-03b2-4975-a166-624b464d0ff5" valueTypeId="5b1085ed-47f7-4a2d-aa1b-b9dc63e9d511"/>
+    <managerType typeId="19304f75-485b-4703-a431-7af288be351b" valueTypeId="3b110282-2e96-4f0d-a90a-0c82196de66d"/>
+  </producedTypes>
+  <name>вт_ВариантРасчетаПлановойСебестоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант расчета плановой себестоимости</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="72b9ee5e-fc43-44c6-bd2c-a32902775d59">
+    <name>ПоУчетнымЦенам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По учетным ценам</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="584a4ed0-2ddc-4463-9999-7c3e8758c904">
+    <name>ПоПоследнемуПоступлению</name>
+    <synonym>
+      <key>ru</key>
+      <value>По последнему поступлению</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0963bfa1-3371-4f5c-ae5d-2448afa56f9e">
+    <name>ПоТекущейСтоимостиОстатков</name>
+    <synonym>
+      <key>ru</key>
+      <value>По текущей стоимости остатков</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

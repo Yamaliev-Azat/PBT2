@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="9399eb62-51e6-4348-b26f-48216a1eb41a" extendedConfigurationObject="eae285fe-79a3-4d70-a64b-ccacfcabc3fb">
+  <producedTypes>
+    <objectType typeId="210e34d1-d67b-4e1f-8d78-fd30e8dd1255" valueTypeId="894a13df-6e73-4654-96e0-41d6161626af"/>
+    <refType typeId="d711bb1a-7d5b-4c90-830e-fecb1b3c7d13" valueTypeId="246bac93-386c-478c-8aa2-80c3eefc0e73"/>
+    <selectionType typeId="5bbcca83-5c96-45be-9380-3c643272efa0" valueTypeId="c0816d36-5f5b-4b53-b4be-891aa047f737"/>
+    <listType typeId="186a1731-8cbb-4741-97ce-3b0e9828cce5" valueTypeId="e4a512b9-d789-4336-b522-a3613f3cc9de"/>
+    <managerType typeId="3c850303-8808-4f61-b2cc-081d4d7dc937" valueTypeId="67da78f5-29d3-4410-944c-0a6add5b2aab"/>
+  </producedTypes>
+  <name>РасходныйКассовыйОрдер</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <registerRecords>AccumulationRegister.вт_НачислениеЗарплаты</registerRecords>
+</mdclass:Document>

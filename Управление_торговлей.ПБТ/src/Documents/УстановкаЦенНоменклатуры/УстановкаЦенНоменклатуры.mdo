@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f6319fa5-0893-4b9d-8ab9-8d56d0ebc0af" extendedConfigurationObject="d69e99a6-b6b4-4e1c-95d1-d7997206773c">
+  <producedTypes>
+    <objectType typeId="7ac32e4e-55a5-47e3-9a9d-67dcd9a21ba7" valueTypeId="c29cb93e-c674-4b6c-97dd-a36856c964ea"/>
+    <refType typeId="426bb9dc-a521-4445-980d-82118b3d5140" valueTypeId="59aa4fd5-36a8-4d67-96e5-b840c7758765"/>
+    <selectionType typeId="49b9fdcc-183e-4e99-9780-5e501aa4e253" valueTypeId="02410702-d282-4d85-99a8-a6eabbcab7aa"/>
+    <listType typeId="b260f785-29a0-4ac4-a104-eee98e63ede8" valueTypeId="c4cc2150-f44a-4e8f-80c6-23786a10f73e"/>
+    <managerType typeId="e1a3e580-7ba0-468e-99dc-a0c449e996ec" valueTypeId="4bbe64f8-e9bc-4c60-8444-8b2fad56985d"/>
+  </producedTypes>
+  <name>УстановкаЦенНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <managerModule>Extended</managerModule>
+  </extension>
+  <forms uuid="cd9da24e-cbad-4562-8d50-cc1b9ec6fb82" extendedConfigurationObject="f9632d3f-3bfb-4f5b-a8b1-eed9b8f4ac3a">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="e248630e-eb06-45ff-8b15-ad7a3f18eac1" extendedConfigurationObject="fa358103-b0d9-4936-b18c-99a353b041d9">
+    <producedTypes>
+      <objectType typeId="92295ea0-e2eb-4dd0-9209-6083ce17e277" valueTypeId="f79179c8-eafc-4cab-a997-b8db50cc7b32"/>
+      <rowType typeId="054eff0b-73af-4388-9ffc-62e7718d44e1" valueTypeId="0e63a8d4-cfa8-4ed8-b028-fa4d61b66ee0"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="786f077b-4df3-48ea-9a13-b2cc8164e103">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

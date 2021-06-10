@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8f50d499-1d06-43a7-a8ac-4120346f55de" extendedConfigurationObject="59e930f5-213f-4dac-96fa-b6988ca7380e">
+  <producedTypes>
+    <objectType typeId="379dd826-e141-409c-8ba7-df2345345541" valueTypeId="933a5924-2efe-4024-8dae-31f19b33a00d"/>
+    <refType typeId="8e5a13dd-a504-4820-b0c7-e96d2ffde446" valueTypeId="12c7351f-3f6f-4885-9707-bcdc606be092"/>
+    <selectionType typeId="e279448a-67c5-4508-80c6-96eff05bfe24" valueTypeId="dd60aae5-fc7b-4c97-93a8-9cdd193d8bf6"/>
+    <listType typeId="bb7fc25f-6bef-4b53-a45b-edf2cda17fdc" valueTypeId="06879e46-0efa-49e6-8f46-6e6d92d80da6"/>
+    <managerType typeId="b54cbccb-6300-4a66-8f10-cc5f0de048a8" valueTypeId="94548c8a-bfb2-4d84-96fc-96aa6acda217"/>
+  </producedTypes>
+  <name>ПрочиеДоходыРасходы</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

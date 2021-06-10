@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ff3844d1-863a-4038-b2ff-4e53a84eab95" extendedConfigurationObject="16147cb5-b2fd-4e31-b481-8cc3e96b4ae0">
+  <producedTypes>
+    <objectType typeId="ccdd2107-aee1-4374-9c27-c7f7a84b80e1" valueTypeId="d317a8bb-07b8-4d71-9815-3da1b63c75b8"/>
+    <refType typeId="f59c349f-f067-4ee3-a076-6f4dc1238b2f" valueTypeId="8f761432-1276-4494-b51b-efb54d685c55"/>
+    <selectionType typeId="914db34a-9080-437b-a77e-97897a880328" valueTypeId="4755b578-1df0-4ed9-9422-4d49d6a2c9ee"/>
+    <listType typeId="1fbdceda-5e10-4731-89b7-90e0be70e0bd" valueTypeId="7e051e86-1ae3-42b4-a9ad-75b212ad9981"/>
+    <managerType typeId="d511444a-1af1-45d9-8c99-c5132e31005d" valueTypeId="05680261-29c0-47d0-b0d6-10895e2bd09d"/>
+  </producedTypes>
+  <name>КлючиАналитикиУчетаНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="da3b6f37-5efc-4b07-8024-4257c514c528" extendedConfigurationObject="f131cbbf-0763-47e8-83ff-577359b8e229">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5220b939-3534-40a6-aabd-b0847c245bf2" extendedConfigurationObject="45f5ce5c-cc40-4274-8912-e399b396e413">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

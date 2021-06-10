@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7362bdd0-c260-4e49-a773-ce35cf942475">
+  <producedTypes>
+    <refType typeId="453dc977-466e-4729-b84b-d6c3c998a6ab" valueTypeId="127a8d59-22bf-4ade-a742-6dfd5d9a1a05"/>
+    <listType typeId="94146d7b-6869-4fe4-8229-9686665293bd" valueTypeId="54b8faba-45a7-4022-bc5c-a1e7154cd1e6"/>
+    <managerType typeId="e2c50691-bf67-4581-b3d0-f962e25b9ebf" valueTypeId="d15770a3-b69a-4e2d-91f5-294b9aefac81"/>
+  </producedTypes>
+  <name>вт_ВидыОперацийПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций производства</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1754dc85-3abd-4a86-9a12-4adf0ed3500f">
+    <name>СобственноеПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Собственное производство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9e3bac25-b6f0-4222-914d-6b2aea65e15a">
+    <name>ПроизводствоДляЗаказчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство для заказчика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a3e01412-466f-492d-953e-49e589e4cffa">
+    <name>ПолучениеИзПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение из производства</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

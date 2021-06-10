@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4a8aedd-8c51-47b4-843b-b7e997a375f0">
+  <producedTypes>
+    <refType typeId="a62e1302-bbe3-4fdb-920b-25e6a8d48acd" valueTypeId="f57c5054-98e1-4051-b5db-50fd9683c23f"/>
+    <listType typeId="33995ea2-39e4-47e6-b94e-3b9b0e5ed041" valueTypeId="6f9b9904-92d2-4228-9dd6-c12f73b35595"/>
+    <managerType typeId="7d7f0e78-7922-4eb7-a5ef-44aa7e59ea93" valueTypeId="85ab41d7-91db-46db-9380-9c4a3fe00cd3"/>
+  </producedTypes>
+  <name>ТипыОперацийЗаказаНаСборку</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы операций заказа на сборку</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <listPresentation>
+    <key>ru</key>
+    <value>Типы спецификаций</value>
+  </listPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Типы спецификаций</value>
+  </extendedListPresentation>
+  <enumValues uuid="acf675cc-ead3-421b-8e64-8cbf9eda7993">
+    <name>СборкаИзКомплектующих</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборка из комплектующих</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ade0c9b3-57af-4d07-8708-5180cf047734">
+    <name>РазборкаНаКомплектующие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разборка на комплектующие</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

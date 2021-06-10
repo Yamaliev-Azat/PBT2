@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="5cc9363f-5a5b-41dd-b7d5-07ce7dbd3b81" extendedConfigurationObject="f485e195-bc3b-4230-9780-9a442f5e504c">
+  <producedTypes>
+    <refType typeId="49676f30-3a1d-4bc0-9dc8-7885f73b8ff8" valueTypeId="2fedb711-6393-48ea-ac3b-22116ebec03c"/>
+    <listType typeId="b8da7bac-703d-4adc-9c46-42f5ca88f0cc" valueTypeId="3fdf3b19-fae2-4b94-8f3d-081986140a88"/>
+    <managerType typeId="81aad6dc-677b-43c0-81f7-a3f313046ad9" valueTypeId="8ac23453-a5f5-48ac-a6fc-e521011f6848"/>
+  </producedTypes>
+  <name>ТипыОбеспечения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="cbbf22c8-7872-4539-950d-c602c14ba1e7" extendedConfigurationObject="eeb8d2f7-1dd0-4f9d-a1c1-d88188440d05">
+    <name>Покупка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="bf588cdc-3c68-40a6-8ccd-5a10f269d357" extendedConfigurationObject="56907877-4a71-4f94-83ee-ffebb2c792cf">
+    <name>ПроизводствоНаСтороне</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b7f82384-75b7-4fb4-80f5-2316200d5ca0" extendedConfigurationObject="3094999f-b4ff-434a-9488-c96967e7a128">
+    <name>СборкаРазборка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="74e8946f-ac7d-44f5-9032-8cb9d5ccb4c3" extendedConfigurationObject="b3f519e6-910d-4466-a558-85f1888c7c3b">
+    <name>Перемещение</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="d7797ffa-436b-4504-bd35-6d94b784d713" extendedConfigurationObject="d6be2710-04a8-4559-8255-311e9ed52d22">
+    <name>Производство</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1cc56601-d08d-49e6-bcf8-26f1f1604b56">
+  <producedTypes>
+    <objectType typeId="621f1ea1-dfc1-4724-92d7-aee2ab7c0f03" valueTypeId="a37b1678-4dc0-441d-86a5-c8bbe34bdb0d"/>
+    <refType typeId="b6b4571e-0090-4a9d-9eed-513f9e7357f8" valueTypeId="c0d49a9e-71ed-419b-8d27-acab4d33927a"/>
+    <selectionType typeId="effe1b81-5243-4e56-86c7-5796f70b0be6" valueTypeId="62950382-83ed-4b1c-bdc1-2d0a0c180a69"/>
+    <listType typeId="7901b440-5d8d-4d7b-b82c-a7c3553326ed" valueTypeId="21d4246e-8a07-47b4-89c6-160fad1c7beb"/>
+    <managerType typeId="46be852f-40e7-4359-a838-89d75c38f9c3" valueTypeId="13933a50-bec3-4e1e-af71-2706de0fab30"/>
+  </producedTypes>
+  <name>СоглашенияСКлиентами</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="4c0463e2-6d34-4438-9905-9d81ebe2b4ff" extendedConfigurationObject="1c557a08-a198-42cc-b04b-1e4babf5ae8f">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b337cc84-2953-4bf4-8a7d-8f4b1373b160" extendedConfigurationObject="d6efe047-c6c6-4ed5-8e67-1aaac72c2f18">
+    <name>Календарь</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПроизводственныеКалендари</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="70f4a18c-f081-4552-9843-701529974d2d" extendedConfigurationObject="441849e1-2a80-4d78-b953-7de4fe6a6810">
+    <producedTypes>
+      <objectType typeId="461e4d28-93b3-4f15-8811-8534e81d3497" valueTypeId="d3d33d5e-f772-4a14-b7ca-cb9ef2c39c4c"/>
+      <rowType typeId="a335a262-03c1-4a96-899e-61cc822ce8e3" valueTypeId="a0fbb432-c441-43da-8948-3bf165e63923"/>
+    </producedTypes>
+    <name>ЭтапыГрафикаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="8d274fbf-5af4-49a9-af3b-c674ed4f3b3a" extendedConfigurationObject="2ac11719-c923-4a29-ab63-a3f0bf59916c">
+      <name>Сдвиг</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>10</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="2974c503-44dc-444d-bb35-a15cb3e29d44" extendedConfigurationObject="3f101e93-3776-4bf7-b27a-5bfa29a31646">
+    <name>ФормаЭлемента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

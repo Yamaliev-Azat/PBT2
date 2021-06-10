@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc11bb90-ea6d-4938-afd4-99eb93a441a2">
+  <name>КредитныйКонтроль</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кредитный контроль</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Монеты</picture>
+  </picture>
+  <content>DataProcessor.РабочееМестоКредитногоКонтролера</content>
+  <content>Report.ЗадолженностьКлиентовПоСрокамПБТ</content>
+  <content>InformationRegister.УсловияКонтроляВзаиморасчетов</content>
+</mdclass:Subsystem>

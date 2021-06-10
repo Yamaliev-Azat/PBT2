@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cebd31f5-d4cb-40e0-90aa-7a784c174107">
+  <producedTypes>
+    <selectionType typeId="b2df51f3-f807-4010-9a11-85d1d4946ac6" valueTypeId="8585d03a-73e7-40a6-974e-487ac51eea81"/>
+    <listType typeId="aa9ccc04-7ec6-423f-bde8-1c5562ba9264" valueTypeId="0ee9e184-6034-4323-896b-b4477741332b"/>
+    <managerType typeId="64f8170f-77b9-41c3-9b28-fd3f8d65d8d1" valueTypeId="cab1b6ad-641b-4e0d-a062-9c02def0606f"/>
+    <recordSetType typeId="fc4b494e-950d-4d98-8174-47674a945583" valueTypeId="004b6ce9-73a1-47fa-a019-873c3f6dbd1e"/>
+    <recordKeyType typeId="e0a4607c-5e03-4a32-869e-78636899d1e7" valueTypeId="89d003f6-0fbe-4f1f-88ba-77b6c77ec62a"/>
+    <recordType typeId="c431619f-7791-4b3b-a85d-2d6a0d651930" valueTypeId="dcd3f838-4e4f-4447-b2f3-aab0d9252913"/>
+    <recordManagerType typeId="942822e6-671f-4c9d-8629-4a5cad8dc478" valueTypeId="03f6c329-a890-4f38-8536-2b831f419423"/>
+  </producedTypes>
+  <name>вт_АналогиНоменклатуры</name>
+  <synonym>
+    <key>ru</key>
+    <value>Аналоги номенклатуры</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.вт_АналогиНоменклатуры.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="935d1fde-493f-443f-a5c0-e3ef8a3d1ac9">
+    <name>Коэффициент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>4</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="f265f1d8-e3cd-4820-a5dc-c82080896693">
+    <name>Заменяемое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменяемое</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="92f7c1bd-0822-40cf-984a-2a2d5dbfa717">
+    <name>ХарактеристикаЗаменяемое</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика заменяемое</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.вт_АналогиНоменклатуры.Dimension.Заменяемое</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8fb4e710-262e-4b76-b391-eae82be9a63e">
+    <name>Заменитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c78c332f-3741-4ae0-bed1-6234144180ea">
+    <name>ХарактеристикаЗаменитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Характеристика заменитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ХарактеристикиНоменклатуры</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>InformationRegister.вт_АналогиНоменклатуры.Dimension.Заменитель</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="e7be1a0a-9f51-4fc0-bae6-2b0f559f4734">
+    <name>ФормаРедакторАналогов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор аналогов, заменителей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f21232dd-dbe8-454f-bd89-7b8dd04a8e7e">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a8ce5510-723b-49fe-bb7f-aa8ca1ed849e">
+    <name>АналогиЗаменители</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналоги (заменители)</value>
+    </synonym>
+    <group>FormNavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:InformationRegister>

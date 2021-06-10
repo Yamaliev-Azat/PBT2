@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="19ecceba-faba-483b-b2f3-d07dbd66170c" extendedConfigurationObject="66462dbe-9467-42cd-8230-d62542224d13">
+  <producedTypes>
+    <selectionType typeId="55f23571-f036-402f-be1a-e545ce090d71" valueTypeId="372b0950-34fc-4025-92ce-3992ae103510"/>
+    <listType typeId="4f106342-cb2e-4523-8b32-2e6dcf928247" valueTypeId="d4a08635-90d0-4980-a9df-177386a944d1"/>
+    <managerType typeId="d2cbdbf4-e528-4e52-8a3c-91fe9a6b62b1" valueTypeId="47e1fe9a-c6be-4c95-98d9-1fad66bded4f"/>
+    <recordSetType typeId="9c7966a1-5ce1-4d47-a805-65741b58af91" valueTypeId="45623355-7af4-4875-b5f1-b9de99f278cc"/>
+    <recordKeyType typeId="0a633c98-c1b8-40af-8844-ad568797261d" valueTypeId="66e7f312-757e-493d-abc6-447fb97b3cf4"/>
+    <recordType typeId="b39bf70d-46ee-42d9-96fe-20caafb6922b" valueTypeId="4eefa7a5-0926-4e77-ad5d-b43567b5bbc6"/>
+    <recordManagerType typeId="0d2600fd-b04c-4e07-9057-100fe470e9db" valueTypeId="3f157502-1a97-4c25-b854-a72e54874090"/>
+  </producedTypes>
+  <name>ОбластиДействияСертификатовНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <dimensions uuid="5c5412fb-dc74-4767-bfd7-cd1dfd81d5b2" extendedConfigurationObject="bfa3ecc2-1342-4eb4-af14-442004dde037">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="a277000a-4587-4259-8eb6-770019e7fa58" extendedConfigurationObject="c9905bae-a5e9-44db-aa78-4835ef82c60c">
+    <name>СертификатНоменклатуры</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.СертификатыНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

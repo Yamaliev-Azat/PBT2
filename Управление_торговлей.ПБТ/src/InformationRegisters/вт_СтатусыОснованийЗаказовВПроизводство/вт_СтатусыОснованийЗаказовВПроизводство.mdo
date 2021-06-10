@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc63429b-8c04-49b6-97e2-c065d5250e4f">
+  <producedTypes>
+    <selectionType typeId="e5b474fb-3de8-4060-b5c5-17a9b19a9757" valueTypeId="9dbaffc0-f052-4eae-b056-29e0e17c9f30"/>
+    <listType typeId="856d8b7e-dad7-41e0-9c92-0797a3c3d852" valueTypeId="652f1424-bdb5-426f-a8aa-42e325757ffd"/>
+    <managerType typeId="a1427da7-7192-4089-b281-32841232960a" valueTypeId="4247ed4b-af24-4b5a-9b36-66a2ef0d6d15"/>
+    <recordSetType typeId="e709304d-0137-41b8-aef0-dda91ccc0315" valueTypeId="48a90c16-da5f-4319-b1d5-2bc9e9762f80"/>
+    <recordKeyType typeId="a43a8ab4-2ac2-4d3a-843d-491cb63b5cf6" valueTypeId="4251679b-ee38-4afa-8ba3-5bc279eb9a65"/>
+    <recordType typeId="e6127c4a-3b46-412a-852c-42ef1558b0f7" valueTypeId="1332f1a6-aac8-4295-a854-22758add38b1"/>
+    <recordManagerType typeId="f173d208-05fe-493d-ae2a-f1242e5c925d" valueTypeId="3ee60227-580e-4647-9626-cceb921b6593"/>
+  </producedTypes>
+  <name>вт_СтатусыОснованийЗаказовВПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы оснований заказов в производство</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>RecorderPosition</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb2543d4-4ad3-4aa9-8b7a-ca416b24b95d">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.вт_СтатусыПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1f8f8148-cdd8-441f-a324-9e1b0ffbc927">
+    <name>Основание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вт_ПланПроизводства</types>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="0baeb0d0-e681-457c-b561-d338a97b09dc">
+    <name>ЗаказВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ в производство</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вт_ЗаказВПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

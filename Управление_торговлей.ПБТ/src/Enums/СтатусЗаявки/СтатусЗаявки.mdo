@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ace5c7e-ddf3-4c9b-b70d-0e9c34456b26">
+  <producedTypes>
+    <refType typeId="6242573d-3893-4963-9fa2-e7d504305a6f" valueTypeId="f720b9d0-b3b4-4d37-bb34-7b56e2ffc135"/>
+    <listType typeId="0484455f-a8b0-4368-9d61-c2ee7970a0b5" valueTypeId="983f3ee2-9cfd-48f5-94b2-3e9f33d0705b"/>
+    <managerType typeId="b6d7d3e3-cbc8-4c28-a68f-2977bb449280" valueTypeId="f2606edb-5774-4a38-9153-ca6b63cc5d67"/>
+  </producedTypes>
+  <name>СтатусЗаявки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статус заявки</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="cbf223eb-2bf0-41a2-8161-9aaefe3afcb3">
+    <name>Новый</name>
+    <synonym>
+      <key>ru</key>
+      <value>Новый</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4774af30-ef4d-45e7-b6f7-b55bd07d7a58">
+    <name>ОРПоказателиКачества</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР: Показатели качества</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4fa4613a-d654-4d99-926e-85dcf1d759c1">
+    <name>ТребованияСформированы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Требование готово</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3e14b2ad-225e-435a-913d-67ce53000deb">
+    <name>ОККПоказателиБезопасности</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКК: Показатели безопасности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a0c19fa6-e2df-403b-a73a-8b3371755581">
+    <name>Архив</name>
+    <synonym>
+      <key>ru</key>
+      <value>Архив</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e25d004a-e205-4365-94fa-6070b459f98a">
+    <name>Согласована</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласована</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="83ed2006-d7ce-48ba-a49d-e4203456493d">
+    <name>Разногласия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разногласия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7720a9d2-7ee0-4c58-9692-5e5cc1a9a6d6">
+    <name>ОтказСотрудничатьСПоставщиком</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отказ сотрудничать с поставщиком</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49c67a7f-8ade-488f-b9cd-c5086ac828b0">
+    <name>АнализОКК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ ОКК</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ab506cc-927c-4d47-a9c7-2e272adbb4d9">
+    <name>ПоставщикуНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОЗ: У Поставщика</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="04c1b592-d505-4604-937a-d6a44d65c390">
+    <name>ГДНаПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОЗ: ГД на подпись</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a7f5bcc-cf9d-4574-ae4e-f98318669035">
+    <name>Периодичность</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОР: Периодичность</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3c1e80dc-e7b2-4257-8171-ff5c46b5800a" extendedConfigurationObject="44c937c8-266d-4ead-ba9b-7edb337e173e">
+  <producedTypes>
+    <objectType typeId="c9567700-f08a-46f4-84d1-af1fa3233586" valueTypeId="b64288a8-2dae-41e7-8428-f574e2f06dce"/>
+    <refType typeId="bb19fbea-7841-4668-b269-fed75ff56622" valueTypeId="c9302c9e-2d46-444a-b33e-05884a48901e"/>
+    <selectionType typeId="684901e6-0bd5-46a8-b3e4-417e6f8bcdc0" valueTypeId="3900f06b-d927-4005-9dcc-bc0d3d0da56c"/>
+    <listType typeId="c27d6b3b-9c55-42e0-ade6-09a64c549fed" valueTypeId="0b080c7b-6859-488d-bc5a-a2a0d7874d15"/>
+    <managerType typeId="dc4f16be-cad8-4712-8e99-14ca607bf71a" valueTypeId="44a9bb41-0ace-4246-bed9-d0d57bd13017"/>
+  </producedTypes>
+  <name>ЗаказНаЭмиссиюКодовМаркировкиСУЗ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="27549219-6ecf-4127-a718-db171b2bc0b6" extendedConfigurationObject="6315aeae-ebcd-41bc-a2d8-8dfbd6f10faf">
+    <name>ДокументОснование</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ОснованиеЗаказНаЭмиссиюКодовМаркировкиИСМП</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1c82f3d2-e11d-45d2-b0a7-332d72320af6" extendedConfigurationObject="3f788dca-cb95-4ce3-a6fb-fa6465dda2bd">
+    <name>СпособВводаВОборот</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.СпособыВводаВОборотСУЗ</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <tabularSections uuid="ae7eee03-515b-4b4e-9d6c-32fb0187637e" extendedConfigurationObject="190085e6-d3e0-412d-a598-3040b72ca40d">
+    <producedTypes>
+      <objectType typeId="f53372ea-eb0e-4151-9a14-63ba70dc161c" valueTypeId="c2618803-beb2-4969-a32a-01acdcce77f5"/>
+      <rowType typeId="f6d30342-5a46-4389-8b95-f06f2be3dcbd" valueTypeId="155f1318-4d11-446b-a34c-9ee487f36311"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

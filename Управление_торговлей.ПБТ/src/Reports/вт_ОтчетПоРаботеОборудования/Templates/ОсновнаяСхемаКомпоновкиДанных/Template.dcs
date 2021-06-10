@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCompositionSchema xmlns="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcscom="http://v8.1c.ru/8.1/data-composition-system/common" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<dataSource>
+		<name>ИсточникДанных1</name>
+		<dataSourceType>Local</dataSourceType>
+	</dataSource>
+	<dataSet xsi:type="DataSetQuery">
+		<name>НаборДанных1</name>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Комментарий</dataPath>
+			<field>Комментарий</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Оборудование</dataPath>
+			<field>Оборудование</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяОкончанияРаботы</dataPath>
+			<field>ВремяОкончанияРаботы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время окончания</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Ссылка</dataPath>
+			<field>Ссылка</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяНачалаРаботы</dataPath>
+			<field>ВремяНачалаРаботы</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время начала</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ПричинаПростояОборудования</dataPath>
+			<field>ПричинаПростояОборудования</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>Оператор</dataPath>
+			<field>Оператор</field>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяПростояОборудования</dataPath>
+			<field>ВремяПростояОборудования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время простоя оборудования, с</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяРаботыОборудования</dataPath>
+			<field>ВремяРаботыОборудования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время работы оборудования, с</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяНачалаПростоя</dataPath>
+			<field>ВремяНачалаПростоя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время начала</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяОкончанияПростоя</dataPath>
+			<field>ВремяОкончанияПростоя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время окончания</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<field xsi:type="DataSetFieldField">
+			<dataPath>ВремяНепрерывнойРаботыОборудования</dataPath>
+			<field>ВремяНепрерывнойРаботыОборудования</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Время непрерывной работы оборудования, с</v8:content>
+				</v8:item>
+			</title>
+		</field>
+		<dataSource>ИсточникДанных1</dataSource>
+		<query>ВЫБРАТЬ
+	вт_ОтчетПроизводствавт_ОборудованиеПроизводства.Оборудование,
+	вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы,
+	вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы,
+	ВЫБОР
+		КОГДА вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы &lt; вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы
+			ТОГДА ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) - (ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы))
+		ИНАЧЕ ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) + (ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы)) - 12
+	КОНЕЦ КАК ВремяРаботыОборудования,
+	вт_ОтчетПроизводствавт_ОборудованиеПроизводства.Оператор,
+	вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала КАК ВремяНачалаПростоя,
+	вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания КАК ВремяОкончанияПростоя,
+	ВЫБОР
+		КОГДА вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы &lt; вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы
+			ТОГДА ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) - (ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала))
+		ИНАЧЕ ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) + (ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала)) - 12
+	КОНЕЦ КАК ВремяПростояОборудования,
+	вт_ОтчетПроизводствавт_ПростоиОборудования.ПричинаПростояОборудования,
+	вт_ОтчетПроизводствавт_ПростоиОборудования.Комментарий,
+	вт_ОтчетПроизводствавт_ОборудованиеПроизводства.Ссылка,
+	ВЫБОР
+		КОГДА вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы &lt; вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы
+			ТОГДА ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) - (ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы))
+		ИНАЧЕ ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы) + (ЧАС(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы)) - 12
+	КОНЕЦ - ВЫБОР
+		КОГДА вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяНачалаРаботы &lt; вт_ОтчетПроизводствавт_ОборудованиеПроизводства.ВремяОкончанияРаботы
+			ТОГДА ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) - (ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала))
+		ИНАЧЕ ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяОкончания) + (ЧАС(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 3600 + МИНУТА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала) * 60 + СЕКУНДА(вт_ОтчетПроизводствавт_ПростоиОборудования.ВремяНачала)) - 12
+	КОНЕЦ КАК ВремяНепрерывнойРаботыОборудования
+ИЗ
+	Документ.вт_ОтчетПроизводства.вт_ПростоиОборудования КАК вт_ОтчетПроизводствавт_ПростоиОборудования
+		ВНУТРЕННЕЕ СОЕДИНЕНИЕ Документ.вт_ОтчетПроизводства.вт_ОборудованиеПроизводства КАК вт_ОтчетПроизводствавт_ОборудованиеПроизводства
+		ПО вт_ОтчетПроизводствавт_ПростоиОборудования.КлючСвязиОборудования = вт_ОтчетПроизводствавт_ОборудованиеПроизводства.КодСтроки
+			И вт_ОтчетПроизводствавт_ПростоиОборудования.Ссылка = вт_ОтчетПроизводствавт_ОборудованиеПроизводства.Ссылка
+ГДЕ
+	вт_ОтчетПроизводствавт_ОборудованиеПроизводства.Ссылка.Дата МЕЖДУ &amp;ДатаНачала И &amp;ДатаОкончания</query>
+	</dataSet>
+	<totalField>
+		<dataPath>ВремяПростояОборудования</dataPath>
+		<expression>Сумма(ВремяПростояОборудования)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВремяРаботыОборудования</dataPath>
+		<expression>Сумма(ВремяРаботыОборудования)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ВремяНепрерывнойРаботыОборудования</dataPath>
+		<expression>Сумма(ВремяНепрерывнойРаботыОборудования)</expression>
+	</totalField>
+	<parameter>
+		<name>ДатаНачала</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата начала</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаНачала</expression>
+	</parameter>
+	<parameter>
+		<name>ДатаОкончания</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Дата окончания</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>xs:dateTime</v8:Type>
+			<v8:DateQualifiers>
+				<v8:DateFractions>DateTime</v8:DateFractions>
+			</v8:DateQualifiers>
+		</valueType>
+		<value xsi:type="xs:dateTime">0001-01-01T00:00:00</value>
+		<useRestriction>true</useRestriction>
+		<expression>&amp;Период.ДатаОкончания</expression>
+	</parameter>
+	<parameter>
+		<name>Период</name>
+		<title xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Период</v8:content>
+			</v8:item>
+		</title>
+		<valueType>
+			<v8:Type>v8:StandardPeriod</v8:Type>
+		</valueType>
+		<value xsi:type="v8:StandardPeriod">
+			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+		</value>
+		<useRestriction>false</useRestriction>
+	</parameter>
+	<settingsVariant>
+		<dcsset:name>ОтчетПоРаботеОборудования</dcsset:name>
+		<dcsset:presentation xsi:type="v8:LocalStringType">
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>Отчет по работе оборудования</v8:content>
+			</v8:item>
+		</dcsset:presentation>
+		<dcsset:settings xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows">
+			<dcsset:selection>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Ссылка</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время работы оборудования</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВремяНачалаРаботы</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВремяОкончанияРаботы</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ПричинаПростояОборудования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>Комментарий</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemFolder">
+					<dcsset:lwsTitle>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Время Простоя оборудования</v8:content>
+						</v8:item>
+					</dcsset:lwsTitle>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВремяНачалаПростоя</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ВремяОкончанияПростоя</dcsset:field>
+					</dcsset:item>
+					<dcsset:placement>Horizontally</dcsset:placement>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяРаботыОборудования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяПростояОборудования</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>ВремяНепрерывнойРаботыОборудования</dcsset:field>
+				</dcsset:item>
+			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Оборудование</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>48778e4c-986e-40fc-bc71-878ff791ce23</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Оператор</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>6225398d-17a2-45db-afcc-9156c627c753</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">ПричинаПростояОборудования</dcsset:left>
+					<dcsset:comparisonType>InList</dcsset:comparisonType>
+					<dcsset:right xsi:type="v8:ValueListType">
+						<v8:valueType/>
+						<v8:lastId xsi:type="xs:decimal">-1</v8:lastId>
+					</dcsset:right>
+					<dcsset:userSettingID>074962e5-504b-4a4b-bb44-3b8321357ab8</dcsset:userSettingID>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:use>false</dcsset:use>
+					<dcsset:left xsi:type="dcscor:Field">Ссылка</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:right xsi:type="xs:string">00000000-0000-0000-0000-000000000000</dcsset:right>
+					<dcsset:userSettingID>a910004b-57fa-4f0a-b223-730049632c1b</dcsset:userSettingID>
+					<dcsset:userSettingPresentation xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет производства</v8:content>
+						</v8:item>
+					</dcsset:userSettingPresentation>
+				</dcsset:item>
+			</dcsset:filter>
+			<dcsset:dataParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Период</dcscor:parameter>
+					<dcscor:value xsi:type="v8:StandardPeriod">
+						<v8:variant xsi:type="v8:StandardPeriodVariant">ThisYear</v8:variant>
+					</dcscor:value>
+					<dcsset:userSettingID>7852b4e3-b0f0-4c9b-b972-24dde996af76</dcsset:userSettingID>
+				</dcscor:item>
+			</dcsset:dataParameters>
+			<dcsset:outputParameters>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>Заголовок</dcscor:parameter>
+					<dcscor:value xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчет по работе оборудования</v8:content>
+						</v8:item>
+					</dcscor:value>
+				</dcscor:item>
+			</dcsset:outputParameters>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:groupItems>
+					<dcsset:item xsi:type="dcsset:GroupItemField">
+						<dcsset:field>Оборудование</dcsset:field>
+						<dcsset:groupType>Items</dcsset:groupType>
+						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+						<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+						<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+					</dcsset:item>
+				</dcsset:groupItems>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+				</dcsset:selection>
+				<dcsset:item xsi:type="dcsset:StructureItemGroup">
+					<dcsset:groupItems>
+						<dcsset:item xsi:type="dcsset:GroupItemField">
+							<dcsset:field>Оператор</dcsset:field>
+							<dcsset:groupType>Items</dcsset:groupType>
+							<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
+							<dcsset:periodAdditionBegin xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionBegin>
+							<dcsset:periodAdditionEnd xsi:type="xs:dateTime">0001-01-01T00:00:00</dcsset:periodAdditionEnd>
+						</dcsset:item>
+					</dcsset:groupItems>
+					<dcsset:order>
+						<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+					</dcsset:order>
+					<dcsset:selection>
+						<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+					</dcsset:selection>
+					<dcsset:item xsi:type="dcsset:StructureItemGroup">
+						<dcsset:order>
+							<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+						</dcsset:order>
+						<dcsset:selection>
+							<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
+						</dcsset:selection>
+					</dcsset:item>
+				</dcsset:item>
+			</dcsset:item>
+		</dcsset:settings>
+	</settingsVariant>
+</DataCompositionSchema>

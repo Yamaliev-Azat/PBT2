@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0c19c0d8-65fb-41fd-af1f-daf157b96a41" extendedConfigurationObject="1ce49200-30ea-44d6-97f7-390bc2c5dee9">
+  <producedTypes>
+    <objectType typeId="b076460c-19f8-4dde-aac7-eedf7a5a7f6f" valueTypeId="a871e8e1-525a-4ff9-a444-8b48650b05c0"/>
+    <refType typeId="2d2a5041-2a9a-4386-9a73-36d5bc5c584a" valueTypeId="7b2e95a6-a8d1-47d2-84c8-1f912fd067a0"/>
+    <selectionType typeId="f4cc819c-0163-4727-b04a-ede0186d970c" valueTypeId="270665a2-39eb-45f3-8841-eec6818db840"/>
+    <listType typeId="a30a8bbd-4da2-4d2b-a1ab-6aca580fd437" valueTypeId="629b787f-cde1-4c0c-9296-cd21b57a4a7b"/>
+    <managerType typeId="a7169e13-c08d-49fd-bb10-5bc6d763295e" valueTypeId="3392627d-3491-4fba-bc7e-f811013f6bb1"/>
+  </producedTypes>
+  <name>ВариантыКомплектацииНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <defaultFolderForm>Extended</defaultFolderForm>
+    <defaultFolderChoiceForm>Extended</defaultFolderChoiceForm>
+  </extension>
+  <tabularSections uuid="cd889fed-21e9-4d30-b7e4-4c3b92d9140c" extendedConfigurationObject="354a86ec-cf4f-4299-a60e-80a77f619e67">
+    <producedTypes>
+      <objectType typeId="61d0f575-fcb1-4cbd-907c-76d9fd201708" valueTypeId="186ef7a9-3ab0-4c56-a300-0b08cc33a560"/>
+      <rowType typeId="e490a66b-95bf-433d-ba87-61a4a94d84b7" valueTypeId="dc6acf40-c08e-4a92-9741-39db86f1a642"/>
+    </producedTypes>
+    <name>Товары</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <attributes uuid="87f3d3af-c08b-4142-8b84-840ec382c3dc" extendedConfigurationObject="5f89eb00-a169-4f6d-b578-df09d9d8a64e">
+      <name>Номенклатура</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.Номенклатура</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="e4450f56-248d-4f40-b8b9-595b72bea87f" extendedConfigurationObject="89be4936-f4ef-4a03-84cf-c27217b6cba4">
+      <name>Упаковка</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+          </types>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+    <attributes uuid="dfa4ef52-bbb4-4ed5-9209-f88c227d4af8" extendedConfigurationObject="6219b3de-db0c-4d3e-b4f2-58419c6950a0">
+      <name>КоличествоУпаковок</name>
+      <objectBelonging>Adopted</objectBelonging>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+        <typeExtension>
+          <types>
+            <state>Checked</state>
+            <type>Number</type>
+          </types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>3</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </typeExtension>
+      </extension>
+      <type/>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

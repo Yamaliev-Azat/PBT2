@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ace9893d-8c76-491f-b879-642e1df8d11a">
+  <producedTypes>
+    <objectType typeId="e7795091-96c3-4a16-b806-2ab42c35a5a5" valueTypeId="c0006a34-8bd2-47b6-b6e6-2a3cf629a9ec"/>
+    <refType typeId="f3289680-84ce-4b50-89f6-8f938f01b687" valueTypeId="ebb23072-c1f6-43bd-9512-5b9a9b59569e"/>
+    <selectionType typeId="01cbddda-bad5-4c75-8760-c3d4f63f3eae" valueTypeId="1418ad49-0544-4780-9dbc-39d22e43263d"/>
+    <listType typeId="12e68387-e7b9-499a-b0b1-a152af0cc4e0" valueTypeId="9811940c-29ee-4732-926b-42db61a2dc1f"/>
+    <managerType typeId="02e37c8a-ff88-4203-97f9-84210442413f" valueTypeId="79fa12c8-df80-438b-b5fc-0ad4dc57d236"/>
+  </producedTypes>
+  <name>УпаковкиЕдиницыИзмерения</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="126fc4f1-b86d-41a8-8765-a4c4a81e56d0" extendedConfigurationObject="e0d07478-37ac-42f6-a26a-04f4fa4c4743">
+    <name>ЕдиницаИзмерения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="4ae30650-6a64-45a1-baf9-f98178db8489" extendedConfigurationObject="ba8289fe-be8a-45a4-819c-2c2f84c4de2f">
+    <name>Вес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="9fea0a74-b760-40fc-863b-d340d60769e7" extendedConfigurationObject="be5c2342-1fad-40cf-b4f7-a1017bc7e542">
+    <name>КоличествоУпаковок</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="5a0669ef-da20-487e-b69b-1ebf7100ad7c" extendedConfigurationObject="4378e490-1e5e-4dd6-a3db-03d426ec7986">
+    <name>ТипИзмеряемойВеличины</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>EnumRef.ТипыИзмеряемыхВеличин</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="d26ee0fb-84bb-4b7e-81ed-29da2ec2578e" extendedConfigurationObject="a7f52563-0c7c-4de6-ac07-6ef01ff7688d">
+    <name>Числитель</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="b42a1f04-f1eb-41fa-b578-d045f82cb9b7" extendedConfigurationObject="fc726297-c004-4a0a-affe-bb7f0bb7fa6b">
+    <name>ФормаЭлементаУпаковки</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+</mdclass:Catalog>

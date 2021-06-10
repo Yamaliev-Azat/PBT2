@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="efefe5f8-b8ca-4e22-85f1-da10f35e4bee">
+  <producedTypes>
+    <objectType typeId="a483630f-8fd6-4864-99f6-efe8331e7a82" valueTypeId="80a7f96b-8bf9-487a-9e86-9548895766da"/>
+    <refType typeId="8a349087-7bca-482b-8470-97a3b7ae9768" valueTypeId="e4e26cc6-ea4b-41e6-9b70-730edd2adcac"/>
+    <selectionType typeId="5b3fb3fa-653d-42cb-ba0d-28546b2cb982" valueTypeId="c44ba56f-bd7b-43d2-bb5f-63e0dd265000"/>
+    <listType typeId="29e49350-3c08-485f-9cd9-255d2f3122f2" valueTypeId="d7372209-14b4-49ea-a342-dc3de3ebe323"/>
+    <managerType typeId="3868d49a-377c-47d4-a991-db57f7d3e570" valueTypeId="6f0f4d97-6a08-4b42-b014-d44c9324420d"/>
+  </producedTypes>
+  <name>Производители</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <tabularSections uuid="40493e7c-1f8c-41be-8985-b98ed2cd7e75">
+    <producedTypes>
+      <objectType typeId="2c4bf828-86ac-486f-8366-21799357b4b6" valueTypeId="d7e818be-c9c5-470d-ba36-07ad56067065"/>
+      <rowType typeId="ec0ac4e7-c640-4c5d-ac4d-ab0464f9df55" valueTypeId="60db43c8-e484-4437-9afe-0c5f5d6ad63e"/>
+    </producedTypes>
+    <name>Синонимы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синонимы</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="771afc53-a976-4639-801f-b416cfb6ae02">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,2577 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://v8.1c.ru/8.2/data/spreadsheet" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<languageSettings>
+		<currentLanguage>ru</currentLanguage>
+		<defaultLanguage>ru</defaultLanguage>
+		<languageInfo>
+			<id>ru</id>
+			<code>Русский</code>
+			<description>Русский</description>
+		</languageInfo>
+	</languageSettings>
+	<columns>
+		<size>14</size>
+		<columnsItem>
+			<index>0</index>
+			<column>
+				<formatIndex>1</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>5</index>
+			<column>
+				<formatIndex>2</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>6</index>
+			<column>
+				<formatIndex>3</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>7</index>
+			<column>
+				<formatIndex>4</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>8</index>
+			<column>
+				<formatIndex>5</formatIndex>
+			</column>
+		</columnsItem>
+		<columnsItem>
+			<index>9</index>
+			<column>
+				<formatIndex>6</formatIndex>
+			</column>
+		</columnsItem>
+	</columns>
+	<rowsItem>
+		<index>0</index>
+		<row>
+			<formatIndex>7</formatIndex>
+			<c>
+				<i>8</i>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>8</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>1</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+					<tl/>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>10</f>
+					<parameter>НаименованиеОрганизации</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>2</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>11</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>[АдресОрганизации], телефон: [Телефон]</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>3</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>4</index>
+		<row>
+			<c>
+				<i>5</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>5</index>
+		<row>
+			<formatIndex>12</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>13</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>6</index>
+		<row>
+			<formatIndex>14</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>15</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>7</index>
+		<row>
+			<formatIndex>17</formatIndex>
+			<c>
+				<i>5</i>
+				<c>
+					<f>18</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>19</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>20</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>20</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>21</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>8</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>22</f>
+					<parameter>ДопИнформация</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>9</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>23</f>
+					<parameter>ЗаголовокДокумента</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>10</index>
+		<row>
+			<formatIndex>24</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>25</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование продукции:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>26</f>
+					<parameter>НаименованиеПродукции</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>11</index>
+		<row>
+			<formatIndex>24</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>25</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Изготовитель:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>26</f>
+					<parameter>Производитель</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>12</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>25</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дата изготовления:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>27</f>
+					<parameter>ДатаИзготовления</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>13</index>
+		<row>
+			<formatIndex>12</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>14</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Срок годности:</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>27</f>
+					<parameter>СрокГодностиИзНом</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>15</index>
+		<row>
+			<formatIndex>14</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>16</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>28</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Партия№</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>5</i>
+				<c>
+					<f>29</f>
+					<parameter>Партия</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>17</index>
+		<row>
+			<formatIndex>30</formatIndex>
+			<empty>true</empty>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>18</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>19</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>32</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ПОКАЗАТЕЛИ КАЧЕСТВА</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>20</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>33</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Наименование показателей</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>6</i>
+				<c>
+					<f>34</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение по ТУ</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>10</i>
+				<c>
+					<f>35</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Значение фактическое</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>13</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>21</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>22</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>36</f>
+					<parameter>ПоказательНаименование</parameter>
+				</c>
+			</c>
+			<c>
+				<i>6</i>
+				<c>
+					<f>37</f>
+					<parameter>ЗначениеПоТУ</parameter>
+				</c>
+			</c>
+			<c>
+				<i>10</i>
+				<c>
+					<f>38</f>
+					<parameter>Значение</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>23</index>
+		<row>
+			<formatIndex>39</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>40</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>42</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>43</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>44</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>41</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>24</index>
+		<row>
+			<formatIndex>45</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>46</f>
+					<parameter>Заключение</parameter>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>25</index>
+		<row>
+			<formatIndex>47</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Произведено без использования ГМО</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>50</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>51</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>52</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>26</index>
+		<row>
+			<formatIndex>47</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>57</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>27</index>
+		<row>
+			<formatIndex>58</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>56</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>57</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>55</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>28</index>
+		<row>
+			<formatIndex>59</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>60</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Ответственный сотрудник отдела контроля качества на производстве</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<i>7</i>
+				<c>
+					<f>61</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>62</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>63</f>
+					<parameter>Сотрудник1</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>5</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>29</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>30</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>31</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>32</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>33</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>34</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>35</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>36</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>М.П.</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>37</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>38</index>
+		<row>
+			<formatIndex>47</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>48</f>
+					<tl>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>В соответствии с предписаниями по транспортировке продукт не является опасным грузом</v8:content>
+						</v8:item>
+					</tl>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>50</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>51</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>52</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>53</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>54</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>49</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>39</index>
+		<row>
+			<c>
+				<i>1</i>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>64</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>31</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>40</index>
+		<row>
+			<formatIndex>14</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>65</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>65</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>65</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>65</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>65</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>65</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>66</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>41</index>
+		<row>
+			<formatIndex>17</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>21</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>21</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>21</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>21</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<i>8</i>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>67</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<rowsItem>
+		<index>42</index>
+		<row>
+			<formatIndex>17</formatIndex>
+			<c>
+				<i>1</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+			<c>
+				<i>12</i>
+				<c>
+					<f>9</f>
+				</c>
+			</c>
+		</row>
+	</rowsItem>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>8</id>
+		<formatIndex>68</formatIndex>
+		<beginRow>27</beginRow>
+		<beginRowOffset>3</beginRowOffset>
+		<endRow>28</endRow>
+		<endRowOffset>108</endRowOffset>
+		<beginColumn>6</beginColumn>
+		<beginColumnOffset>75</beginColumnOffset>
+		<endColumn>8</endColumn>
+		<endColumnOffset>192</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>1</zOrder>
+		<pictureIndex>1</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>2</id>
+		<formatIndex>0</formatIndex>
+		<beginRow>0</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>0</endRow>
+		<endRowOffset>0</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>0</endColumn>
+		<endColumnOffset>0</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>2</zOrder>
+		<pictureIndex>2</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>7</id>
+		<formatIndex>68</formatIndex>
+		<beginRow>1</beginRow>
+		<beginRowOffset>0</beginRowOffset>
+		<endRow>7</endRow>
+		<endRowOffset>9</endRowOffset>
+		<beginColumn>1</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>5</endColumn>
+		<endColumnOffset>0</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>3</zOrder>
+		<pictureIndex>3</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>25</id>
+		<formatIndex>68</formatIndex>
+		<beginRow>28</beginRow>
+		<beginRowOffset>102</beginRowOffset>
+		<endRow>36</endRow>
+		<endRowOffset>3</endRowOffset>
+		<beginColumn>0</beginColumn>
+		<beginColumnOffset>0</beginColumnOffset>
+		<endColumn>5</endColumn>
+		<endColumnOffset>18</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>4</zOrder>
+		<pictureIndex>4</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>27</id>
+		<formatIndex>68</formatIndex>
+		<beginRow>28</beginRow>
+		<beginRowOffset>111</beginRowOffset>
+		<endRow>36</endRow>
+		<endRowOffset>12</endRowOffset>
+		<beginColumn>8</beginColumn>
+		<beginColumnOffset>114</beginColumnOffset>
+		<endColumn>12</endColumn>
+		<endColumnOffset>135</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Proportionally</pictureSize>
+		<zOrder>5</zOrder>
+		<pictureIndex>5</pictureIndex>
+	</drawing>
+	<drawing>
+		<drawingType>Picture</drawingType>
+		<id>30</id>
+		<formatIndex>68</formatIndex>
+		<beginRow>23</beginRow>
+		<beginRowOffset>15</beginRowOffset>
+		<endRow>24</endRow>
+		<endRowOffset>12</endRowOffset>
+		<beginColumn>11</beginColumn>
+		<beginColumnOffset>87</beginColumnOffset>
+		<endColumn>12</endColumn>
+		<endColumnOffset>123</endColumnOffset>
+		<autoSize>false</autoSize>
+		<pictureSize>Stretch</pictureSize>
+		<zOrder>6</zOrder>
+		<pictureIndex>6</pictureIndex>
+	</drawing>
+	<templateMode>true</templateMode>
+	<defaultFormatIndex>9</defaultFormatIndex>
+	<height>44</height>
+	<vgRows>44</vgRows>
+	<merge>
+		<r>1</r>
+		<c>1</c>
+		<h>6</h>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>1</r>
+		<c>6</c>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>2</r>
+		<c>6</c>
+		<h>3</h>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>8</r>
+		<c>1</c>
+		<w>11</w>
+	</merge>
+	<merge>
+		<r>9</r>
+		<c>1</c>
+		<w>10</w>
+	</merge>
+	<merge>
+		<r>10</r>
+		<c>1</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>10</r>
+		<c>5</c>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>11</r>
+		<c>1</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>11</r>
+		<c>5</c>
+		<w>7</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>1</c>
+		<h>1</h>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>12</r>
+		<c>5</c>
+		<h>1</h>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>14</r>
+		<c>1</c>
+		<h>1</h>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>14</r>
+		<c>5</c>
+		<h>1</h>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>16</r>
+		<c>1</c>
+		<h>1</h>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>16</r>
+		<c>5</c>
+		<h>1</h>
+		<w>6</w>
+	</merge>
+	<merge>
+		<r>19</r>
+		<c>1</c>
+		<w>10</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>6</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>20</r>
+		<c>10</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>22</r>
+		<c>1</c>
+		<w>4</w>
+	</merge>
+	<merge>
+		<r>22</r>
+		<c>6</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>22</r>
+		<c>10</c>
+		<w>2</w>
+	</merge>
+	<merge>
+		<r>23</r>
+		<c>1</c>
+		<w>11</w>
+	</merge>
+	<merge>
+		<r>24</r>
+		<c>1</c>
+		<w>11</w>
+	</merge>
+	<merge>
+		<r>25</r>
+		<c>1</c>
+		<w>11</w>
+	</merge>
+	<merge>
+		<r>28</r>
+		<c>1</c>
+		<w>5</w>
+	</merge>
+	<merge>
+		<r>28</r>
+		<c>9</c>
+		<w>3</w>
+	</merge>
+	<merge>
+		<r>38</r>
+		<c>1</c>
+		<w>11</w>
+	</merge>
+	<merge>
+		<r>-1</r>
+		<c>6</c>
+		<w>1</w>
+	</merge>
+	<verticalUnmerge>
+		<r>23</r>
+		<c>6</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>25</r>
+		<c>6</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>28</r>
+		<c>6</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<verticalUnmerge>
+		<r>38</r>
+		<c>6</c>
+		<w>1</w>
+	</verticalUnmerge>
+	<namedItem xsi:type="NamedItemCells">
+		<name>БезГМО</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>25</beginRow>
+			<endRow>25</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>парамЭмблема</name>
+		<drawingID>7</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>23</beginRow>
+			<endRow>24</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подвал2</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>40</beginRow>
+			<endRow>42</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Подписи</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>27</beginRow>
+			<endRow>36</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>ПодписьСотрудника1</name>
+		<drawingID>8</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Показатель</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>22</beginRow>
+			<endRow>22</endRow>
+			<beginColumn>0</beginColumn>
+			<endColumn>5</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>РисунокПечати</name>
+		<drawingID>25</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemDrawing">
+		<name>РисунокПечатиГК</name>
+		<drawingID>27</drawingID>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Строка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>22</beginRow>
+			<endRow>22</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаЗначение</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>22</beginRow>
+			<endRow>22</endRow>
+			<beginColumn>6</beginColumn>
+			<endColumn>9</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>СтрокаЗначениеПоТУ</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>22</beginRow>
+			<endRow>22</endRow>
+			<beginColumn>10</beginColumn>
+			<endColumn>12</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Шапка</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>0</beginRow>
+			<endRow>18</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>ШапкаТаблицы</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>19</beginRow>
+			<endRow>20</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Эмблема</name>
+		<area>
+			<type>Rectangle</type>
+			<beginRow>1</beginRow>
+			<endRow>7</endRow>
+			<beginColumn>1</beginColumn>
+			<endColumn>4</endColumn>
+		</area>
+	</namedItem>
+	<namedItem xsi:type="NamedItemCells">
+		<name>Этол</name>
+		<area>
+			<type>Rows</type>
+			<beginRow>38</beginRow>
+			<endRow>38</endRow>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
+		</area>
+	</namedItem>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="3" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Double</v8ui:style>
+	</line>
+	<line width="1" gap="false">
+		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentDrawingLineType">None</v8ui:style>
+	</line>
+	<font faceName="Times New Roman" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="12" bold="true" italic="true" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="12" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="11" bold="true" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="11" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<font faceName="Times New Roman" height="12" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
+	<format>
+		<width>7</width>
+	</format>
+	<format>
+		<width>41</width>
+	</format>
+	<format>
+		<width>17</width>
+	</format>
+	<format>
+		<width>58</width>
+	</format>
+	<format>
+		<width>78</width>
+	</format>
+	<format>
+		<width>109</width>
+	</format>
+	<format>
+		<height>21</height>
+	</format>
+	<format>
+		<font>0</font>
+	</format>
+	<format>
+		<width>72</width>
+	</format>
+	<format>
+		<font>0</font>
+		<width>78</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>0</font>
+		<rightBorder>0</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<width>78</width>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Template</fillType>
+	</format>
+	<format>
+		<height>18</height>
+	</format>
+	<format>
+		<height>18</height>
+		<width>72</width>
+	</format>
+	<format>
+		<height>9</height>
+	</format>
+	<format>
+		<height>9</height>
+		<width>72</width>
+	</format>
+	<format>
+		<bottomBorder>2</bottomBorder>
+		<height>24</height>
+		<width>72</width>
+	</format>
+	<format>
+		<height>15</height>
+	</format>
+	<format>
+		<height>15</height>
+		<width>72</width>
+	</format>
+	<format>
+		<topBorder>0</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<height>15</height>
+		<width>78</width>
+	</format>
+	<format>
+		<topBorder>0</topBorder>
+		<bottomBorder>1</bottomBorder>
+	</format>
+	<format>
+		<topBorder>0</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<height>15</height>
+		<width>72</width>
+	</format>
+	<format>
+		<font>1</font>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>2</font>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<height>0</height>
+	</format>
+	<format>
+		<font>3</font>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<font>3</font>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>3</font>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ДФ=dd.MM.yyyy</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<font>3</font>
+		<width>72</width>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<font>3</font>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<height>6</height>
+	</format>
+	<format>
+		<font>2</font>
+	</format>
+	<format>
+		<font>2</font>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>3</bottomBorder>
+		<verticalAlignment>Top</verticalAlignment>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>3</bottomBorder>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>3</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>3</bottomBorder>
+		<width>72</width>
+		<horizontalAlignment>Center</horizontalAlignment>
+		<verticalAlignment>Top</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
+		<bottomBorder>1</bottomBorder>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<border>1</border>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+		<format>
+			<v8:item>
+				<v8:lang>ru</v8:lang>
+				<v8:content>ЧН=0</v8:content>
+			</v8:item>
+		</format>
+	</format>
+	<format>
+		<height>159</height>
+	</format>
+	<format>
+		<font>4</font>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>17</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>58</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<width>78</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>5</font>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<height>60</height>
+	</format>
+	<format>
+		<font>5</font>
+		<height>60</height>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<height>60</height>
+		<width>72</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>60</height>
+		<width>41</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>60</height>
+		<width>17</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>60</height>
+		<width>58</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>60</height>
+		<width>78</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<height>60</height>
+		<width>109</width>
+		<textPlacement>Wrap</textPlacement>
+	</format>
+	<format>
+		<font>4</font>
+		<width>72</width>
+		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<font>2</font>
+		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<verticalAlignment>Center</verticalAlignment>
+	</format>
+	<format>
+		<height>39</height>
+	</format>
+	<format>
+		<height>114</height>
+	</format>
+	<format>
+		<font>4</font>
+		<width>72</width>
+		<horizontalAlignment>Right</horizontalAlignment>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Text</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<verticalAlignment>Center</verticalAlignment>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+		<width>72</width>
+		<verticalAlignment>Center</verticalAlignment>
+		<fillType>Parameter</fillType>
+	</format>
+	<format>
+		<font>4</font>
+	</format>
+	<format>
+		<bottomBorder>2</bottomBorder>
+	</format>
+	<format>
+		<bottomBorder>2</bottomBorder>
+		<height>9</height>
+		<width>72</width>
+	</format>
+	<format>
+		<bottomBorder>1</bottomBorder>
+		<height>15</height>
+		<width>72</width>
+	</format>
+	<format>
+		<drawingBorder>4</drawingBorder>
+	</format>
+	<picture>
+		<index>0</index>
+		<picture t="false">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkS
+Ew8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJ
+CQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjL/wAARCABcAIIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6
+Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZ
+mqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx
+8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hp
+anN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPE
+xcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3
++iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKAP//Z</picture>
+	</picture>
+	<picture>
+		<index>1</index>
+		<picture/>
+	</picture>
+	<picture>
+		<index>2</index>
+		<picture t="false">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkS
+Ew8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJ
+CQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjL/wAARCABcAIIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6
+Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZ
+mqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx
+8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hp
+anN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPE
+xcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3
++iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKAP//Z</picture>
+	</picture>
+	<picture>
+		<index>3</index>
+		<picture t="false">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkS
+Ew8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJ
+CQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjL/wAARCABcAIIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6
+Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZ
+mqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx
+8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hp
+anN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPE
+xcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3
++iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKAP//Z</picture>
+	</picture>
+	<picture>
+		<index>4</index>
+		<picture t="false">/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkS
+Ew8UHRofHh0aHBwgJC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJ
+CQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy
+MjIyMjIyMjIyMjIyMjL/wAARCABcAIIDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEA
+AAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6
+Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZ
+mqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx
+8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREA
+AgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hp
+anN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPE
+xcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD3
++iiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKA
+CiiigAooooAKKKKACiiigAooooAKKKKAP//Z</picture>
+	</picture>
+	<picture>
+		<index>5</index>
+		<picture t="false">/9j/4AAQSkZJRgABAQEAYABgAAD/4QBaRXhpZgAATU0AKgAAAAgABQMBAAUAAAAB
+AAAASgMDAAEAAAABAAAAAFEQAAEAAAABAQAAAFERAAQAAAABAAAOw1ESAAQAAAAB
+AAAOwwAAAAAAAYagAACxj//bAEMAAgEBAgEBAgICAgICAgIDBQMDAwMDBgQEAwUH
+BgcHBwYHBwgJCwkICAoIBwcKDQoKCwwMDAwHCQ4PDQwOCwwMDP/bAEMBAgICAwMD
+BgMDBgwIBwgMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwM
+DAwMDAwMDAwMDP/AABEIAIoAqwMBIgACEQEDEQH/xAAfAAABBQEBAQEBAQAAAAAA
+AAAAAQIDBAUGBwgJCgv/xAC1EAACAQMDAgQDBQUEBAAAAX0BAgMABBEFEiExQQYT
+UWEHInEUMoGRoQgjQrHBFVLR8CQzYnKCCQoWFxgZGiUmJygpKjQ1Njc4OTpDREVG
+R0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoOEhYaHiImKkpOUlZaXmJmaoqOk
+paanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4eLj5OXm5+jp6vHy8/T1
+9vf4+fr/xAAfAQADAQEBAQEBAQEBAAAAAAAAAQIDBAUGBwgJCgv/xAC1EQACAQIE
+BAMEBwUEBAABAncAAQIDEQQFITEGEkFRB2FxEyIygQgUQpGhscEJIzNS8BVictEK
+FiQ04SXxFxgZGiYnKCkqNTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1
+dnd4eXqCg4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfI
+ycrS09TV1tfY2dri4+Tl5ufo6ery8/T19vf4+fr/2gAMAwEAAhEDEQA/AO4/4Laf
+8HC3xU/YG/az8OeEPCug/DW/03UfCttrMsusaZfzTrK95eQkKYrqNdm2BSBtJyW5
+6AfFuu/8Hdv7QN3eS+V4R+CjRNjDf2LqoJ4H/T/61xf/AAdVDH/BQrwd/wBk7sv/
+AE5anX5oQuI5ASu4eh71V3ctydz9Yv8AiLm+P0sEat4S+Co2KBxouq//ACfWNP8A
+8HbH7RX2pWXwZ8FCAP8AoD6p7/8AUQr4R+H37B/xj+LukJqXhj4VfEzxBYzQxXKT
+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
+oj//2Q==</picture>
+	</picture>
+</document>

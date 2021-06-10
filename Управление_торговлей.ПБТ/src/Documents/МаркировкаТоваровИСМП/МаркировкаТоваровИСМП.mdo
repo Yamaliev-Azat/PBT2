@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="eec0b836-9575-4119-914f-c8bc2565db22" extendedConfigurationObject="53ae58fd-269c-418d-9ff7-35861d950c1c">
+  <producedTypes>
+    <objectType typeId="25759f71-38d6-42eb-a940-6e3728b970f2" valueTypeId="1e45d5ff-f520-4293-8ba0-7b256d241ec7"/>
+    <refType typeId="794f920b-8969-4ef6-bd38-3f9e3b67322e" valueTypeId="e688db24-d921-4494-8bf2-be153d5c4111"/>
+    <selectionType typeId="efdb6149-f35f-4966-b8d8-ed715b619d68" valueTypeId="446a9fbc-b18e-42c6-9ad6-33d3c0ee49a7"/>
+    <listType typeId="165e65cb-d57f-4146-8f5f-b350e0b4043f" valueTypeId="afa3662f-db63-44ce-8e2e-b6bd1aed3ce1"/>
+    <managerType typeId="a6681dbb-9b12-48d9-b5f3-8d26b5da0df2" valueTypeId="9a2e18ea-e37c-4c75-873a-ec15fc592a3f"/>
+  </producedTypes>
+  <name>МаркировкаТоваровИСМП</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

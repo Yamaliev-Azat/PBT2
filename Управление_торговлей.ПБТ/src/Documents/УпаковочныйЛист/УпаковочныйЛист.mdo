@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f89fbe3a-676f-4fa3-a911-795bbb0bcf85" extendedConfigurationObject="0b5dd848-f150-4ea5-a88e-a87ad708a9b9">
+  <producedTypes>
+    <objectType typeId="91ea8e27-8725-48a4-b2b6-5f3a933e745b" valueTypeId="3955cf1e-d38e-48e8-8430-75515a7ddbb8"/>
+    <refType typeId="645393ab-ee34-4713-8f18-31484b4bea1a" valueTypeId="22345296-c93d-4745-87ba-230804daed95"/>
+    <selectionType typeId="ad3c3edc-bafe-4e91-b980-cef94056c765" valueTypeId="bdfd4163-1b5b-4f50-a70c-8559b57dbb70"/>
+    <listType typeId="c02e0f89-f88b-4ab1-bdd2-665b85d13a7e" valueTypeId="6aa022b6-6b84-4ed1-b84a-6f32a6b438d9"/>
+    <managerType typeId="c3ca33d9-fa65-41c0-9d29-3c28c15f789d" valueTypeId="c0c360e6-dc9a-4f47-b3aa-b842bb44bc58"/>
+  </producedTypes>
+  <name>УпаковочныйЛист</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

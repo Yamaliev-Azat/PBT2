@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="0a835743-5947-4474-a7e6-6c24d4805073" extendedConfigurationObject="8397d76b-3f4e-4f77-afa6-07176bfc32ed">
+  <producedTypes>
+    <selectionType typeId="626e33ae-9887-4d7b-b124-8f3f7717acf7" valueTypeId="003a171f-393b-48a8-b788-d4dba2ec2018"/>
+    <listType typeId="9139b412-d771-4a5f-b7f8-62724d7a8898" valueTypeId="bbbc9a8e-fc6f-4c8b-870f-eaf9f634cb69"/>
+    <managerType typeId="8dffa6fc-c059-4793-83a0-a352e0584ce3" valueTypeId="05e14ce4-081e-4fdd-9313-733af345a728"/>
+    <recordSetType typeId="c79e2dd4-0e0b-487c-86a3-e6ee12903920" valueTypeId="799480d4-64c7-4024-970e-bc6742b62699"/>
+    <recordKeyType typeId="5b7f469b-d697-4616-b1c5-eb0290bee93b" valueTypeId="295ce885-e917-4a37-8bcf-6a8ffcbe2c9c"/>
+    <recordType typeId="12dfdfd9-a255-4a43-a8c8-e37a02f451ee" valueTypeId="6399b99c-3bc4-42ef-96fe-acdb7e094b90"/>
+    <recordManagerType typeId="b974e222-7eb8-47ff-961d-ec7620d5f949" valueTypeId="c5bfb67d-1fc9-439b-85c9-ef56139bd39d"/>
+  </producedTypes>
+  <name>КодыТоваровПодключаемогоОборудованияOffline</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="3816fe21-2922-4cc6-9db5-47578a2e63f5" extendedConfigurationObject="976f99c4-7b89-43ee-9e6a-a2273d9cbd13">
+    <name>Номенклатура</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Номенклатура</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="86b370d9-e061-402e-abcf-6260c96e1ba1" extendedConfigurationObject="7713b323-3519-480f-a749-8ffc8fe67400">
+    <name>Характеристика</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ХарактеристикиНоменклатуры</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="1bda9e19-c035-4d20-9799-2a00731e2726" extendedConfigurationObject="e83dc929-2f83-4a86-ab4e-8898c435df94">
+    <name>Упаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.УпаковкиЕдиницыИзмерения</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="fe495717-1b5f-41cf-bbd0-a2daaf64914c" extendedConfigurationObject="1cba7dcd-3ecf-4c36-b420-8e42a8985d7c">
+    <name>Код</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+  <dimensions uuid="3ff5c6ac-0284-4582-9dc5-80de44f02f62" extendedConfigurationObject="3695e4db-5ff4-4182-beb7-926fdd2b3622">
+    <name>ПравилоОбмена</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ПравилаОбменаСПодключаемымОборудованиемOffline</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

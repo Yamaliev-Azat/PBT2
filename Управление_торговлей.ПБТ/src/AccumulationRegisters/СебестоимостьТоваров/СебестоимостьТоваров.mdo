@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="ec6c2f98-8ff2-464f-8dbf-4c7c4cfd6d6d">
+  <producedTypes>
+    <selectionType typeId="ba463a5b-c4a0-4b44-8da5-c9d756a05d08" valueTypeId="71d1e67d-871c-4c9a-821e-d7b58a37ce4d"/>
+    <listType typeId="f39eccb6-9aa8-479b-992d-cd2f6a110c9a" valueTypeId="c0eb6575-a30b-479a-92ea-fff0141b76c5"/>
+    <managerType typeId="8975eead-b8c9-490f-8ca5-1efe4de16f1e" valueTypeId="77f8fc38-e155-4d9f-a470-b43ac9f38d4a"/>
+    <recordSetType typeId="2c32535b-cea8-4f73-8129-2f1c17c7d6ea" valueTypeId="e9893362-db45-40b2-8614-7425d441e266"/>
+    <recordKeyType typeId="b7248a43-3e22-4be5-b4ec-3ccddc72159b" valueTypeId="7f0bcbca-1aec-4230-a59d-59c200ea0388"/>
+    <recordType typeId="793ef003-4a51-4331-a5cd-8509f96582b5" valueTypeId="e4143cc7-1d28-4e96-a928-28f35f93fee4"/>
+  </producedTypes>
+  <name>СебестоимостьТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+  <attributes uuid="3e110cc8-a055-4cef-b6ce-3d36cd59615a">
+    <name>ДокументИсточник</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>AnyRef</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <templates uuid="9035c8d2-b5db-4c4d-9e1d-0a9548d45bf7">
+    <name>ПравилаЗаполненияРеквизитаТипЗаписи</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicTemplateExtension">
+      <template>Extended</template>
+    </extension>
+  </templates>
+</mdclass:AccumulationRegister>

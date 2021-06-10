@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0da0e40-5b72-4ef7-bbad-eb974f8dda35">
+  <name>вт_ДокументыПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производство</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.вт_ЗаказВПроизводство</content>
+  <content>Document.вт_ОтчетПроизводства</content>
+  <content>Document.вт_ПланПроизводства</content>
+  <content>DataProcessor.вт_ПозаказноеПроизводство</content>
+  <content>DataProcessor.вт_ПозаказноеПроизводствоДерево</content>
+  <content>Document.РазбивкаПоДням</content>
+  <content>Document.СменноеЗадание</content>
+  <content>Document.МаршрутныйЛист</content>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

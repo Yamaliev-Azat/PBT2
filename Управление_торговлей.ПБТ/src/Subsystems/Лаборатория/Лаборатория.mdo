@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="156ef6d1-70d1-435c-8fc4-bc42eb5c5ff9">
+  <name>Лаборатория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лаборатория</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.Лаборатория</picture>
+  </picture>
+  <content>ChartOfCharacteristicTypes.НормативыНеИсп</content>
+  <content>Catalog.ПериодичностьИспытаний</content>
+  <content>Catalog.ХарактеристикиНормативов</content>
+  <content>Catalog.ВидыПоказателей</content>
+  <content>Catalog.ВидыИсследований</content>
+  <content>Document.АктОтбора</content>
+  <content>Document.АктПриемаОбразцов</content>
+  <content>Document.ПротоколАнализа</content>
+  <content>Document.УдостоверениеКачества</content>
+  <content>Document.КартаРазрешения</content>
+  <content>Document.УтверждениеНорматива</content>
+  <content>Document.НастройкаЗначенийПоказателей</content>
+  <content>Document.ФормированиеЭталонаПоОрганолептике</content>
+  <content>Catalog.Нормативы</content>
+  <content>DataProcessor.ПроведениеАктовОтбораИСозданиеАктовПриема</content>
+  <content>InformationRegister.НормативыНоменклатурыЛаб</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.Переводы</content>
+  <content>Catalog.ЛабораторныйОбразец</content>
+  <content>Report.ФормаОбщегоЖурнала</content>
+  <content>AccumulationRegister.ОтборОбразцов</content>
+</mdclass:Subsystem>

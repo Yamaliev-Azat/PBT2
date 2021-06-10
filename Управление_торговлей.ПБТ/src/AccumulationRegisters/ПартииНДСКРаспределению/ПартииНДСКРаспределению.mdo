@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="b3cbc057-1256-41ee-ac95-ad3efb938853" extendedConfigurationObject="48edc18e-c283-40c9-99e7-73605550df50">
+  <producedTypes>
+    <selectionType typeId="b1bdf51c-92c4-4f7c-af6b-c9e4f654797e" valueTypeId="361b8e07-82b9-43fd-aebd-b11d1eaaabcd"/>
+    <listType typeId="eb0527db-40f7-40d1-ac0c-88f80752d160" valueTypeId="f8ccf3e6-fc80-499a-b593-46b8dd7d801f"/>
+    <managerType typeId="9f9e95f0-7e51-4602-b265-3738fe20723d" valueTypeId="fc32e138-6476-4eb9-abe3-279381facc81"/>
+    <recordSetType typeId="13181e95-5cb6-4107-91f8-fe3ba45c2fcc" valueTypeId="50d40bc3-a6f1-4931-9a63-7e801e2b0676"/>
+    <recordKeyType typeId="e1c92621-e39a-4b9b-ad58-9b76e7e0292f" valueTypeId="3c5f9cf4-2728-473d-94b0-092c98f31148"/>
+    <recordType typeId="9455abad-dbb6-46bf-98ea-f3536a883c3a" valueTypeId="1aefc7a5-c679-4311-891e-8fb07982d93d"/>
+  </producedTypes>
+  <name>ПартииНДСКРаспределению</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:AccumulationRegisterExtension">
+    <registerType>Checked</registerType>
+  </extension>
+</mdclass:AccumulationRegister>

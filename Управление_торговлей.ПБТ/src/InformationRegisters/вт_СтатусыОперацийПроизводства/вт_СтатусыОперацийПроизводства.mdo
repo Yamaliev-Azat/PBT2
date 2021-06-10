@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b36ff0e4-ac9d-4491-bfb5-55872e70ca70">
+  <producedTypes>
+    <selectionType typeId="3ace8221-67d3-45af-a8c7-dce3c270586f" valueTypeId="5840947a-6d8a-4850-92c5-0c9390f70ec4"/>
+    <listType typeId="dd8d7d23-c7c5-4a2e-9c5e-6ed34a0bc7cc" valueTypeId="a754c677-51dd-4c58-ac0c-42bb733c0544"/>
+    <managerType typeId="59c79e6b-5342-4f5c-ba1c-c8cb2db96998" valueTypeId="bbb5dcc9-d9b2-4aed-adb0-f1e5f9345f06"/>
+    <recordSetType typeId="5dea6066-d2bc-455f-a5ac-6314bf3ed0b8" valueTypeId="ea5296a9-d11f-44a0-9240-8fcbbac04f55"/>
+    <recordKeyType typeId="1b4e2dc0-52e0-454c-af57-fca3d70dd299" valueTypeId="15300137-12e0-4286-9b84-23e400be6c12"/>
+    <recordType typeId="147ef860-5fd8-4c57-bc8c-0a6e088de441" valueTypeId="2cf973d9-337d-4304-a9d6-13e02e4a3db7"/>
+    <recordManagerType typeId="159192aa-25f7-4982-9b75-14ef5feda403" valueTypeId="100b73c8-0ed1-4391-b510-fc4afba4d7f4"/>
+  </producedTypes>
+  <name>вт_СтатусыОперацийПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статусы операций производства</value>
+  </synonym>
+  <comment>Отслеживаем статусы технологических операций заказа в производство</comment>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c9b9b7d4-f5d6-4eb4-8962-cbaa3dd297ab">
+    <name>Статус</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <type>
+      <types>EnumRef.вт_СтатусыПроизводства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ffdec761-b749-4cfa-8492-9a80c90f0934">
+    <name>ЗаказПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказ производства</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вт_ЗаказВПроизводство</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f59de6e7-98a3-4ed0-b515-06acead8b219">
+    <name>Операция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

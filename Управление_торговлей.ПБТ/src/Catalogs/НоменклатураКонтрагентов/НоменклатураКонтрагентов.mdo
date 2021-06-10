@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3ef055ae-d928-4f3b-88ef-9587d64ac88e">
+  <producedTypes>
+    <objectType typeId="8a43c6ec-77f4-4f50-b44d-60cad615cf8d" valueTypeId="f42b9713-4f63-4b4d-bf14-e3ca8af84250"/>
+    <refType typeId="e779747b-925d-42e3-9341-b13d4b0a99cf" valueTypeId="025225d2-696e-435c-95d8-d0dc7cfcfe13"/>
+    <selectionType typeId="ecbab4c1-4fea-4243-8867-7debba2d3678" valueTypeId="75dfdd3d-1346-4f9b-b1c1-eecfbcf3ff8c"/>
+    <listType typeId="a50e36b4-b3ea-400c-bcf8-bcdf06307d32" valueTypeId="e6b75e9b-6791-425c-a0cd-6ef1bb4c1798"/>
+    <managerType typeId="95959ce1-533e-4d9e-80ba-b8a9be4a0fc1" valueTypeId="73aeaf1c-1cc7-45a3-89fe-dba2b44e046f"/>
+  </producedTypes>
+  <name>НоменклатураКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension">
+    <codeLength>Checked</codeLength>
+    <codeType>Checked</codeType>
+    <codeAllowedLength>Checked</codeAllowedLength>
+  </extension>
+  <codeLength>11</codeLength>
+  <codeType>String</codeType>
+  <attributes uuid="77155c0b-4a36-470c-bbc3-5fe90fd4f43d">
+    <name>Артикул</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>String</type>
+        </types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="1b6b7d12-cd63-4848-a298-6967a89055d3">
+    <name>Расш1_Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расш1 производитель</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="1aa46886-3f24-4490-ad2d-275200fe4971" extendedConfigurationObject="09784412-4f07-48b5-ba64-b5613ae474a6">
+    <name>ФормаСписка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <commands uuid="377993ac-92e2-4d7f-bc82-2199f4e477d4">
+    <name>НоменклатураПоставщиков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номенклатура поставщиков</value>
+    </synonym>
+    <extension xsi:type="mdclassExtension:BasicCommandExtension">
+      <group>Checked</group>
+      <commandParameterType>Checked</commandParameterType>
+    </extension>
+    <group>FormNavigationPanelGoTo</group>
+    <commandParameterType>
+      <types>CatalogRef.Номенклатура</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="23889754-a153-485f-ba95-d92f67595442">
+  <producedTypes>
+    <objectType typeId="6b9eafc9-1331-48c0-9266-968a463b6b2d" valueTypeId="4a2599a0-c34f-4288-ad28-fb5b9d9fe40e"/>
+    <managerType typeId="692f69c9-ed66-430c-a189-1e5672255fa0" valueTypeId="8c388a4e-ce12-4c44-bc0e-2d93602319fc"/>
+  </producedTypes>
+  <name>вт_ПотребностьВСырьеПоЗаказам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потребность в сырье по заказам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.вт_ПотребностьВСырьеПоЗаказам.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="f4b9e371-d59a-4f07-b99e-d10f2f1e9db5">
+    <name>НаДату</name>
+    <synonym>
+      <key>ru</key>
+      <value>На дату</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="078957e5-f282-499f-85f6-7251cc4efa77">
+    <producedTypes>
+      <objectType typeId="9611ccf2-86ca-44b6-8288-ab04f57fc99d" valueTypeId="10df20ff-66ea-4b6f-9c71-b8dec0fc4a1a"/>
+      <rowType typeId="28c0f588-dbb6-4860-85c0-aa53a6d1ccda" valueTypeId="652e4224-c882-4550-b95e-3448ed43e349"/>
+    </producedTypes>
+    <name>ЗаказыВПроизводство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заказы в производство</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b3d7f0c9-aa9d-4fc1-9dbc-d42287f82849">
+      <name>Заказ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заказ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.вт_ЗаказВПроизводство</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9e848ffb-e341-4510-8a8b-079d5f9efa06">
+    <producedTypes>
+      <objectType typeId="ba1cd44a-851e-4ad2-a786-fa32e4f64591" valueTypeId="3bf3c94c-ac75-439d-a022-fb748def4048"/>
+      <rowType typeId="11132ab1-7748-4d89-b315-40666029a9f2" valueTypeId="0bd95ddd-8430-48b0-b1ee-884d73b9e7d8"/>
+    </producedTypes>
+    <name>Сырье</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сырье</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="37402468-a688-40cd-952a-f740a3da1650">
+      <name>Сырье</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сырье</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e8cb4aba-3980-4a6a-8200-8b2b253ae514">
+    <producedTypes>
+      <objectType typeId="44d89327-bb0f-4af2-9dd8-2f4e1d90efed" valueTypeId="b619dcce-6fb4-495a-907a-5139f138263e"/>
+      <rowType typeId="0473127e-9fd6-4321-9284-9cae83eab96e" valueTypeId="f691f04b-4061-426a-a804-5ae1e0d7cadb"/>
+    </producedTypes>
+    <name>Склады</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склады</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c63afb43-d295-40dc-8bb5-0b39dca7769e">
+      <name>Склад</name>
+      <synonym>
+        <key>ru</key>
+        <value>Склад</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Склады</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="68b49b90-d390-4e8b-8bda-9b15dc9dae5d">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="0ea1cf71-4333-415e-a6ea-f67105e6a95d">
+    <name>Макет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет</value>
+    </synonym>
+  </templates>
+</mdclass:Report>

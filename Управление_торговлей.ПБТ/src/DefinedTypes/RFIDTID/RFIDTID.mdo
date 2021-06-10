@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="c3aba5d7-8f1c-40a6-8b78-a4f5e3a5abd0">
+  <producedTypes>
+    <containerType typeId="7f95257a-3513-4e62-a7d2-eb16a14b457c" valueTypeId="0c51a48c-ad7c-4f7c-b8dd-3bc963c43e80"/>
+  </producedTypes>
+  <name>RFIDTID</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DefinedTypeExtension">
+    <typeExtension/>
+  </extension>
+  <type/>
+</mdclass:DefinedType>

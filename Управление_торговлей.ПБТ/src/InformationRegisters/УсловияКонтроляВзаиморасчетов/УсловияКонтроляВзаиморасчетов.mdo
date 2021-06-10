@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="86b8ebe1-116f-4d75-9f0a-134dbf695634">
+  <producedTypes>
+    <selectionType typeId="44134e14-325e-43f4-a213-3b3285f7d1ab" valueTypeId="22508d4b-f1ee-462a-b6de-21dd08c436fc"/>
+    <listType typeId="320c1a43-d701-4fde-b0ea-64f8c2823745" valueTypeId="8d7feb10-f763-42f4-9b8b-3e519a12e42c"/>
+    <managerType typeId="c5da8703-39a5-4d8e-91f5-d999b7d0e051" valueTypeId="0c3517f5-5653-4e6c-a164-09757d6f7c52"/>
+    <recordSetType typeId="59dd4b18-748a-44ef-9229-e83c5518d9b3" valueTypeId="1027710e-d837-476d-8c70-4791818ae612"/>
+    <recordKeyType typeId="9749e631-bf7e-48c6-b4de-8fce58a25314" valueTypeId="cf5c910e-8c41-4574-8d89-1dbc65252b77"/>
+    <recordType typeId="4b68d49c-c09b-47e0-a034-c5f47cb9d76f" valueTypeId="4a488029-5660-4f13-9467-2f40d32898c1"/>
+    <recordManagerType typeId="1171c6d0-448f-4997-871a-e51882498df7" valueTypeId="d61587e6-727b-4e08-af2b-6165de245d1d"/>
+  </producedTypes>
+  <name>УсловияКонтроляВзаиморасчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Условия контроля взаиморасчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="c3694145-547f-4f48-9d12-d3efb7034679">
+    <name>СуммаКредита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма кредита</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ee3044f6-28ea-48f5-a1da-04c721b93722">
+    <name>СрокКредита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срок кредита</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="11f8bd6b-8e18-4eac-8c86-d38f08392ed6">
+    <name>ВалютаКредита</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта кредита</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0dc3fd90-4c95-4369-9d1f-d03688501660">
+    <name>Календарь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Календарь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПроизводственныеКалендари</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Календарь, по которому считаются даты оплаты по этапам.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="a5a7e98b-3b45-4ebe-b98d-ef4ef9aae92f">
+    <name>ДоговорКонтрагента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Договор контрагента</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДоговорыКонтрагентов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

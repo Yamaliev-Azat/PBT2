@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="cccbe500-9776-4405-af66-2af42e1eb541">
+  <producedTypes>
+    <refType typeId="910c8df8-2ee2-42e0-8825-5996639e942c" valueTypeId="42990771-cab5-4687-a295-50269c751dbb"/>
+    <listType typeId="c5937c1b-cade-4ca8-a467-08f362278a8e" valueTypeId="a73c7f1e-b757-465b-8aa7-a49671a0192f"/>
+    <managerType typeId="7e537b4a-b0a9-477d-8509-b583a5baf5d4" valueTypeId="01675951-ef72-40e9-a814-3bbb85955cbd"/>
+  </producedTypes>
+  <name>ПравилаРаспределенияНаСебестоимостьТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+</mdclass:Enum>

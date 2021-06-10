@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="db893d15-1882-434a-b297-ae3ae18f5762" extendedConfigurationObject="1441036e-50d8-4916-88b4-17585b9027fe">
+  <producedTypes>
+    <refType typeId="fb464bbf-c1ea-448e-a85e-cd1e8cbaa50f" valueTypeId="8bffea1f-a760-4fd7-a833-e25fc57ce09c"/>
+    <listType typeId="dd95535d-920a-4dd0-86bf-40e79784c5bf" valueTypeId="776994f3-d933-4722-8c3c-8133949230b0"/>
+    <managerType typeId="52b0f3e0-2e0d-47e4-a54c-e58e75284c53" valueTypeId="764f99f1-f0ae-4593-8c0b-6d1582793664"/>
+  </producedTypes>
+  <name>ШаблоныКодовМаркировкиСУЗ</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="a9b7c7cc-daf9-4ebd-b5a7-78b973265461" extendedConfigurationObject="5f361662-790e-49f9-bd2f-1b6d89a94669">
+    <name>ТабачнаяПачка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="757cc203-2eb7-4a7c-91c1-a8a79a28b020" extendedConfigurationObject="ee304f89-e13f-4376-93ce-d4e9d49bc0a4">
+    <name>БлокТабачныхПачек</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

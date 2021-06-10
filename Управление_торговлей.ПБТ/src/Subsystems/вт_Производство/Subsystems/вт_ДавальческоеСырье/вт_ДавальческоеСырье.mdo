@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20ac72a0-e04c-4519-9274-c50966a538f9">
+  <name>вт_ДавальческоеСырье</name>
+  <synonym>
+    <key>ru</key>
+    <value>Давальческое сырье</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.вт_ВозвратДавальческогоСырья</content>
+  <content>Document.вт_ПоступлениеДавальческогоСырья</content>
+  <content>Document.вт_ПередачаСырьяВПереработку</content>
+  <subsystems>Отчеты</subsystems>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

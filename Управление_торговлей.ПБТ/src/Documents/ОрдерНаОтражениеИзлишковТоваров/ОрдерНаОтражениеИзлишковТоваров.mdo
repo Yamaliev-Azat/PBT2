@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="59426b60-6d31-4c9a-9607-b0813b48a248" extendedConfigurationObject="3aa37dd0-9f3a-43a2-8cb9-e23caed2a1f8">
+  <producedTypes>
+    <objectType typeId="1c592240-9bd9-4233-a2ec-16fd14ce5fcf" valueTypeId="02ef1bba-0ac3-48e8-aa4f-d01491820eac"/>
+    <refType typeId="6028566f-038e-4300-81e5-6ed7885cd865" valueTypeId="dee7790b-a18f-42f4-a559-0226c3d4814b"/>
+    <selectionType typeId="faf1e387-d609-4a22-927d-0ca69f4ef805" valueTypeId="77c05c2a-5f6e-4f7c-b68e-f4b36053da1c"/>
+    <listType typeId="2dd084f9-f69b-4a07-88a2-c90d72534546" valueTypeId="105842b8-f07d-4279-8806-43952b429fdf"/>
+    <managerType typeId="93adf104-7090-42dc-a162-1c3dce6669fc" valueTypeId="be60a0b2-e55e-458d-a278-51584ff047dd"/>
+  </producedTypes>
+  <name>ОрдерНаОтражениеИзлишковТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension"/>
+</mdclass:Document>

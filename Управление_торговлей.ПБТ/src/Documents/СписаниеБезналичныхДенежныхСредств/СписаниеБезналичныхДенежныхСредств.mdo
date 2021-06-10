@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="8528b402-dfdb-46e0-9d27-5fd492fc22a4" extendedConfigurationObject="8502b653-32a8-4d01-a12e-5fe4cede91ef">
+  <producedTypes>
+    <objectType typeId="fa60f2e4-cf94-4298-b7a7-e51eff823eea" valueTypeId="7db20ae6-b76e-46c9-b32d-56d026d7545b"/>
+    <refType typeId="50632570-e831-498f-8b5a-a04f1f26889d" valueTypeId="ec94ac88-9640-423a-a062-fe0bb9abe212"/>
+    <selectionType typeId="49632874-3609-4d31-a9a0-4fd996f19fc4" valueTypeId="8738734a-9b2d-4a2d-810c-b7d699374d59"/>
+    <listType typeId="c04295c2-afac-4f44-a903-dc59b2907898" valueTypeId="8f29d1d2-066e-4941-b725-f52acdb96479"/>
+    <managerType typeId="3ef1c343-8598-4072-a94e-bb2d5f221c7c" valueTypeId="7d619324-3b9c-4ed2-bb8c-e0c4d7c869f9"/>
+  </producedTypes>
+  <name>СписаниеБезналичныхДенежныхСредств</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <registerRecords>AccumulationRegister.вт_НачислениеЗарплаты</registerRecords>
+</mdclass:Document>

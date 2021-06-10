@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="37e797f2-bba0-4daa-81ec-67a9ef611cc9" extendedConfigurationObject="3758dc73-67cc-49eb-bd5a-ce236427eb9e">
+  <producedTypes>
+    <objectType typeId="e6e3f52a-154e-42dd-953b-87a86a859762" valueTypeId="29482637-66b9-4b11-b139-c6f4ffef9dd3"/>
+    <refType typeId="db94149a-b922-4322-877f-930fd2dc95f9" valueTypeId="0a42a7b8-c915-41dc-bbc4-d2f1687936cf"/>
+    <selectionType typeId="2ab66d11-c0ac-4345-bc34-5b635f962917" valueTypeId="386338bd-e315-4bb5-a554-9293375ded8f"/>
+    <listType typeId="60f9f362-5ecf-4add-b055-0602823dd7b8" valueTypeId="65d43026-cb12-425d-bfa5-8abc957ccad3"/>
+    <managerType typeId="e55b7517-42d1-451e-acba-b3beb3fc5e9d" valueTypeId="6f1b5d48-db21-4898-a480-2c156a891104"/>
+  </producedTypes>
+  <name>ВидыЗапасов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

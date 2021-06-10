@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="467e653f-0c9a-4c2c-bcc7-3c7a8b035817">
+  <producedTypes>
+    <objectType typeId="078e1b53-9af3-4df7-b4e1-6d5006d3be94" valueTypeId="10b53c8e-a7d0-4c8f-b811-90c60e2e604c"/>
+    <managerType typeId="bbb4a7f1-4abd-40da-baed-279478043c1c" valueTypeId="ae06fa01-2cf2-4e1e-ab40-2d6d88fc87b4"/>
+  </producedTypes>
+  <name>вт_ДиаграммаГантаПоПроцессам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Диаграмма ганта по процессам</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вт_ДиаграммаГантаПоПроцессам.Form.Форма</defaultForm>
+  <attributes uuid="9068e343-a071-4bf7-9c8c-ce2077d7e1ef">
+    <name>ПланЗаказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>План заказ</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.вт_ЗаказВПроизводство</types>
+      <types>DocumentRef.вт_ПланПроизводства</types>
+      <types>DocumentRef.ЗаказКлиента</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="03f806b2-6aad-487e-a511-f1e752875f4f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

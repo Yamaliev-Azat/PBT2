@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="a2183ad8-12de-4187-8b82-a58c124f6068" extendedConfigurationObject="8eac9a31-ed8b-4965-85f9-086b89e1764b">
+  <producedTypes>
+    <objectType typeId="b9e2de99-d5a9-4df3-8f8c-77a2d13ed46f" valueTypeId="d0f672af-fc10-48f0-bc76-a0f9a31c697d"/>
+    <refType typeId="dab94555-5458-465c-9bdc-275080ce9489" valueTypeId="e23fb0f5-b65d-412e-a44a-2c45e769aa3e"/>
+    <selectionType typeId="d025f402-5615-42f0-843f-c5ca26f7702e" valueTypeId="fa7444bb-bd33-4afd-b1c2-b0e220be2fef"/>
+    <listType typeId="3310e549-0ec3-445f-bc7b-c0f5c516bcd9" valueTypeId="a02e1407-f233-42f7-9f9f-88a8e211b8ae"/>
+    <managerType typeId="a25850f6-1ba0-4b88-8c43-cf55d4b2f7f6" valueTypeId="a054e568-0172-47c0-b66d-7ece49283814"/>
+  </producedTypes>
+  <name>РеализацияТоваровУслуг</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:DocumentExtension">
+    <objectModule>Extended</objectModule>
+  </extension>
+  <attributes uuid="d662a518-354d-4f33-a18c-b4a4caa274ed" extendedConfigurationObject="e5b27a28-42e1-42b3-806c-83e1fbeb7907">
+    <name>Договор</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.ДоговорыКонтрагентов</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <forms uuid="59425e9c-63cb-47da-93f3-3e2223cf8359" extendedConfigurationObject="7ab41590-caae-4a1c-b94a-51c1e4c36a9c">
+    <name>ФормаДокумента</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFormExtension">
+      <form>Extended</form>
+    </extension>
+  </forms>
+  <tabularSections uuid="dc7361e1-4548-46d3-a7e5-eec4a6799063" extendedConfigurationObject="66aa0f38-681d-47e5-b9a1-46f04220c18f">
+    <producedTypes>
+      <objectType typeId="289bfd40-69e7-4940-a990-31d660ada559" valueTypeId="a9cb3c3f-a910-4075-899d-e5fa79a32efc"/>
+      <rowType typeId="d8cfcdd9-b293-4ae0-b1ba-293a71106eb2" valueTypeId="0e4770f2-e2d1-40e0-871d-e063eadb6a7e"/>
+    </producedTypes>
+    <name>ЭтапыГрафикаОплаты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </tabularSections>
+</mdclass:Document>

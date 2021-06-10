@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1699fb9-d08e-47f4-b424-7e938691aabc">
+  <producedTypes>
+    <selectionType typeId="7ae5951b-d903-4b16-8fa2-0e67f9f8110d" valueTypeId="617731aa-2453-4006-a4d1-e95f383204e1"/>
+    <listType typeId="401b0831-49b3-46d5-84e3-5ba659e5e19e" valueTypeId="3398ac1e-acdb-4e41-9fac-676a07f375f1"/>
+    <managerType typeId="497a0981-9180-46d8-b16a-996dc7079917" valueTypeId="9c5cd80c-a628-4891-862a-facc39e808af"/>
+    <recordSetType typeId="7fc9d918-b750-432f-ae75-c512533612cd" valueTypeId="6d4e45c9-f145-4e2a-8500-e8dab03a7f7b"/>
+    <recordKeyType typeId="f65056fa-56f2-4b1a-acb6-42aa716fdb8e" valueTypeId="aec162bd-8010-42ac-b59f-1b450d6ac0d2"/>
+    <recordType typeId="93628c8e-1945-4d9c-a5da-33e55a824d6f" valueTypeId="d0eb3167-b0d8-4a07-81a3-7c9999e4ce81"/>
+    <recordManagerType typeId="1755de59-4d41-40a3-8e4c-9d636944ba97" valueTypeId="b19e0575-ba24-4eaa-9e35-3d0561b5db68"/>
+  </producedTypes>
+  <name>вт_СкладыДляПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Склады для производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="f3eb4f4c-a0c4-4fb5-9d9e-fb4114825bf8">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="1f2c680e-be9e-400d-98ea-9ff5e8d33c7b">
+    <name>СкладДляПроизводства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Склад для производства</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

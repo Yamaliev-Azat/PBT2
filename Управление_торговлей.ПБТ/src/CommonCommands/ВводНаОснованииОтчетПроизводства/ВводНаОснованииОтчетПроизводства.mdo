@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7de1f82b-805a-4294-95ae-a3149fa4a062">
+  <name>ВводНаОснованииОтчетПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет производства</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef.вт_ЗаказВПроизводство</types>
+    <types>DocumentRef.вт_ПоступлениеДавальческогоСырья</types>
+    <types>DocumentRef.вт_ПланПроизводства</types>
+    <types>DocumentRef.ОрдерНаОтражениеИзлишковТоваров</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

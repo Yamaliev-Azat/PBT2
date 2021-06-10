@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="3b656cce-2724-4e3f-a516-061ea189818e" extendedConfigurationObject="131935a8-3658-4855-867d-6b40325430d7">
+  <producedTypes>
+    <objectType typeId="e1bcb656-57ce-45ba-82b7-b9f7cafa0a04" valueTypeId="28d45f46-6afe-4b28-96c0-53a7e098d686"/>
+    <refType typeId="f4ff3850-00f8-4b20-9dc4-bb709cd59d52" valueTypeId="ce8a07c9-251a-43bc-9038-d1a24bae7485"/>
+    <selectionType typeId="927a4390-9d0a-40c4-9dcd-8e057e47bcdf" valueTypeId="2799a5e9-59e4-43bd-ab9f-faf5669932e0"/>
+    <listType typeId="604dcb91-8f13-437c-b461-4ce9da8464ca" valueTypeId="da16cce2-e8c1-4af2-af4d-09bb83c65f12"/>
+    <managerType typeId="cb35af7a-18bc-4dd9-bc83-5551018d35f3" valueTypeId="2e76d3ef-04f3-4081-b6f8-60dec4278cc5"/>
+  </producedTypes>
+  <name>КлючиАналитикиУчетаПартий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+</mdclass:Catalog>

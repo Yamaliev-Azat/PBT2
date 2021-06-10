@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0dc114db-99b5-4a30-be91-9d83e5893913">
+  <producedTypes>
+    <objectType typeId="245a15e6-56d2-460b-858d-c55de6ae0ca1" valueTypeId="d07b7174-abf7-4a14-b8a1-48dd4c188edd"/>
+    <managerType typeId="451e9369-a699-4ad7-bd6e-2205406b73e6" valueTypeId="074a6455-cf86-4a84-851f-06c6b8cc7a34"/>
+  </producedTypes>
+  <name>вт_ОтчетПоБригадамСменам</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет по бригадам (сменам)</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вт_ОтчетПоБригадамСменам.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="2a82b624-3094-450b-9714-32ed7b978b5b">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

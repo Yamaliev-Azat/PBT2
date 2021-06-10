@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0f746632-89b1-43c8-81f1-82983d4f623b">
+  <producedTypes>
+    <refType typeId="5ec61be6-e5e5-4034-b2a6-892844e24206" valueTypeId="245b77a0-2668-42e5-a57a-a2d6ecc1aa24"/>
+    <listType typeId="4ed29819-2671-4df8-923f-2bda47fdf9dc" valueTypeId="95dfd277-8fb2-4c85-b529-455364111cc3"/>
+    <managerType typeId="dd416d65-5872-4da3-aa5e-c1ea16a8516f" valueTypeId="7fb024dc-8a63-43ab-9134-d284fae5b1c4"/>
+  </producedTypes>
+  <name>РешенияПоКартамРазрешения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Решения по картам разрешения</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c978d3e4-9d9a-4a85-85e0-55365f83be70">
+    <name>РазрешитьОтгрузку</name>
+    <synonym>
+      <key>ru</key>
+      <value>разрешить отгрузку/допустить в производство без ограничений</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="488a0580-cf62-4985-8327-50525efeac62">
+    <name>Переработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переработка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4d746a1-6af5-4b61-9a9e-9474c8b0eca8">
+    <name>ВозвратПоставщику</name>
+    <synonym>
+      <key>ru</key>
+      <value>Возврат поставщику</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

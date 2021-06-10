@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2644aab0-d244-4db3-8214-c1e79d4ba376">
+  <name>ВводНаОснованииПоступлениеДавальческогоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поступление давальческого сырья</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef.ОприходованиеИзлишковТоваров</types>
+    <types>DocumentRef.ПоступлениеТоваровНаСклад</types>
+    <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>

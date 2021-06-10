@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac017ab6-748e-49fc-ba40-51f4719c6e43">
+  <name>вт_СправочникиПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.вт_ОборудованиеПроизводства</content>
+  <content>Catalog.вт_ПричиныПростояОборудования</content>
+  <content>Catalog.вт_РабочиеСмены</content>
+  <content>Catalog.вт_ВариантыПроизводстваПоТехКартам</content>
+  <content>Catalog.вт_ПрессФормы</content>
+  <content>Catalog.вт_Сборщики</content>
+  <content>Catalog.ВидыСырья</content>
+  <content>Catalog.Линии</content>
+  <parentSubsystem>Subsystem.вт_Производство</parentSubsystem>
+</mdclass:Subsystem>

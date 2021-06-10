@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7cd67cfe-1b61-45ec-8d9b-4a5dfdad4d71">
+  <producedTypes>
+    <objectType typeId="50e2f4f8-27ae-4137-ad31-8678edc1871d" valueTypeId="776ccc2a-9fe2-4075-87d6-5b98e2a4305a"/>
+    <managerType typeId="b3835cee-359a-4f18-a4d0-19e3de292ea9" valueTypeId="c5bb921f-5e2d-4dbb-b029-b433f6440399"/>
+  </producedTypes>
+  <name>вт_ПозаказноеПроизводство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал производства заказов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вт_ПозаказноеПроизводство.Form.Форма</defaultForm>
+  <forms uuid="c240641d-ec57-4ee8-b48e-4bf7a68b4b53">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a8b982ce-8ce7-4991-99d1-a00a9bf6bab6">
+    <name>ПроизводствоПоЗаказамПокупателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство по заказам покупателей</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

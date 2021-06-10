@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="60cf3bd3-7905-4c7a-bc78-7956a85d6080" extendedConfigurationObject="f6b7ee07-c83f-4f1b-8ee5-188b21d078f8">
+  <producedTypes>
+    <refType typeId="5ed45cfb-b943-41f7-9165-ba463422fd37" valueTypeId="8edf40ea-4e7c-4c03-9b82-c2989281c386"/>
+    <listType typeId="e4b7f9a1-afa7-4dc8-bc40-f25f5c1d2056" valueTypeId="47d878da-a684-4f0c-bcc3-fa6cc34ce013"/>
+    <managerType typeId="2ea4196b-d160-49aa-980e-2536fc9d2870" valueTypeId="d2c05fc5-ec8c-4385-9b00-f54f75c91c62"/>
+  </producedTypes>
+  <name>ТипыУпаковокНоменклатуры</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="3a670668-393e-425e-bed4-d0e363137660" extendedConfigurationObject="205ee147-0f08-4f5c-9b41-406f7a61e2a6">
+    <name>Составная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a0b2a8b6-fc8b-49ec-b4cd-f8883268f1c1" extendedConfigurationObject="9ab37144-fb76-47e1-9eb2-903dea6c9426">
+    <name>Конечная</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="3d2de5c0-4e3b-4291-9940-783a31c130bd" extendedConfigurationObject="a56b67d2-eabf-436b-89a2-1b45bd014f46">
+    <name>Разупаковка</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="b3e3a407-a4a3-40d2-b045-8124c8fab13d" extendedConfigurationObject="972f66ae-c248-4b9d-b3d7-0c384d9aa068">
+    <name>ТоварноеМесто</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

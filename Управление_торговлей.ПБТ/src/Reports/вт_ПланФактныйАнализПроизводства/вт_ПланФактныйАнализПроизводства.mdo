@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a20a479f-c2da-40d6-83cf-59d70c95ff32">
+  <producedTypes>
+    <objectType typeId="1fd95b9b-e3c6-4b1f-bbb3-ad128cca76d5" valueTypeId="14ab1e8b-10c0-409f-bc04-b7648606f208"/>
+    <managerType typeId="c18e48b0-0101-4201-a9ef-027a05ad13a9" valueTypeId="b977408a-2eb8-4441-92d0-6a7278b0767a"/>
+  </producedTypes>
+  <name>вт_ПланФактныйАнализПроизводства</name>
+  <synonym>
+    <key>ru</key>
+    <value>План-фактный анализ производства</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.вт_ПланФактныйАнализПроизводства.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="961eda92-3158-4239-8998-ccb60a12e986">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

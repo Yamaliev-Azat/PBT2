@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f87cbc9d-f4ff-48f6-bd51-bef0792bef93">
+  <producedTypes>
+    <objectType typeId="088d3756-a495-4981-a8ff-5d1c3a31a468" valueTypeId="bb9b99f3-05e3-4f5d-b246-c0d7be5ff971"/>
+    <managerType typeId="cfa3577c-f24f-44dc-9395-b380090dce03" valueTypeId="ac64edcc-f39f-473a-b1f5-05fc6706b2b0"/>
+  </producedTypes>
+  <name>вт_ПозаказноеПроизводствоДерево</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал производства заказов дерево</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.вт_ПозаказноеПроизводствоДерево.Form.Форма</defaultForm>
+  <forms uuid="87ac1400-3426-4d65-bb1b-c19d7d3a4d96">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="e457f1ed-f03b-493c-8523-1c7097fdb091">
+    <name>ПроизводствоПоЗаказамДерево</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производство по заказам - дерево</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="47e642de-ffea-4288-8bd0-0a1e8c1a0d0d" extendedConfigurationObject="8e08535f-af2b-4701-a9ab-64360193f01d">
+  <producedTypes>
+    <refType typeId="a64b34b7-1114-43a4-bd50-87906a804578" valueTypeId="1022b3b2-df92-4a0c-b358-06c65cbd0793"/>
+    <listType typeId="22d3f9ea-05dd-4d4e-b658-a15445335f24" valueTypeId="19e9faa2-04f0-41af-977c-241b19182b4a"/>
+    <managerType typeId="1e0fa605-c6bb-45ee-b4de-305a38b7fc45" valueTypeId="c1b5001a-ce5a-416b-a8ce-b83234b61d5c"/>
+  </producedTypes>
+  <name>ТипыИзмеряемыхВеличин</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="275c1a14-a3b2-4b66-b19d-0c23d155285f" extendedConfigurationObject="9fe5bd6a-0dc3-492a-8124-5d8374b7dc0f">
+    <name>Вес</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

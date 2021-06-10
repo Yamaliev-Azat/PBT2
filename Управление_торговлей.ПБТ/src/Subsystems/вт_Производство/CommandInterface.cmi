@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cmi:CommandInterface xmlns:cmi="http://g5.1c.ru/v8/dt/cmi">
+  <commandsVisibility>
+    <visibilityFragments>
+      <command>Report.вт_ПотребностьВСырьеПоЗаказамИПоставщикам.StandardCommand.Open</command>
+      <visible/>
+    </visibilityFragments>
+  </commandsVisibility>
+  <subsystemsOrder>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_СправочникиПроизводства</subsystems>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_ДавальческоеСырье</subsystems>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_ДокументыПроизводства</subsystems>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_Зарплата</subsystems>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_Комплектации</subsystems>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_Настройки</subsystems>
+    <subsystems>Subsystem.вт_Производство.Subsystem.вт_ОтчетыПроизводства</subsystems>
+  </subsystemsOrder>
+</cmi:CommandInterface>

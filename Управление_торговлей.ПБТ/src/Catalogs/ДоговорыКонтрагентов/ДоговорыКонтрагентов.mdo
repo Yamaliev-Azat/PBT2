@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="f5a03012-60cf-457d-860f-ae34ef6fd754" extendedConfigurationObject="3404cb9a-92ea-42b9-9086-ad481dbc27d7">
+  <producedTypes>
+    <objectType typeId="f352dd81-f480-4b44-a88e-f21866c17341" valueTypeId="55a795ef-b472-45e4-bddc-9babb8d7a018"/>
+    <refType typeId="2d83f3ca-2e3a-4f67-935f-4b0dadb431df" valueTypeId="f6d90189-3e86-4292-978a-a881c3dd2461"/>
+    <selectionType typeId="22172739-0ce5-4dfb-9f68-9ede675cb2e0" valueTypeId="2f786565-9088-4eee-afe1-15adc414e2de"/>
+    <listType typeId="af1e4d7b-7612-40ab-9028-b68b64edb708" valueTypeId="7196521f-0bbb-47cf-9cdb-0bf2e50fe40d"/>
+    <managerType typeId="6ab2c422-4890-47f8-a0f7-c4c4729c8d70" valueTypeId="2460f5c2-31af-497b-9bfb-9e208966d374"/>
+  </producedTypes>
+  <name>ДоговорыКонтрагентов</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:CatalogExtension"/>
+  <attributes uuid="1162671c-a8c0-46b1-8162-bc3ace5fd7c4" extendedConfigurationObject="6fe24eab-4e23-451e-8cae-c25d6e78e3df">
+    <name>Контрагент</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Контрагенты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="b8615c89-a4f1-4de0-b94f-d2c3fc818147" extendedConfigurationObject="b841ab09-8b12-49d7-affb-964712f5bbd2">
+    <name>ДопустимаяСуммаЗадолженности</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.ДенежнаяСуммаНеотрицательная</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+  <attributes uuid="fb164c49-0fd7-4c86-acc2-f0d8a45c4040" extendedConfigurationObject="a341cde0-c6be-4cb2-93c7-743bc8cbf219">
+    <name>ВалютаВзаиморасчетов</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>CatalogRef.Валюты</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </attributes>
+</mdclass:Catalog>

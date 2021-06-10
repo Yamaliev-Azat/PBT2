@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b5fa18aa-125a-4750-a886-9727b3ccf108">
+  <name>ВводНаОснованииВозвратДавальческогоСырья</name>
+  <synonym>
+    <key>ru</key>
+    <value>Возврат давальческого сырья</value>
+  </synonym>
+  <group>FormCommandBarCreateBasedOn</group>
+  <commandParameterType>
+    <types>DocumentRef.ОприходованиеИзлишковТоваров</types>
+    <types>DocumentRef.ПоступлениеТоваровНаСклад</types>
+    <types>DocumentRef.ВозвратТоваровПоставщику</types>
+    <types>DocumentRef.СписаниеНедостачТоваров</types>
+    <types>DocumentRef.ПриобретениеТоваровУслуг</types>
+  </commandParameterType>
+  <representation>Auto</representation>
+  <shortcut></shortcut>
+</mdclass:CommonCommand>
