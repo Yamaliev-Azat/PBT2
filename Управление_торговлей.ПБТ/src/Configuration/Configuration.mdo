@@ -24,12 +24,7 @@
   <configurationExtensionPurpose>Customization</configurationExtensionPurpose>
   <scriptVariant>Russian</scriptVariant>
   <defaultRoles>Role.ПолныеПрава_ПБТ</defaultRoles>
-  <splash>
-    <transparentPixel>
-      <x>197</x>
-      <y>15</y>
-    </transparentPixel>
-  </splash>
+  <splash/>
   <compatibilityMode>8.3.19</compatibilityMode>
   <languages uuid="c82ca5df-135c-4958-9583-ac63275634f3">
     <name>Русский</name>
@@ -124,6 +119,7 @@
   <commonModules>CommonModule.ОбщегоНазначенияУТВызовСервера</commonModules>
   <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
   <commonModules>CommonModule.КредитныйКонтроль</commonModules>
+  <commonModules>CommonModule.Р1_ОбщийМодуль</commonModules>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.НомерСерии</definedTypes>
   <definedTypes>DefinedType.RFIDEPC</definedTypes>
