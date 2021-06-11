@@ -86,6 +86,18 @@
   <commonPictures>CommonPicture.Наборы</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВнизЗеленая</commonPictures>
   <commonPictures>CommonPicture.СтрелкаВправоЗеленая</commonPictures>
+  <commonPictures>CommonPicture.ОтветитьНаЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.СтрелкаВлево</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтДопРеквизитовСведений</commonPictures>
+  <commonPictures>CommonPicture.ПапкиЭлектронныхПисем</commonPictures>
+  <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
+  <commonPictures>CommonPicture.КоличествоРассмотрено</commonPictures>
+  <commonPictures>CommonPicture.ВидыНавигацииПоВзаимодействиямОтКатегорий</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияДеревоАнкеты</commonPictures>
+  <commonPictures>CommonPicture.Взаимодействия</commonPictures>
+  <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВариантыВажности</commonPictures>
+  <commonPictures>CommonPicture.Скрепка</commonPictures>
   <roles>Role.ПолныеПрава_ПБТ</roles>
   <roles>Role.ПодсистемаЛаборатория</roles>
   <roles>Role.ПодсистемаПроизводствоРазработка</roles>
@@ -120,6 +132,7 @@
   <commonModules>CommonModule.УстановкаЦенСервер</commonModules>
   <commonModules>CommonModule.КредитныйКонтроль</commonModules>
   <commonModules>CommonModule.Р1_ОбщийМодуль</commonModules>
+  <commonModules>CommonModule.Взаимодействия</commonModules>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.НомерСерии</definedTypes>
   <definedTypes>DefinedType.RFIDEPC</definedTypes>
@@ -227,6 +240,8 @@
   <catalogs>Catalog.ПравилаОбменаСПодключаемымОборудованиемOffline</catalogs>
   <catalogs>Catalog.СпособыОбеспеченияПотребностей</catalogs>
   <catalogs>Catalog.Приоритеты</catalogs>
+  <catalogs>Catalog.КлючиАналитикиУчетаПоПартнерам</catalogs>
+  <catalogs>Catalog.КонтактныеЛицаПартнеров</catalogs>
   <documents>Document.АктОРасхожденияхПослеПеремещения</documents>
   <documents>Document.АктОРасхожденияхПослеПриемки</documents>
   <documents>Document.АктОтбора</documents>
@@ -327,6 +342,9 @@
   <enums>Enum.ТипыЗапасов</enums>
   <enums>Enum.ВидыЦенностей</enums>
   <enums>Enum.ФормыОплаты</enums>
+  <enums>Enum.ВариантыОбособленногоУчетаТоваров</enums>
+  <enums>Enum.ВариантыОбеспечения</enums>
+  <enums>Enum.РазделыУчетаСебестоимостиТоваров</enums>
   <reports>Report.вт_АнализНачисленнойЗарплатыПроизводства</reports>
   <reports>Report.вт_ВыпускПродукции</reports>
   <reports>Report.вт_ВыпускПродукцииССырьем</reports>
@@ -392,6 +410,8 @@
   <informationRegisters>InformationRegister.КодыТоваровПодключаемогоОборудованияOffline</informationRegisters>
   <informationRegisters>InformationRegister.УсловияКонтроляВзаиморасчетов</informationRegisters>
   <informationRegisters>InformationRegister.АналитикаУчетаНоменклатуры</informationRegisters>
+  <informationRegisters>InformationRegister.АналитикаУчетаПоПартнерам</informationRegisters>
+  <informationRegisters>InformationRegister.СостоянияКонтактовВзаимодействий</informationRegisters>
   <accumulationRegisters>AccumulationRegister.вт_БракПроизводства</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.вт_ВыпускПродукции</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.вт_ВыпускПроукцииПоСменам</accumulationRegisters>
@@ -439,7 +459,6 @@
   <accumulationRegisters>AccumulationRegister.ТоварыКОформлениюИзлишковНедостач</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыНаСкладах</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ТоварыОрганизаций</accumulationRegisters>
-  <accumulationRegisters>AccumulationRegister.ПланПроизводства</accumulationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.НормативыНеИсп</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиАктивовПассивов</chartsOfCharacteristicTypes>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.СтатьиРасходов</chartsOfCharacteristicTypes>

@@ -1108,6 +1108,11 @@
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
+          <footerDataPath xsi:type="form:MultiLanguageDataPath">
+            <paths xsi:type="form:DataPath">
+              <segments>Объект.Состав.TotalКоличество</segments>
+            </paths>
+          </footerDataPath>
           <extInfo xsi:type="form:InputFieldExtInfo">
             <width>14</width>
             <autoMaxWidth>true</autoMaxWidth>
@@ -1585,6 +1590,7 @@
         <selectionMode>MultiRow</selectionMode>
         <header>true</header>
         <headerHeight>1</headerHeight>
+        <footer>true</footer>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>

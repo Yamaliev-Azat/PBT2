@@ -79,7 +79,6 @@
   <registerRecords>AccumulationRegister.вт_ПланПроизводстваТоваров</registerRecords>
   <registerRecords>AccumulationRegister.вт_ПлановаяСебестоимостьВыпуска</registerRecords>
   <registerRecords>InformationRegister.вт_СтатусыЗаказовВПроизводство</registerRecords>
-  <registerRecords>AccumulationRegister.ПланПроизводства</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="956d4d6f-683a-4e27-9ffb-812d80503bce">
@@ -338,7 +337,7 @@
       <name>ВариантПроизводства</name>
       <synonym>
         <key>ru</key>
-        <value>Вариант производства</value>
+        <value>Спецификация</value>
       </synonym>
       <type>
         <types>CatalogRef.вт_ВариантыПроизводстваПоТехКартам</types>

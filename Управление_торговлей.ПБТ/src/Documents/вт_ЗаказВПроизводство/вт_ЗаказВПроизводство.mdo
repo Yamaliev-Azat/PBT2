@@ -75,7 +75,6 @@
   <registerRecords>InformationRegister.вт_СтатусыОснованийЗаказовВПроизводство</registerRecords>
   <registerRecords>AccumulationRegister.СвободныеОстатки</registerRecords>
   <registerRecords>InformationRegister.вт_СтатусыЗаказовВПроизводство</registerRecords>
-  <registerRecords>AccumulationRegister.ПланПроизводства</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
   <attributes uuid="8e70a901-da43-4005-979e-68fcd5fc5a49">

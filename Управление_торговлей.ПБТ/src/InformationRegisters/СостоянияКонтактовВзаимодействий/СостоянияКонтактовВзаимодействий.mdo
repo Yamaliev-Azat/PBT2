@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="049db826-9840-4254-92ac-b52437af883e" extendedConfigurationObject="4770398f-8013-4d43-93ce-ec1165e40c4e">
+  <producedTypes>
+    <selectionType typeId="93a976d0-21c5-463c-ac71-4e51b408290c" valueTypeId="44c2a5b0-cc8c-4802-9232-1214eef5f81d"/>
+    <listType typeId="ca399027-2967-4e44-9f77-1313ee266f03" valueTypeId="2cd4f73f-0148-460c-bff6-cf59814c2990"/>
+    <managerType typeId="c2ae888f-d992-4e4e-8975-f7f9c158bdf0" valueTypeId="de7c5680-43da-4b13-879a-10a6531f8308"/>
+    <recordSetType typeId="c8f35747-a068-461f-a0cd-044aaff66de1" valueTypeId="dc25d328-9927-4c26-b59c-5082aef91ffc"/>
+    <recordKeyType typeId="5e7559cb-f38e-4ee0-92c4-31b662339e7c" valueTypeId="6180189e-c3fa-4a60-8c32-f4906894d08b"/>
+    <recordType typeId="08dba109-122c-4263-b16b-b24adc7053e6" valueTypeId="824b5136-836b-45d4-95b7-c4d3b99ac939"/>
+    <recordManagerType typeId="94235221-29c5-4e6a-9541-ad09c9a54877" valueTypeId="df9ece97-1532-4897-a57c-922e95812fc0"/>
+  </producedTypes>
+  <name>СостоянияКонтактовВзаимодействий</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:InformationRegisterExtension">
+    <informationRegisterPeriodicity>Checked</informationRegisterPeriodicity>
+    <writeMode>Checked</writeMode>
+  </extension>
+  <resources uuid="a9e25834-ace2-4ce9-860b-c7cb275d89a2" extendedConfigurationObject="9a706997-90cb-430d-972c-d2bad87c4a79">
+    <name>КоличествоНеРассмотрено</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Number</type>
+        </types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <resources uuid="74f4be26-c523-4fef-a7e6-35f5a46fb59f" extendedConfigurationObject="6f661660-b9c4-41d4-99a8-e08006cfe9c8">
+    <name>ДатаПоследнегоВзаимодействия</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>Date</type>
+        </types>
+        <dateQualifiers/>
+      </typeExtension>
+    </extension>
+    <type/>
+  </resources>
+  <dimensions uuid="3df22815-fa91-467b-819d-60a0273a2ede" extendedConfigurationObject="199e79fa-54d6-4748-aaaa-9c55283582a3">
+    <name>Контакт</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:BasicFeatureExtension">
+      <typeExtension>
+        <types>
+          <state>Checked</state>
+          <type>DefinedType.КонтактВзаимодействия</type>
+        </types>
+      </typeExtension>
+    </extension>
+    <type/>
+  </dimensions>
+</mdclass:InformationRegister>

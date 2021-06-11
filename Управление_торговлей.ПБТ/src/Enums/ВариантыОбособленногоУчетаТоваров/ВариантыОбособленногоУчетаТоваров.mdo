@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="39c07b4a-807b-4b6e-8290-9c927b499f00" extendedConfigurationObject="5f2bac37-3679-459a-9f75-8faad8817736">
+  <producedTypes>
+    <refType typeId="985f88cb-aafb-4994-b799-b510124d72d4" valueTypeId="fc239279-d743-49a0-88ad-b7d260848817"/>
+    <listType typeId="365fbb79-aac7-4a00-a5d3-a2f50fa3f7dc" valueTypeId="88f0ccd8-b64d-4f8e-82ec-e16f7a5f7a7b"/>
+    <managerType typeId="0c03cd0d-e233-4a9e-9363-d8abb83894ee" valueTypeId="4a17666a-7654-4676-ac41-44c8aa8488c9"/>
+  </producedTypes>
+  <name>ВариантыОбособленногоУчетаТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="9193b8e7-57ea-417b-b5bc-7b5dc15e88e7" extendedConfigurationObject="20f93ad7-0dad-4329-8d1a-68f84e8d247a">
+    <name>ПоПодразделению</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="c6427b1a-b7c5-42ff-9428-7e25641575ea" extendedConfigurationObject="c43a69e9-38b9-4245-af78-be8b6153f972">
+    <name>ПоМенеджерамПодразделения</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="8dd8a015-8869-46b4-9654-c781457bebaf" extendedConfigurationObject="46f4571e-64b5-4f61-a277-cfc786e87763">
+    <name>НеВедется</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>

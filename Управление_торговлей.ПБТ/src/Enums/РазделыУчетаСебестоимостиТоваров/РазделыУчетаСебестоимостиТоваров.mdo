@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" xmlns:mdclassExtension="http://g5.1c.ru/v8/dt/metadata/mdclass/extension" uuid="1d17a09c-6183-429f-85c5-ae24ac892db2" extendedConfigurationObject="2b47a444-340a-40d7-afa6-8996d82890fb">
+  <producedTypes>
+    <refType typeId="a18d463c-0c01-4e85-a253-fa096c050608" valueTypeId="892f6d65-26c3-4c17-972f-260432ff191f"/>
+    <listType typeId="bb214c2e-55ff-4259-b252-14e77cce313a" valueTypeId="315770f7-691d-41bf-b6f9-a76f5bae5e3f"/>
+    <managerType typeId="7cf18700-e51e-4bb5-a65e-e59510f3e6df" valueTypeId="0f42ca76-10a6-4b26-88ca-5e168371813f"/>
+  </producedTypes>
+  <name>РазделыУчетаСебестоимостиТоваров</name>
+  <objectBelonging>Adopted</objectBelonging>
+  <extension xsi:type="mdclassExtension:EnumExtension"/>
+  <enumValues uuid="00becd00-42e7-457d-a895-d81551b1ccde" extendedConfigurationObject="00532541-edc1-44c7-b8f2-9a8277f0ba51">
+    <name>ПроизводственныеЗатраты</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+  <enumValues uuid="a7f99ba7-0994-40e4-9adb-746c8a49751f" extendedConfigurationObject="8a417135-022e-4bdd-9ffc-6bb96844d544">
+    <name>ТоварыНаСкладах</name>
+    <objectBelonging>Adopted</objectBelonging>
+    <extension xsi:type="mdclassExtension:MdObjectExtension"/>
+  </enumValues>
+</mdclass:Enum>
