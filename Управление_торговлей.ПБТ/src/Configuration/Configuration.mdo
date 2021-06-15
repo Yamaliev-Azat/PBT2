@@ -133,6 +133,7 @@
   <commonModules>CommonModule.КредитныйКонтроль</commonModules>
   <commonModules>CommonModule.Р1_ОбщийМодуль</commonModules>
   <commonModules>CommonModule.Взаимодействия</commonModules>
+  <commonModules>CommonModule.Р1_ОбщийМодуль1</commonModules>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <definedTypes>DefinedType.НомерСерии</definedTypes>
   <definedTypes>DefinedType.RFIDEPC</definedTypes>
